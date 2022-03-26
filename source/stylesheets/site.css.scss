@@ -1,0 +1,115 @@
+body {
+  background-color: #fbc547;
+  color: #333;
+  font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir",
+    "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
+    "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
+    "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
+  padding: 18vh 1rem;
+  text-align: center;
+}
+
+a {
+  color: rgba(#000, 0.7);
+
+  &:focus,
+  &:hover {
+    color: rgba(#000, 0.6);
+  }
+}
+
+.middleman-logo {
+  margin-bottom: 1rem;
+  width: 10rem;
+}
+
+
+//variables couleurs
+$yellow: #ffff00;
+$green: green;
+$red: red;
+$blue: blue;
+$purple: purple;
+$white: white;
+
+/*** size ***/
+$h1Size:24px;
+$h2Size:14px;
+$h3Size:13px;
+$h4Size:12px;
+$textSize:13px;
+$lineTextHeight:21px;
+
+$minMobileWidth:320px;
+$maxMobileWidth:959px;
+
+/*** sinpets ***/
+
+@mixin sizeForMobile() {
+    width: 100% !important;
+    min-width: 320px;
+    overflow: hidden;
+}
+
+@mixin mainCenter($width: 960px) {
+    width:$width;
+    margin-right: auto;
+    margin-left: auto;
+    padding : 0px 0px 0px 0px;
+
+    @media only screen and (max-width:$maxMobileWidth) {
+        @include sizeForMobile();
+    }
+}
+@mixin mainCenterFlexRow() {
+    width:960px;
+    margin-right: auto;
+    margin-left: auto;
+    padding : 0px 0px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    @media only screen and (max-width:$maxMobileWidth) {
+        @include sizeForMobile();
+    }
+}
+
+header.head {
+  background-color: $yellow;
+}
+
+section {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  .inside {
+    @include mainCenter(1200px);
+  }
+}
+
+section.contexte {
+  background-color: $green;
+
+  h2 {
+    font-size: $h2Size;
+  }
+  .content {
+    color: $white;
+    padding-left: 15vw;
+  }
+
+}
+
+section.objectifs {
+
+}
+
+section.etapes {
+
+}
+
+section.contact {
+
+}
