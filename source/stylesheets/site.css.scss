@@ -1,35 +1,9 @@
-body {
-  background-color: #fbc547;
-  color: #333;
-  font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir",
-    "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
-    "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
-    "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
-  padding: 18vh 1rem;
-  text-align: center;
-}
-
-a {
-  color: rgba(#000, 0.7);
-
-  &:focus,
-  &:hover {
-    color: rgba(#000, 0.6);
-  }
-}
-
-.middleman-logo {
-  margin-bottom: 1rem;
-  width: 10rem;
-}
-
-
 //variables couleurs
-$yellow: #ffff00;
-$green: green;
-$red: red;
-$blue: blue;
-$purple: purple;
+$yellow: #FFCB00;
+$green: #007552;
+$red: #DB7F7C;
+$blue: #008FB3;
+$purple: #444679;
 $white: white;
 
 /*** size ***/
@@ -37,7 +11,7 @@ $h1Size:24px;
 $h2Size:14px;
 $h3Size:13px;
 $h4Size:12px;
-$textSize:13px;
+$textSize:14px;
 $lineTextHeight:21px;
 
 $minMobileWidth:320px;
@@ -75,12 +49,46 @@ $maxMobileWidth:959px;
     }
 }
 
+/****/
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-size: $textSize;
+}
+
 header.head {
   background-color: $yellow;
+  margin: 0px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: relative;
+
+  .inside {
+    @include mainCenter(1200px);
+  }
+
+  nav {
+    position: absolute;
+  }
+
+  h1 {
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: -20px;
+  }
+
+  h2 {
+    font-size: 8rem;
+    margin: 0px;
+  }
 }
+
+/**PAGE**/
 
 section {
   width: 100%;
+  margin: 0;
   padding-top: 20px;
   padding-bottom: 20px;
 
