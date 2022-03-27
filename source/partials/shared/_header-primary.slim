@@ -1,8 +1,16 @@
 header.head
-  .inside
-    nav.lang
+  .inside.topheader
+    nav.mini
     h1.logo 
       img src="images/logo-hiu.png"
+  .bigNav 
+    ul 
+      li
+        a href="#contexte"
+          = data.home.context.title
+  .inside
     h2.title
       = markdown data.home.title
+       
+
 

@@ -1,16 +1,16 @@
 ---
 title: Hope in Us
 ---
-section.contexte
+section.contexte#contexte
     .inside
         h2.subtitle= data.home.context.title
-        img.title-picture.wow src="images/titre-contexte.png"
+        img.title-picture src="images/titre-contexte.png"
         div.content
             = markdown data.home.context.content
-section.objectifs
+section.objectifs#objectifs
     .inside
         h2.subtitle= data.home.objectif.title
-        img.title-picture.wow.bounceInUp src="images/titre-objectifs.png"
+        img.title-picture src="images/titre-objectifs.png"
         .intro
             = markdown data.home.objectif.intro
         .content 
@@ -21,8 +21,8 @@ section.objectifs
             .g-item-1= data.home.objectif.group_item_1
             .g-item-2= data.home.objectif.group_item_2 
             .g-item-3= data.home.objectif.group_item_3 
-section.etapes
-    .inside
+section.etapes#etapes
+    .inside.wow
         h2.subtitle= data.home.steps.title
         img.title-picture src="images/titre-etapes.png"
         .intro
@@ -34,7 +34,7 @@ section.etapes
                 = markdown data.home.steps.webtv
             .ed3
                 = markdown data.home.steps.tools
-section.contact
+section.contact#contact
     .inside
         h2.subtitle= data.home.contact.title
         .social 

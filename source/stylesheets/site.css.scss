@@ -84,7 +84,6 @@ header.head {
   margin: 0px;
   padding-top: 60px;
   padding-bottom: 80px;
-  padding-left: 8vw;
   position: relative;
   z-index: 2;
 
@@ -100,10 +99,37 @@ header.head {
     left: 0px;
   }
 
+  .bigNav {
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    background-color: $blue;
+    background-image: url("../images/mosaic-blue-spray.png");
+    background-repeat: repeat;
+    background-position: top left;
+    z-index: 2;
+    padding-top: 180px;
+    padding-bottom: 180px;
+    padding-left: 20px;
+    box-sizing: border-box;
+
+    display: none;
+
+    ul {
+      list-style: none;
+
+    }
+  }
+
   .inside {
     @include mainCenter(980px);
     position: relative;
     z-index: 1;
+
+    &.topheader {
+      z-index: 3;
+    }
   }
 
   nav {
@@ -112,11 +138,15 @@ header.head {
 
   h1 {
     margin: 0px;
+    margin-left: 8vw;
     padding: 0px;
     padding-bottom: 60px;
+    position: relative;
     img {
       max-width: 238px;
     }
+
+    z-index: 3;
   }
 
   h2 {
@@ -126,6 +156,7 @@ header.head {
     line-height: 7.5rem;
     font-weight: 100;
     @include titleFont();
+    margin-left: 8vw;
   }
 }
 
