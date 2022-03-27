@@ -1,17 +1,20 @@
 //variables couleurs
 $yellow: #FFCB00;
-$green: #007552;
+$green: #00B379;
 $red: #DB7F7C;
 $blue: #008FB3;
+$blue-darker:#2649D4;
 $purple: #444679;
+$purple-dark: #3A3C6F;
+$purple-darker: #303266;
 $white: white;
 
 /*** size ***/
 $h1Size:24px;
-$h2Size:14px;
+$h2Size:30px;
 $h3Size:13px;
 $h4Size:12px;
-$textSize:14px;
+$textSize:18px;
 $lineTextHeight:21px;
 
 $minMobileWidth:320px;
@@ -26,7 +29,7 @@ $maxMobileWidth:959px;
 }
 
 @mixin mainCenter($width: 960px) {
-    width:$width;
+    max-width:$width;
     margin-right: auto;
     margin-left: auto;
     padding : 0px 0px 0px 0px;
@@ -49,23 +52,58 @@ $maxMobileWidth:959px;
     }
 }
 
+@mixin titleFont() {
+  font-family: 'Lexend Peta', sans-serif;
+}
+
+@mixin regularFont() {
+  font-family: 'Urbanist', sans-serif;
+}
+
 /****/
 body {
   width: 100%;
   margin: 0;
   padding: 0;
   font-size: $textSize;
+
+  @include regularFont();
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+h2 {
+  font-size: $h2Size;
 }
 
 header.head {
   background-color: $yellow;
+  background-image: url("../images/mosaic-blue-spray.png");
+  background-repeat: repeat;
   margin: 0px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 60px;
+  padding-bottom: 80px;
+  padding-left: 8vw;
   position: relative;
+  z-index: 2;
+
+  &:after {
+    content: " ";
+    position: absolute;
+    z-index: 0;
+    background-image: url("../images/head-deco.png");
+    width: 955px;
+    height: 728px;
+    background-size: cover;
+    top: 0px;
+    left: 0px;
+  }
 
   .inside {
-    @include mainCenter(1200px);
+    @include mainCenter(980px);
+    position: relative;
+    z-index: 1;
   }
 
   nav {
@@ -75,12 +113,19 @@ header.head {
   h1 {
     margin: 0px;
     padding: 0px;
-    padding-bottom: -20px;
+    padding-bottom: 60px;
+    img {
+      max-width: 238px;
+    }
   }
 
   h2 {
     font-size: 8rem;
     margin: 0px;
+    color: $white;
+    line-height: 7.5rem;
+    font-weight: 100;
+    @include titleFont();
   }
 }
 
@@ -89,35 +134,387 @@ header.head {
 section {
   width: 100%;
   margin: 0;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  z-index: 1;
+  position: relative;
+
+  h2.subtitle {
+    text-transform: uppercase;
+    margin-top: 0px;
+  }
+
+  img.title-picture {
+    margin-bottom: 40px;
+  }
 
   .inside {
-    @include mainCenter(1200px);
+    @include mainCenter(980px);
+    position: relative;
+    z-index: 1;
+
+    p {
+      margin-bottom: $textSize;
+    }
   }
 }
 
 section.contexte {
   background-color: $green;
+  background-image: url("../images/mosaic-blue-spray.png");
+  background-repeat: repeat;
+  background-position: top left;
+
+  
+  
+
+  &::before {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background-image: url("../images/context-path.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+    z-index: 0;
+    top: 0;
+    left: 0;
+  }
 
   h2 {
-    font-size: $h2Size;
+    color: $yellow;
+    display: none;
+  }
+  img.title-picture {
+    margin-left: -2vw;
   }
   .content {
     color: $white;
-    padding-left: 15vw;
+    padding-left: 240px;
+    padding-right: 1vw;
+    margin-top: -40px;
   }
 
 }
 
 section.objectifs {
+  background-color: $red;
+  color: $white;
+
+  &::before {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background-image: url("../images/objectifs-path.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+    z-index: -1;
+    top: -20px;
+    padding-top: 20px;
+    right: 0;
+    box-sizing: content-box;
+  }
+
+  h2 {
+    color: $blue-darker;
+    display: none;
+  }
+  .intro {
+    padding-left: 50%;
+    margin-top: -100px;
+    font-size: 38px;
+    max-width: 380px;
+  }
+  .content {
+    padding-top: 120px;
+    margin-top: 50px;
+    ol,ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin: 0;
+      padding: 0;
+      li {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        max-width: 280px;
+        font-size: 22px;
+        position: relative;
+
+        &::before {
+          content: "";
+          width: 106px;
+          height: 98px;
+          background-image: url("../images/list-bg.png");
+          position: absolute;
+          top: -110px;
+          left: 0px;
+          color: $blue-darker;
+          font-size: 60px;
+          text-align: center;
+          padding-top: 14px;
+          padding-right: 5px;
+          box-sizing: border-box;
+        }
+
+        &:nth-child(1)::before {
+          content: "1";
+        }
+        &:nth-child(2)::before {
+          content: "2";
+        }
+        &:nth-child(3)::before {
+          content: "3";
+        }
+        
+      }
+    }
+  }
+  
+  .group {
+
+    @include mainCenter(1440px);
+    background-image: url("../images/group-bg.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    z-index: 2;
+    margin-top: 70px;
+
+    .group-intro {
+      @include mainCenter(980px);
+      margin-top: 40px;
+      font-size: 38px;
+      position: relative;
+    }
+    .group-items {
+      height: 50vw;
+      min-height: 500px;
+      max-height: 750px;
+      position: relative;
+
+      div {
+        color: $white;
+        font-size: 24px;
+        position: absolute;
+        width: 260px;
+        text-align: center;
+      }
+      .g-item-1 {
+        bottom: 5%;
+        left: 10%;
+      }
+      .g-item-2 {
+        top: 20%;
+        left: 50%;
+        margin-left: -120px;
+      }
+      .g-item-3 {
+        right: 10%;
+        bottom: 5%;
+      }
+    }
+  }
+  
 
 }
 
 section.etapes {
+  background-color: $blue;
+  background-image: url("../images/mosaic-blue-spray.png");
+  background-repeat: repeat;
+  background-position: top left;
+
+  &::before {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background-image: url("../images/etapes-path.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+    z-index: 0;
+    top: -80px;
+    padding-top: 80px;
+    left: 0;
+  }
+
+  h2 {
+    display: none;
+  }
+  .intro {
+    font-size: 28px;
+    color: $yellow;
+    font-weight: bold;
+    padding-right: 240px;
+    padding-left: 4vw;
+    margin-top: 20px;
+  }
+  .etapes-detail {
+    margin-top: 140px;
+    div {
+      font-size: 19px;
+      color: $white;
+      position: relative;
+
+      h3 {
+        @include titleFont();
+        font-size: 32px;
+        color: $white;
+        padding: 8px 16px;
+        background-color: $blue-darker;
+        box-shadow: 4px 4px 0px $yellow;
+        display: inline-block;
+        font-weight: 100;
+      }
+
+      &::after {
+        content: "";
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: absolute;
+      }
+    }
+
+    .ed1 {
+     max-width: 380px;
+     margin-left: 10vw;
+     margin-bottom: 280px;
+     img {
+       display: block;
+       margin-bottom: 20px;
+     }
+
+     &::after {
+       width: 418px;
+       height: 424px;
+       background-image: url("../images/picto-step-1.png");
+       top: -60px;
+       right: -420px;
+     }
+    }
+    .ed2 {
+      max-width: 520px;
+      margin-left: 380px;
+      margin-bottom: 200px;
+
+      &::after {
+        width: 459px;
+        height: 425px;
+        background-image: url("../images/picto-step-2.png");
+        top: -100px;
+        left: -500px;
+      }
+    }
+    .ed3 {
+      max-width: 520px;
+      margin-left: 6vw;
+      margin-bottom: 80px;
+
+      &::after {
+        width: 418px;
+        height: 424px;
+        background-image: url("../images/picto-step-3.png");
+        top: -100px;
+        right: -440px;
+      }
+    }
+  }
 
 }
 
 section.contact {
+  background-color: $purple;
 
+  &::before {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background-image: url("../images/contact-path.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+    z-index: 0;
+    top: -100px;
+    padding-top: 100px;
+    left: 0;
+    box-sizing: content-box;
+  }
+
+  h2.subtitle{
+    color: $red;
+    font-size: 100px;
+    font-weight: 100;
+    text-shadow: 8px 0px 0px $purple-darker;
+    text-transform: uppercase;
+    max-width: 600px;
+    line-height: 80px;
+    @include titleFont();
+    margin-bottom: 60px;
+  }
+
+  .social {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    a {
+      width: 108px;
+      height: 108px;
+      display: block;
+      margin-right: 30px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+
+      &.fb {
+        background-image: url("../images/FB.png");
+      }
+      &.insta {
+        background-image: url("../images/Insta.png");
+      }
+    }
+
+  }
+
+
+}
+
+footer {
+  background-color: $white;
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  .inside {
+    @include mainCenter(980px);
+
+    display: flex;
+    justify-content: space-between;
+
+    .copyright {
+      color: $purple-darker;
+      font-size: 18px;
+      @include titleFont();
+      font-weight: 200;
+    }
+    .erasmus {
+      max-width: 300px;
+      color: $purple-darker;
+      font-size: 11px;
+      @include titleFont();
+      font-weight: 200;
+      position: relative;
+      padding-top: 67px;
+
+      &::before {
+        content: "";
+        width: 195px;
+        height: 67px;
+        background-image: url("../images/erasmus.png");
+        position: absolute;
+        top: 0px;
+      }
+    }
+  }
 }

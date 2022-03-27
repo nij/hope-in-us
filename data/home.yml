@@ -8,13 +8,13 @@ title: >-
 context:
     title: Contexte & Objectifs
     image: fr-context.png
-    content : >-
-        *La crise* sanitaire mondiale a provoqué des bouleversements considérables dans les secteurs de la culture et de l’éducation des adultes qui ont eu du mal à s’adapter car leurs acteurs souvent habitués au travail collectif, au public, se sont retrouvés isolés derrière leur porte ou leur ordinateur.     
+    content : |
+        La crise sanitaire mondiale a provoqué des bouleversements considérables dans les secteurs de la culture et de l’éducation des adultes qui ont eu du mal à s’adapter car leurs acteurs souvent habitués au travail collectif, au public, se sont retrouvés isolés derrière leur porte ou leur ordinateur.
         
         Comment ces deux secteurs et leurs acteurs peuvent être résilients face à la crise et plus généralement face à un monde dans lequel le numérique occupe une place de plus en plus prépondérante ?
-        Et si la crise représentait une opportunité d'entrer dans une démarche de résilience et d'espoir, en prenant soin de soi-même et des autres, en construisant avec les autres et pour tous, où les expériences des uns enrichiraient celles des autres ?
         
-         Et si la réponse se trouvait dans le principe des tiers-lieux dans lesquels se croisent différents publics et dans lesquels on peut partager, travailler, contribuer, se former, échanger ?
+        Et si la crise représentait une opportunité d'entrer dans une démarche de résilience et d'espoir, en prenant soin de soi-même et des autres, en construisant avec les autres et pour tous, où les expériences des uns enrichiraient celles des autres ?         
+        Et si la réponse se trouvait dans le principe des tiers-lieux dans lesquels se croisent différents publics et dans lesquels on peut partager, travailler, contribuer, se former, échanger ?
         En complément des tiers-lieux qui existent sur de nombreux territoires européens, HOPE in US a pour ambition de créer un tiers-lieu virtuel dans lequel tous les acteurs et les citoyens européens pourraient être contributeurs et/ou bénéficiaires. Créer un tiers-lieu européen virtuel, c'est permettre au secteur des arts et de la culture d'inventer des modalités nouvelles de création, diffusion, médiation et au secteur de la formation des adultes et des jeunes de dépasser les logiques d'apprentissage pour inventer des formats de pédagogie plus interactive.
 
 objectif:
@@ -28,11 +28,11 @@ objectif:
         2. Inventer des formats de pédagogie interactifs pour les acteurs de l’éducation des adultes ;
         
         3. Rendre explicites les compétences des apprenants et rendre visibles leur potentiel créatif.
-    group-intro: >-
+    group_intro: >-
         Les groupes cibles du projet sont :
-    group-item-1: Acteurs de la culture
-    group-item-2: Apprenants adultues
-    group-item-3: Formateurs et personnels accompagnant ce public
+    group_item_1: Acteurs de la culture
+    group_item_2: Apprenants adultues
+    group_item_3: Formateurs et personnels accompagnant ce public
 
 steps:
     title: Grandes étapes
@@ -41,15 +41,23 @@ steps:
         Les partenaires du projet souhaitent développer chez les groupes cibles leur capacité à donner du sens à leurs actions, à devenir responsables de ce qu'ils peuvent changer et à être résilient face à ce qu'ils ne peuvent éviter. 
         Pour y parvenir, deux ressources pédagogiques innovantes seront développées :
     hiu: >-
+        <img src="images/logo-hiu-mini.png">
         c’est une communauté qui compte déjà 5 partenaires de 3 pays européens.
     webtv: >-
-        ## Une Web TV 
+        ### Une Web TV   
+
         Une Web TV qui sera le tiers-lieu numérique. 
         À l’heure où la vidéo a pris une importance capitale sur Internet, créer une Web TV est un moyen efficace de promouvoir des projets, des innovations, des expériences. Grâce à des programmes diffusés en direct ou accessibles en replay, la Web TV constitue un outil ludique permettant de communiquer avec sa communauté. Celle-ci permettra la rencontre entre les différents acteurs créatifs, culturels, sociaux et le public.
     tools: >-
-        ## Une boîte à outils
+        ### Une boîte à outils    
+
         Une boite à outils qui contiendra des conseils de survie émotionnels, des conseils pratiques sur la façon de se former et de s’approprier le numérique, des témoignages sur la résilience… 
         La boite à outils permettra aussi bien d'expérimenter et d'apprendre à être résilient qu'à se former et à utiliser le numérique. Chaque utilisateur pourra se servir de tout ou partie des outils proposés pour répondre à ses besoins ou aux besoins des groupes qu'il accompagne. Elle sera conçue pour être utilisée dans un environnement hybride, à savoir aussi bien sur site qu'en virtuel.
 
 contact:
     title: Nous contacter
+
+footer:
+    copyright: Copryright 2022©. Tous droits réservés.
+    erasmus: >-
+        Cette publication n'engage que son auteur et la Commission n'est pas responsable de l'usage qui pourrait être fait des informations qui y sont contenues.
