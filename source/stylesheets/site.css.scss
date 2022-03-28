@@ -60,6 +60,50 @@ $maxMobileWidth:959px;
   font-family: 'Urbanist', sans-serif;
 }
 
+/**hamMenu**/
+label.ham{
+  display:flex;
+   flex-direction:column;
+   width:20px;
+   cursor:pointer;
+   
+   span{
+   background-color: $blue;
+   border-radius:0px;
+   height:2px;
+   margin: 2px 0;
+   transition: .4s  cubic-bezier(0.68, -0.6, 0.32, 1.6);
+   }
+   span:nth-of-type(1){
+     width:100%;
+   }
+   span:nth-of-type(2){
+     width:100%;
+   }
+   span:nth-of-type(3){
+     width:100%;
+   }
+   input[type="checkbox"]{
+     display:none;
+   }
+   input[type="checkbox"]:checked ~ span {
+     background-color: $yellow;
+   }
+   input[type="checkbox"]:checked ~ span:nth-of-type(1){
+     transform-origin:bottom;
+     transform:rotatez(45deg) translate(4px,4px)
+   }
+   input[type="checkbox"]:checked ~ span:nth-of-type(2){
+     transform-origin:top;
+     transform:rotatez(-45deg)
+   }
+   input[type="checkbox"]:checked ~ span:nth-of-type(3){
+     transform-origin:bottom;
+     transform: translate(-0px,-3px) rotatez(45deg);
+     opacity:0
+   }
+ }
+
 /****/
 body {
   width: 100%;
@@ -85,7 +129,7 @@ header.head {
   padding-top: 60px;
   padding-bottom: 80px;
   position: relative;
-  z-index: 2;
+  z-index: 2; 
 
   &:after {
     content: " ";
@@ -103,22 +147,44 @@ header.head {
     position: absolute;
     width: 100%;
     top: 0px;
-    left: 0px;
+    left: -100vw;
     background-color: $blue;
     background-image: url("../images/mosaic-blue-spray.png");
     background-repeat: repeat;
     background-position: top left;
     z-index: 2;
-    padding-top: 180px;
-    padding-bottom: 180px;
+    padding-top: 220px;
+    padding-bottom: 160px;
     padding-left: 20px;
     box-sizing: border-box;
+    transition: all .5s;
 
-    display: none;
+    overflow: hidden;
+    opacity: 1;
+
+    &.displayed {
+      height: auto;
+      opacity: 1;
+      left: 0px;
+    }
 
     ul {
+      @include mainCenter(980px);
       list-style: none;
 
+      li {
+        color:$white;
+        font-size:46px;
+        margin-bottom: 10px;
+        font-weight: 100;
+        @include titleFont();
+        margin-left: 8vw;
+
+        a {
+          color: $white;
+          text-decoration: none;
+        }
+      }
     }
   }
 
@@ -133,7 +199,20 @@ header.head {
   }
 
   nav {
+    z-index: 99;
     position: absolute;
+    right: 0px;
+    display: flex;
+
+    div.hamContainer {
+      width: 35px;
+      padding:8px 9px 8px 7px;
+      background-image: url("../images/menu-item-bg.png");
+      background-repeat: no-repeat;
+    }
+    a {
+
+    }
   }
 
   h1 {
@@ -169,6 +248,7 @@ section {
   padding-bottom: 80px;
   z-index: 1;
   position: relative;
+  overflow-x: hidden;
 
   h2.subtitle {
     text-transform: uppercase;
