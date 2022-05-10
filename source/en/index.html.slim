@@ -1,0 +1,46 @@
+---
+title: Hope in Us
+---
+section.contexte#contexte
+    .inside
+        h2.subtitle= data.home.context.title
+        img.title-picture data-aos="fade-up" src="images/titre-contexte.png"
+        div.content
+            = markdown data.home.context.content
+section.objectifs#objectifs
+    .inside
+        h2.subtitle= data.home.objectif.title
+        img.title-picture data-aos="fade-up" src="images/titre-objectifs.png"
+        .intro
+            = markdown data.home.objectif.intro
+        .content data-aos="fade-right"
+            = markdown data.home.objectif.content
+    .group
+        .group-intro= data.home.objectif.group_intro
+        .group-items
+            .g-item-1 data-aos="fade-in"
+                = data.home.objectif.group_item_1
+            .g-item-2 data-aos="fade-in"
+                = data.home.objectif.group_item_2 
+            .g-item-3 data-aos="fade-in"
+                = data.home.objectif.group_item_3 
+section.etapes#etapes
+    .inside
+        h2.subtitle= data.home.steps.title
+        img.title-picture data-aos="fade-up" src="images/titre-etapes.png"
+        .intro
+            = markdown data.home.steps.intro
+        .etapes-detail 
+            .ed1 data-aos="fade-left"
+                = markdown data.home.steps.hiu
+            .ed2 data-aos="fade-right"
+                = markdown data.home.steps.webtv
+            .ed3 data-aos="fade-left"
+                = markdown data.home.steps.tools
+section.contact#contact
+    .inside
+        h2.subtitle data-aos="fade-up"
+            = data.home.contact.title
+        .social 
+            a.fb href="facebook.com" target="blank"
+            a.insta href="instagram.com" target="blank"
