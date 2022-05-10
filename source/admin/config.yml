@@ -13,7 +13,7 @@ collections:
   - name: pages
     label: Pages
     files:
-      - file: "data/pages/home.yml"
+      - file: "data/home.yml"
         label: Homepage
         name: home
         fields:
@@ -60,7 +60,7 @@ collections:
             fields:
               - {label: Copyright, name: copyright, widget: string}
               - {label: Erasmus, name: erasmus, widget: markdown}
-      - file: "data/pages/home-en.yml"
+      - file: "data/home-en.yml"
         label: Homepage EN
         name: home-en
         fields:
