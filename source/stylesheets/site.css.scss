@@ -623,6 +623,51 @@ section.etapes {
   }
   .etapes-detail {
     margin-top: 140px;
+
+    .ed1 {
+      max-width: 380px;
+      margin-left: 10vw;
+      margin-bottom: 280px;
+      img {
+        display: block;
+        margin-bottom: 20px;
+      }
+  
+      &::after {
+        width: 418px;
+        height: 424px;
+        background-image: url("../images/picto-step-1.png");
+        top: -60px;
+        right: -420px;
+      }
+     }
+     .ed2 {
+       max-width: 520px;
+       margin-left: 380px;
+       margin-bottom: 200px;
+ 
+       &::after {
+         width: 459px;
+         height: 425px;
+         background-image: url("../images/picto-step-2.png");
+         top: -100px;
+         left: -500px;
+       }
+     }
+     .ed3 {
+       max-width: 520px;
+       margin-left: 6vw;
+       margin-bottom: 80px;
+ 
+       &::after {
+         width: 418px;
+         height: 424px;
+         background-image: url("../images/picto-step-3.png");
+         top: -100px;
+         right: -440px;
+       }
+     }
+
     div {
       font-size: 19px;
       color: $white;
@@ -643,53 +688,52 @@ section.etapes {
         content: "";
         background-size: contain;
         background-repeat: no-repeat;
+        background-position: center center;
         position: absolute;
       }
-    }
 
-    .ed1 {
-     max-width: 380px;
-     margin-left: 10vw;
-     margin-bottom: 280px;
-     img {
-       display: block;
-       margin-bottom: 20px;
-     }
+      @media only screen and (max-width:$tabletWidth) and (min-width:$mobileWidth) {
+        h3 {
+          font-size: 28px;
+          padding: 6px 14px;
+        }
+        margin-left: auto !important;
+        margin-right: auto !important;
+        margin-top: 280px;
+        margin-bottom: 0 !important;
 
-     &::after {
-       width: 418px;
-       height: 424px;
-       background-image: url("../images/picto-step-1.png");
-       top: -60px;
-       right: -420px;
-     }
-    }
-    .ed2 {
-      max-width: 520px;
-      margin-left: 380px;
-      margin-bottom: 200px;
-
-      &::after {
-        width: 459px;
-        height: 425px;
-        background-image: url("../images/picto-step-2.png");
-        top: -100px;
-        left: -500px;
+        &::after {
+          content: "";
+          top: -260px !important;
+          left: 50% !important;
+          width: 240px !important;
+          height: 240px !important;
+          margin-left: -120px;
+        }
       }
-    }
-    .ed3 {
-      max-width: 520px;
-      margin-left: 6vw;
-      margin-bottom: 80px;
+    
+      @media only screen and (max-width:$mobileWidth) {
+        h3 {
+          font-size: 24px;
+          padding: 6px 12px;
+        }
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        margin-top: 240px;
 
-      &::after {
-        width: 418px;
-        height: 424px;
-        background-image: url("../images/picto-step-3.png");
-        top: -100px;
-        right: -440px;
+        &::after {
+          content: "";
+          top: -220px !important;
+          left: 50% !important;
+          width: 200px !important;
+          height: 200px !important;
+          margin-left: -100px;
+        }
       }
+
     }
+
+    
   }
 
   @media only screen and (max-width:$tabletWidth) {
@@ -763,6 +807,36 @@ section.contact {
       }
     }
 
+  }
+
+  @media only screen and (max-width:$tabletWidth) {
+    h2.subtitle {
+      font-size: 60px;
+      line-height: 50px;
+      margin-bottom: 50px;
+    }
+    .social {
+      a {
+        width: 60px;
+        height: 60px;
+        margin-right: 20px;
+      }
+    }
+  }
+
+  @media only screen and (max-width:$mobileWidth) {
+    h2.subtitle {
+      font-size: 40px;
+      line-height: 36px;
+      margin-bottom: 40px;
+    }
+    .social {
+      a {
+        width: 40px;
+        height: 40px;
+        margin-right: 12px;
+      }
+    }
   }
 
 
