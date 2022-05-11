@@ -158,13 +158,25 @@ header.head {
     position: absolute;
     z-index: 0;
     background-image: url("../images/head-deco.png");
+    background-repeat: no-repeat;
+    background-position: top left;
     max-width: 955px;
     max-height: 728px;
-    width: 100vw;
-    height: 100vw;
-    background-size: cover;
-    bottom: -80px;
+    width: 110vw;
+    height: 110vw;
+    background-size: contain;
+    //bottom: -80px;
+    top: 0px;
     left: 0px;
+
+    @media only screen and (max-width:$tabletWidth) {
+      max-width: 680px;
+      max-height: 680px;
+    }
+    @media only screen and (max-width:$mobileWidth) {
+      max-width: 420px;
+      max-height: 420px;
+    }
   }
 
   .bigNav {
@@ -213,7 +225,10 @@ header.head {
   }
 
   .inside {
-    @include mainCenter(980px);
+    max-width:980px;
+    margin-right: auto;
+    margin-left: auto;
+    padding : 0px 0px 0px 0px;
     position: relative;
     z-index: 1;
 
@@ -272,21 +287,23 @@ header.head {
       }
     }
     h2 {
-      font-size: 4.5rem;
+      font-size: 4.4rem;
     }
   }
 
   @media only screen and (max-width:$mobileWidth) {
-    padding-top: 20px;
-    padding-bottom: 40px;
+    padding-top: 16px;
+    padding-bottom: 4px;
     h1 {
       padding-bottom: 20px;
+      margin-left: 10vw;
       img {
         width: 136px;
       }
     }
     h2 {
-      font-size: 2.8rem;
+      margin-left: 10vw;
+      font-size: 2.6rem;
     }
   }
 }
@@ -839,6 +856,10 @@ section.contact {
     }
   }
 
+
+}
+
+section.introPage {
 
 }
 
