@@ -20,6 +20,14 @@ $lineTextHeight:21px;
 $minMobileWidth:320px;
 $maxMobileWidth:959px;
 
+$mobileWidth:540px;
+$tabletWidth:960px;
+
+/*** fix ***/
+section, div, p {
+  box-sizing: border-box;
+}
+
 /*** sinpets ***/
 
 @mixin sizeForMobile() {
@@ -34,8 +42,15 @@ $maxMobileWidth:959px;
     margin-left: auto;
     padding : 0px 0px 0px 0px;
 
-    @media only screen and (max-width:$maxMobileWidth) {
-        @include sizeForMobile();
+    @media only screen and (max-width:$tabletWidth) {
+      width: 100% !important;
+      min-width: 320px;
+      overflow: hidden;
+      padding: 0 15vw;
+    }
+  
+    @media only screen and (max-width:$mobileWidth) {
+      padding: 0 10vw;
     }
 }
 @mixin mainCenterFlexRow() {
@@ -47,8 +62,11 @@ $maxMobileWidth:959px;
     flex-direction: row;
     flex-wrap: wrap;
 
-    @media only screen and (max-width:$maxMobileWidth) {
-        @include sizeForMobile();
+    @media only screen and (max-width:$tabletWidth) {
+
+    }
+  
+    @media only screen and (max-width:$mobileWidth) {
     }
 }
 
@@ -113,6 +131,7 @@ body {
   overflow-x: hidden;
 
   @include regularFont();
+
 }
 p {
   margin: 0;
@@ -130,17 +149,21 @@ header.head {
   padding-top: 60px;
   padding-bottom: 80px;
   position: relative;
-  z-index: 2; 
+  z-index: 2;
+  max-height: 620px;
+  box-sizing: border-box;
 
   &:after {
     content: " ";
     position: absolute;
     z-index: 0;
     background-image: url("../images/head-deco.png");
-    width: 955px;
-    height: 728px;
+    max-width: 955px;
+    max-height: 728px;
+    width: 100vw;
+    height: 100vw;
     background-size: cover;
-    top: 0px;
+    bottom: -80px;
     left: 0px;
   }
 
@@ -230,13 +253,41 @@ header.head {
   }
 
   h2 {
-    font-size: 8rem;
+    font-size: 7rem;
     margin: 0px;
     color: $white;
-    line-height: 7.5rem;
+    line-height: 0.9em;
     font-weight: 100;
     @include titleFont();
     margin-left: 8vw;
+  }
+
+  @media only screen and (max-width:$tabletWidth) {
+    padding-top: 40px;
+    padding-bottom: 60px;
+    h1 {
+      padding-bottom: 40px;
+      img {
+        width: 200px;
+      }
+    }
+    h2 {
+      font-size: 4.5rem;
+    }
+  }
+
+  @media only screen and (max-width:$mobileWidth) {
+    padding-top: 20px;
+    padding-bottom: 40px;
+    h1 {
+      padding-bottom: 20px;
+      img {
+        width: 136px;
+      }
+    }
+    h2 {
+      font-size: 2.8rem;
+    }
   }
 }
 
@@ -257,6 +308,7 @@ section {
 
   img.title-picture {
     margin-bottom: 40px;
+    width: 100%;
   }
 
   .inside {
@@ -277,9 +329,6 @@ section.contexte {
   background-repeat: repeat;
   background-position: top left;
 
-  
-  
-
   &::before {
     position: absolute;
     width: 100%;
@@ -299,12 +348,29 @@ section.contexte {
   }
   img.title-picture {
     margin-left: -2vw;
+    max-width: 968px;
   }
   .content {
     color: $white;
     padding-left: 240px;
     padding-right: 1vw;
     margin-top: -40px;
+  }
+
+  @media only screen and (max-width:$tabletWidth) {
+    img.title-picture {
+      margin: 0;
+    }
+    .content {
+      margin-top: 0px;
+      padding: 0;
+    }
+  }
+
+  @media only screen and (max-width:$mobileWidth) {
+    .content {
+      padding: 0;
+    }
   }
 
 }
@@ -328,12 +394,16 @@ section.objectifs {
     box-sizing: content-box;
   }
 
+  img.title-picture {
+    max-width: 680px;
+  }
+
   h2 {
     color: $blue-darker;
     display: none;
   }
   .intro {
-    padding-left: 50%;
+    margin-left: 50%;
     margin-top: -100px;
     font-size: 38px;
     max-width: 380px;
@@ -430,7 +500,94 @@ section.objectifs {
     }
   }
   
+  @media only screen and (max-width:$tabletWidth) {
+    .intro {
+      text-align: center;
+      margin: 0 auto;
+      font-size: 36px;
+    }
+    .content {
+      ol {
+        flex-direction: column;
+        li {
+          margin: 0 auto;
+          text-align: center;
+          &::before {
+            left: 87px;
+          }
+          margin-bottom: 150px;
+        }
+        li:last-child {
+          margin-bottom: 0px;
+        }
+      }
+    }
+    .group {
+      margin-top: 40px;
+      background-position: center bottom;
 
+      .group-intro {
+        text-align: center;
+        margin-bottom: 10px;
+        font-size: 36px;
+      }
+      .group-items {
+        min-height: 400px;
+        div {
+          position: relative;
+          top: 0px !important;
+          left: auto !important;
+          right: auto !important;
+          margin: 5px auto !important;
+          width: 60%;
+          text-align: center;
+        }
+      }
+    }
+  }
+
+  @media only screen and (max-width:$mobileWidth) {
+    .intro {
+      font-size: 30px;
+      margin-bottom: 0px;
+    }
+    .content {
+      padding-top: 40px;
+      ol {
+        li {
+          margin: 0 auto;
+          text-align: center;
+          &::before {
+            left: 113px;
+            top: -55px;
+            content: "";
+            width: 53px;
+            height: 49px;
+            background-image: url("../images/list-bg.png");
+            background-size: cover;
+            position: absolute;
+            color: $blue-darker;
+            font-size: 30px;
+            text-align: center;
+            padding-top: 7px;
+            padding-right: 3px;
+            box-sizing: border-box;
+          }
+          margin-bottom: 80px;
+        }
+        
+      }
+    }
+    .group {
+      margin-top: 20px;
+
+      .group-intro {
+        text-align: center;
+        margin-bottom: 10px;
+        font-size: 30px;
+      }
+    }
+  }
 }
 
 section.etapes {
@@ -532,6 +689,24 @@ section.etapes {
         top: -100px;
         right: -440px;
       }
+    }
+  }
+
+  @media only screen and (max-width:$tabletWidth) {
+    .intro {
+      font-size: 20px;
+      font-weight: 400;
+      padding: 0;
+      margin: 0;
+    }
+    .etapes-detail {
+      margin-top: 60px;
+    }
+  }
+
+  @media only screen and (max-width:$mobileWidth) {
+    .content {
+      padding: 0;
     }
   }
 
