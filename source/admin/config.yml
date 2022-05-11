@@ -107,4 +107,51 @@ collections:
             fields:
               - {label: Copyright, name: copyright, widget: string}
               - {label: Erasmus, name: erasmus, widget: markdown}
+      - file: "data/home-es.yml"
+        label: Homepage ES
+        name: home-es
+        fields:
+          - label: Titre
+            name: title
+            widget: markdown
+          - label: Contexte
+            name: context
+            widget: object
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Image, name: image, widget: image}
+              - {label: Contenu, name: content, widget: markdown}
+          - label: Objectifs
+            name: objectif
+            widget: object
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Image, name: image, widget: image}
+              - {label: Intro, name: intro, widget: markdown}
+              - {label: Contenu, name: content, widget: markdown}
+              - {label: Groupe-Intro, name: group_intro, widget: string}
+              - {label: Item 1, name: group_item_1, widget: string}
+              - {label: Item 2, name: group_item_2, widget: string}
+              - {label: Item 3, name: group_item_3, widget: string}
+          - label: Etapes
+            name: steps
+            widget: object
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Image, name: image, widget: image}
+              - {label: Intro, name: intro, widget: markdown}
+              - {label: Item HIU, name: hiu, widget: markdown}
+              - {label: Item WebTV, name: webtv, widget: markdown}
+              - {label: Item Outils, name: tools, widget: markdown}
+          - label: Contact
+            name: contact
+            widget: object
+            fields:
+              - {label: Title, name: title, widget: string}
+          - label: Footer
+            name: footer
+            widget: object
+            fields:
+              - {label: Copyright, name: copyright, widget: string}
+              - {label: Erasmus, name: erasmus, widget: markdown}
          
