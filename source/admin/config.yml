@@ -60,7 +60,7 @@ collections:
             fields:
               - {label: Copyright, name: copyright, widget: string}
               - {label: Erasmus, name: erasmus, widget: markdown}
-      - file: "data/home-en.yml"
+      - file: "data/homeen.yml"
         label: Homepage EN
         name: home-en
         fields:
@@ -107,7 +107,7 @@ collections:
             fields:
               - {label: Copyright, name: copyright, widget: string}
               - {label: Erasmus, name: erasmus, widget: markdown}
-      - file: "data/home-es.yml"
+      - file: "data/homees.yml"
         label: Homepage ES
         name: home-es
         fields:
