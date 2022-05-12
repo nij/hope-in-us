@@ -303,9 +303,26 @@ header.head {
     margin: 0px;
     color: $white;
     line-height: 0.9em;
-    font-weight: 100;
+    font-weight: 600;
     @include titleFont();
     margin-left: 8vw;
+  }
+
+  &.mini {
+    background-color: $blue;
+    background-image: none;
+    padding-bottom: 20px;
+
+    &:after {
+      display: none;
+    }
+
+    h1 {
+      img {
+        width: 200px;
+      }
+      padding-bottom: 40px;
+    }
   }
 
   @media only screen and (max-width:$tabletWidth) {
@@ -371,6 +388,8 @@ section {
   }
 }
 
+/**HP**/
+
 section.contexte {
   background-color: $green;
   background-image: url("../images/mosaic-blue-spray.png");
@@ -403,6 +422,10 @@ section.contexte {
     padding-left: 240px;
     padding-right: 1vw;
     margin-top: -40px;
+
+    p {
+      line-height: 1.5em;
+    }
   }
 
   @media only screen and (max-width:$tabletWidth) {
@@ -804,6 +827,8 @@ section.etapes {
 
 }
 
+/**PAGES**/
+
 section.contact {
   background-color: $purple;
 
@@ -825,7 +850,7 @@ section.contact {
   h2.subtitle{
     color: $red;
     font-size: 100px;
-    font-weight: 100;
+    font-weight: 600;
     text-shadow: 8px 0px 0px $purple-darker;
     text-transform: uppercase;
     max-width: 600px;
@@ -890,8 +915,64 @@ section.contact {
 
 }
 
-section.introPage {
+section.page {
+  background-color: $blue;
+  color: $white;
+  padding-top: 1px;
+  .intro {
+    h2 {
+      @include titleFont();
+      color: $yellow;
+      font-size: 50px;
+      padding-left: 220px;
+      padding-top: 40px;
+      padding-bottom: 40px;
+      position: relative;
+      max-width: 480px;
 
+      &:before {
+        content: "";
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 200px;
+        height: 200px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+      }
+    }
+  }
+  .items {
+    padding-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .item {
+      width: 280px;
+      margin-bottom: 20px;
+
+      .title {
+        font-weight: 600;
+        font-size: 1.1em;
+        margin-bottom: 10px;
+      }
+      a.link {
+        display: block;
+        padding-top: 5px;
+        color: $yellow;
+      }
+    }
+  }
+
+  &#community {
+    .intro h2 {
+      &::before {
+        background-image: url("../images/picto-step-1.png");
+      }
+    }
+  }
 }
 
 footer {
