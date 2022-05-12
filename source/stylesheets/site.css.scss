@@ -141,16 +141,50 @@ h2 {
   font-size: $h2Size;
 }
 
+a.button {
+  padding: 14px 34px 14px 18px;
+  border-radius: 28px;
+  background-color: $yellow;
+  color: $white;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  text-decoration: none;
+  position: relative;
+
+  &::after {
+    content: "";
+    color: $white;
+    font-weight: 700;
+    font-size: 14px;
+    position: absolute;
+    top: 16px;
+    right: 18px;
+    width: 7px;
+    height: 11px;
+    background-image: url("../images/mini-arrow-white.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: all .2s;
+  }
+
+  &:hover {
+    &::after {
+      right: 14px;
+    }
+  }
+}
+
 header.head {
   background-color: $yellow;
   background-image: url("../images/mosaic-blue-spray.png");
   background-repeat: repeat;
   margin: 0px;
   padding-top: 60px;
-  padding-bottom: 80px;
+  padding-bottom: 120px;
   position: relative;
   z-index: 2;
-  max-height: 620px;
+  max-height: 640px;
   box-sizing: border-box;
 
   &:after {
@@ -176,6 +210,7 @@ header.head {
     @media only screen and (max-width:$mobileWidth) {
       max-width: 420px;
       max-height: 420px;
+      top: -40px;
     }
   }
 
@@ -299,7 +334,7 @@ header.head {
   }
 
   h2 {
-    font-size: 7rem;
+    font-size: 110px;
     margin: 0px;
     color: $white;
     line-height: 0.9em;
@@ -681,8 +716,16 @@ section.etapes {
     left: 0;
   }
 
-  h2 {
-    display: none;
+  h2.subtitle{
+    color: $white;
+    font-size: 120px;
+    font-weight: 600;
+    text-shadow: 8px 0px 0px $blue-darker;
+    text-transform: uppercase;
+    max-width: 600px;
+    line-height: 110px;
+    @include titleFont();
+    margin-bottom: 60px;
   }
   .intro {
     font-size: 28px;
@@ -696,7 +739,7 @@ section.etapes {
     margin-top: 140px;
 
     .ed1 {
-      max-width: 380px;
+      max-width: 400px;
       margin-left: 10vw;
       margin-bottom: 280px;
       img {
@@ -744,15 +787,31 @@ section.etapes {
       color: $white;
       position: relative;
 
+      .content {
+        margin-bottom: 30px;
+      }
+
       h3 {
         @include titleFont();
         font-size: 32px;
         color: $white;
-        padding: 8px 16px;
+        padding: 8px 16px 8px 24px;
         background-color: $blue-darker;
         box-shadow: 4px 4px 0px $yellow;
         display: inline-block;
         font-weight: 100;
+        position: relative;
+
+        &::after {
+          content: "";
+          background-image: url("../images/arrow.svg");
+          width: 30px;
+          height: 16px;
+          background-size: contain;
+          position: absolute;
+          top: 20px;
+          left: -15px;
+        }
       }
 
       &::after {
@@ -764,9 +823,14 @@ section.etapes {
       }
 
       @media only screen and (max-width:$tabletWidth) and (min-width:$mobileWidth) {
+        
         h3 {
           font-size: 28px;
-          padding: 6px 14px;
+          padding: 6px 14px 6px 18px;
+
+          &::after {
+            top: 16px;
+          }
         }
         margin-left: auto !important;
         margin-right: auto !important;
@@ -784,9 +848,14 @@ section.etapes {
       }
     
       @media only screen and (max-width:$mobileWidth) {
+        
         h3 {
           font-size: 24px;
-          padding: 6px 12px;
+          padding: 6px 12px 6px 16px;
+
+          &::after {
+            top: 14px;
+          }
         }
         margin-left: 0 !important;
         margin-right: 0 !important;
@@ -808,6 +877,12 @@ section.etapes {
   }
 
   @media only screen and (max-width:$tabletWidth) {
+    h2.subtitle {
+      font-size: 70px;
+      line-height: 62px;
+      margin-bottom: 50px;
+    }
+    
     .intro {
       font-size: 20px;
       font-weight: 400;
@@ -820,6 +895,11 @@ section.etapes {
   }
 
   @media only screen and (max-width:$mobileWidth) {
+    h2.subtitle {
+      font-size: 50px;
+      line-height: 46px;
+      margin-bottom: 30px;
+    }
     .content {
       padding: 0;
     }
@@ -951,7 +1031,7 @@ section.page {
 
     .item {
       width: 280px;
-      margin-bottom: 20px;
+      margin-bottom: 40px;
 
       .title {
         font-weight: 600;
@@ -970,6 +1050,52 @@ section.page {
     .intro h2 {
       &::before {
         background-image: url("../images/picto-step-1.png");
+      }
+    }
+  }
+
+  @media only screen and (max-width:$tabletWidth) {
+    .intro {
+      h2 {
+        font-size: 40px;
+        padding: 120px 0px 30px 0px;
+        position: relative;
+        max-width: 320px;
+        margin: 0 auto;
+  
+        &:before {
+          content: "";
+          position: absolute;
+          top: 0px;
+          left: 50%;
+          width: 140px;
+          height: 140px;
+          margin-left: -70px;
+        }
+      }
+    }
+    .items {
+      justify-content: space-around;
+    }
+  }
+
+  @media only screen and (max-width:$mobileWidth) {
+    .intro {
+      h2 {
+        font-size: 30px;
+        padding: 80px 0px 30px 0px;
+        position: relative;
+        max-width: 280px;
+        
+  
+        &:before {
+          content: "";
+          position: absolute;
+          top: 0px;
+          width: 100px;
+          height: 100px;
+          margin-left: -50px;
+        }
       }
     }
   }

@@ -44,7 +44,6 @@ collections:
             widget: object
             fields:
               - {label: Title, name: title, widget: string}
-              - {label: Image, name: image, widget: image}
               - {label: Intro, name: intro, widget: markdown}
               - {label: Item HIU, name: hiu, widget: markdown}
               - {label: Item WebTV, name: webtv, widget: markdown}
@@ -91,7 +90,6 @@ collections:
             widget: object
             fields:
               - {label: Title, name: title, widget: string}
-              - {label: Image, name: image, widget: image}
               - {label: Intro, name: intro, widget: markdown}
               - {label: Item HIU, name: hiu, widget: markdown}
               - {label: Item WebTV, name: webtv, widget: markdown}
@@ -138,7 +136,6 @@ collections:
             widget: object
             fields:
               - {label: Title, name: title, widget: string}
-              - {label: Image, name: image, widget: image}
               - {label: Intro, name: intro, widget: markdown}
               - {label: Item HIU, name: hiu, widget: markdown}
               - {label: Item WebTV, name: webtv, widget: markdown}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="6.055542px" height="12px" viewBox="0 0 6.055542 12" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="filter_1">
+      <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0" />
+    </filter>
+  </defs>
+  <g id="Flèche-02" transform="translate(-1.444458 0.5)" filter="url(#filter_1)">
+    <path d="M1.94444 0L7 5.50074L1.94444 11" id="Stroke-3" fill="none" fill-rule="evenodd" stroke="#261D26" stroke-width="1" />
+  </g>
+</svg>

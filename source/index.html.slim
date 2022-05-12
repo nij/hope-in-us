@@ -26,13 +26,14 @@ section.objectifs#objectifs
                 = data.home.objectif.group_item_3 
 section.etapes#etapes
     .inside
-        h2.subtitle= data.home.steps.title
-        img.title-picture data-aos="fade-up" src="images/titre-etapes.png"
+        h2.subtitle data-aos="fade-up" = data.home.steps.title
         .intro
             = markdown data.home.steps.intro
         .etapes-detail 
             .ed1 data-aos="fade-left"
-                = markdown data.home.steps.hiu
+                .content
+                    = markdown data.home.steps.hiu
+                a.button href="/pages/fr/step-community.html" = "Découvrir"
             .ed2 data-aos="fade-right"
                 = markdown data.home.steps.webtv
             .ed3 data-aos="fade-left"
