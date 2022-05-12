@@ -1,3 +1,18 @@
-community: 
+community:
   title: La communauté
   items:
+    - title: IRFSS NOUVELLE-AQUITAINE
+      content: >-
+        L’Institut Régional de Formation Sanitaire et Sociale crée en 1950
+        implanté à Bègles est l’un des instituts de formation de la Croix-Rouge
+        française. Il regroupe les formations couvrant les métiers de la santé,
+        du social, des premiers secours et des risques professionnels. \
+
+        La Croix-Rouge française est à la fois une association de plus 53000 bénévoles engagés depuis plus de 150 ans sur la lutte contre les précarités et une entreprise à but non lucratif de service, comptant plus de 17700 salariés et 600 établissements dans le champ sanitaire et social.
+      link: https://irfss-nouvelle-aquitaine.croix-rouge.fr/
+    - title: POUR LA SOLIDARITÉ
+      content: Pour la Solidarité est un « Think and Do Tank » européen indépendant,
+        engagé en faveur d’une Europe solidaire et durable qui se mobilise pour
+        défendre et consolider le modèle social européen, subtil équilibre entre
+        développement économique et justice sociale.
+      link: https://www.pourlasolidarite.eu/
