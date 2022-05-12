@@ -1,0 +1,8 @@
+community: 
+  title: La communauté
+  items:
+    item:
+      title: Titre
+      content: >-
+        contenu
+      lien: http://www.google.fr

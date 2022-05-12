@@ -10,8 +10,8 @@ editor:
 #publish_mode: editorial_workflow #optional, enables publishing workflow
 
 collections:
-  - name: pages
-    label: Pages
+  - name: homepages
+    label: Hompages
     files:
       - file: "data/home.yml"
         label: Homepage
@@ -154,4 +154,22 @@ collections:
             fields:
               - {label: Copyright, name: copyright, widget: string}
               - {label: Erasmus, name: erasmus, widget: markdown}
-         
+  - name: pages
+    label: Pages
+    files:
+      - file: "data/pages/fr.yml"
+        label: "Pages Fr"
+        name: fr
+        fields:
+          - label: "Community"
+            name: community
+            widget: object
+            fields: 
+              - {label: Title, name: title, widget: string}
+              - label: Items
+                name: items
+                widget: list
+                fields:
+                  - {label: Title, name: title, widget: string}
+                  - {label: Content, name: content, widget: markdown}
+                  - {label: Link, name: link, widget: string}

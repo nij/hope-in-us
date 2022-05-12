@@ -259,15 +259,29 @@ header.head {
     position: absolute;
     right: 0px;
     display: flex;
+    align-items: flex-end;
 
-    div.hamContainer {
+    div, a {
       width: 35px;
-      padding:8px 9px 8px 7px;
       background-image: url("../images/menu-item-bg.png");
       background-repeat: no-repeat;
+      background-size: contain;
+      margin-left: 10px;
+      box-sizing: border-box;
+    }
+
+    div.hamContainer {
+      padding:8px 9px 8px 7px;
+      
     }
     a {
-
+      display: block;
+      height: 35px;
+      padding: 8px 0 0 0;
+      text-align: center;
+      text-decoration: none;
+      font-size: .7em;
+      @include titleFont();
     }
   }
 
