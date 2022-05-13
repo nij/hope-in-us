@@ -1028,6 +1028,10 @@ section.page {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    background-image: url("../images/bg-step-1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 
     .item {
       width: 280px;
