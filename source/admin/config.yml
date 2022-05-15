@@ -158,7 +158,7 @@ collections:
         label: "Pages Fr"
         name: fr
         fields:
-          - label: "Community"
+          - label: "Communauté"
             name: community
             widget: object
             fields: 
@@ -170,3 +170,17 @@ collections:
                   - {label: Title, name: title, widget: string}
                   - {label: Content, name: content, widget: markdown}
                   - {label: Link, name: link, widget: string}
+          - label: "Boite à outils"
+            name: tools
+            widget: object
+            fields: 
+              - {label: Title, name: title, widget: string}
+              - {label: Intro, name: intro, widget: markdown}
+              - {label: Contenu, name: content, widget: markdown}
+              - label: Documents
+                name: files
+                widget: list
+                fields:
+                  - {label: Title, name: title, widget: string}
+                  - {label: Link, name: link, widget: file}
+

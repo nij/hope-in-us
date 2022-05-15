@@ -47,3 +47,19 @@ community:
         international afin de définir de nouvelles stratégies culturelles, pour
         les entreprises privées, les associations, les fondations et les
         institutions publiques, afin d’améliorer la société.
+tools:
+  title: La boite à outils
+  intro: >-
+    Lorem ipsum
+  content: Youhou
+  files:
+    - title: Lorem
+      file: nib
+webtv:
+  title: La web&nbsp;TV
+  intro: >-
+    Lorem ipsum
+  links:
+    - title: Back to&nbsp;back
+      link: nib
+      label: Lire la vidéo

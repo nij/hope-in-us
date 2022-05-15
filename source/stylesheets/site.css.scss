@@ -24,7 +24,7 @@ $mobileWidth:540px;
 $tabletWidth:960px;
 
 /*** fix ***/
-section, div, p {
+section, div, p, h1, h2, h3, h4 {
   box-sizing: border-box;
 }
 
@@ -999,6 +999,29 @@ section.page {
   background-color: $blue;
   color: $white;
   padding-top: 1px;
+
+  .page-nav {
+    a {
+      color: $yellow;
+      text-decoration: none;
+      display: inline-block;
+      padding-left: 50px;
+      font-size: 1.1em;
+      position: relative;
+      &::before {
+        content: "";
+        background-image: url("../images/arrow.svg");
+        width: 30px;
+        height: 16px;
+        background-size: contain;
+        position: absolute;
+        top: 3px;
+        left: 0px;
+        transform: rotate(180deg);
+      }
+    }
+  }
+  
   .intro {
     h2 {
       @include titleFont();
@@ -1006,9 +1029,10 @@ section.page {
       font-size: 50px;
       padding-left: 220px;
       padding-top: 40px;
-      padding-bottom: 40px;
+      padding-bottom: 0px;
       position: relative;
       max-width: 480px;
+      line-height: 1em;
 
       &:before {
         content: "";
@@ -1022,6 +1046,22 @@ section.page {
         background-position: center center;
       }
     }
+    div {
+      padding-left: 230px;
+      margin-top: -20px;
+    } 
+    margin-bottom: 40px; 
+  }
+  .content {
+    margin-bottom: 20px;
+    line-height: 1.2em;
+
+    h4 {
+      font-size: 22px;
+      color: $yellow;
+      font-weight: normal;
+      margin-bottom: 0;
+    }
   }
   .items {
     padding-top: 40px;
@@ -1030,7 +1070,7 @@ section.page {
     justify-content: space-between;
     background-image: url("../images/bg-step-1.png");
     background-size: contain;
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-position: center;
 
     .item {
@@ -1049,11 +1089,101 @@ section.page {
       }
     }
   }
+  .videos {
+    display: flex;
+    padding-bottom: 40px;
+
+    .item {
+      width: 310px;
+      h4 {
+        @include regularFont();
+        font-size: 32px;
+        line-height: 1em;
+        width: 310px;
+        height: 175px;
+        padding: 44px 0px 0 140px;
+        background-image: url("../images/webtv-bg-01.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        margin-bottom: 8px;
+      }
+      a.link {
+        text-align: center;
+        text-decoration: underline;
+        display: block;
+      }
+
+      &:nth-child(2n) { 
+        h4 {
+          background-image: url("../images/webtv-bg-02.png");
+        }
+      }
+      &:nth-child(3n) { 
+        h4 {
+          background-image: url("../images/webtv-bg-03.png");
+        } 
+      }
+      &:nth-child(4n) { 
+        h4 {
+          background-image: url("../images/webtv-bg-04.png");
+        }
+      }
+      &:nth-child(5n) { 
+        h4 {
+          background-image: url("../images/webtv-bg-05.png");
+        }
+      }
+    }
+  }
+  .files {
+    display: flex;
+    flex-direction: column;
+
+    .item {
+      margin-bottom: 12px;
+
+      a.link {
+        color: $yellow;
+        position: relative;
+        display: inline-block;
+        padding-right: 60px;
+        font-size: 18px;
+        text-decoration: none;
+        &::after {
+          width: 24px;
+          height: 20px;
+          content: "";
+          background-image: url("../images/download-picto.svg");
+          background-size: contain;
+          background-repeat: no-repeat;
+          position: absolute;
+          right: 0px;
+          top: 0px;
+        }
+      }
+    }
+  }
 
   &#community {
     .intro h2 {
       &::before {
         background-image: url("../images/picto-step-1.png");
+      }
+    }
+  }
+  &#tools {
+    .intro h2 {
+      &::before {
+        background-image: url("../images/picto-step-3.png");
+      }
+    }
+  }
+  &#webtv {
+    .intro h2 {
+      max-width: 320px;
+      &::before {
+        background-image: url("../images/picto-step-2.png");
       }
     }
   }
@@ -1066,6 +1196,7 @@ section.page {
         position: relative;
         max-width: 320px;
         margin: 0 auto;
+        text-align: center;
   
         &:before {
           content: "";
@@ -1077,6 +1208,11 @@ section.page {
           margin-left: -70px;
         }
       }
+      div {
+        margin-top: -20px;
+        text-align: center;
+        padding: 0 40px;
+      } 
     }
     .items {
       justify-content: space-around;
@@ -1087,11 +1223,10 @@ section.page {
     .intro {
       h2 {
         font-size: 30px;
-        padding: 80px 0px 30px 0px;
+        padding: 90px 0px 30px 0px;
         position: relative;
         max-width: 280px;
         
-  
         &:before {
           content: "";
           position: absolute;
@@ -1101,6 +1236,9 @@ section.page {
           margin-left: -50px;
         }
       }
+      div {
+        padding: 0 20px;
+      } 
     }
   }
 }
