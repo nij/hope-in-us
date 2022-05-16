@@ -32,11 +32,17 @@ section.etapes#etapes
             = markdown data.homeen.steps.intro
         .etapes-detail 
             .ed1 data-aos="fade-left"
-                = markdown data.homeen.steps.hiu
+                .content
+                    = markdown data.homeen.steps.hiu
+                a.button href="/pages/en/step-community.html" = "Discover"
             .ed2 data-aos="fade-right"
-                = markdown data.homeen.steps.webtv
+                .content
+                    = markdown data.homeen.steps.webtv
+                a.button href="/pages/en/step-webtv.html" = "Discover"
             .ed3 data-aos="fade-left"
-                = markdown data.homeen.steps.tools
+                .content
+                    = markdown data.homeen.steps.tools
+                a.button href="/pages/en/step-tools.html" = "Discover"
 section.contact#contact
     .inside
         h2.subtitle data-aos="fade-up"
@@ -44,3 +50,4 @@ section.contact#contact
         .social 
             a.fb href="facebook.com" target="blank"
             a.insta href="instagram.com" target="blank"
+            a.yt href="instagram.com" target="blank"

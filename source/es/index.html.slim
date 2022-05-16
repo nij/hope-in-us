@@ -4,13 +4,13 @@ title: Hope in Us ES
 section.contexte#contexte
     .inside
         h2.subtitle= data.homees.context.title
-        img.title-picture data-aos="fade-up" src="images/titre-contexte.png"
+        img.title-picture data-aos="fade-up" src="/images/titre-contexte.png"
         div.content
             = markdown data.homees.context.content
 section.objectifs#objectifs
     .inside
         h2.subtitle= data.homees.objectif.title
-        img.title-picture data-aos="fade-up" src="images/titre-objectifs.png"
+        img.title-picture data-aos="fade-up" src="/images/titre-objectifs.png"
         .intro
             = markdown data.homees.objectif.intro
         .content data-aos="fade-right"
@@ -31,11 +31,17 @@ section.etapes#etapes
             = markdown data.homees.steps.intro
         .etapes-detail 
             .ed1 data-aos="fade-left"
-                = markdown data.homees.steps.hiu
+                .content
+                    = markdown data.homees.steps.hiu
+                a.button href="/pages/es/step-community.html" = "Descubrir"
             .ed2 data-aos="fade-right"
-                = markdown data.homees.steps.webtv
+                .content
+                    = markdown data.homees.steps.webtv
+                a.button href="/pages/es/step-webtv.html" = "Descubrir"
             .ed3 data-aos="fade-left"
-                = markdown data.homees.steps.tools
+                .content
+                    = markdown data.homees.steps.tools
+                a.button href="/pages/es/step-tools.html" = "Descubrir"
 section.contact#contact
     .inside
         h2.subtitle data-aos="fade-up"
@@ -43,3 +49,4 @@ section.contact#contact
         .social 
             a.fb href="facebook.com" target="blank"
             a.insta href="instagram.com" target="blank"
+            a.yt href="instagram.com" target="blank"
