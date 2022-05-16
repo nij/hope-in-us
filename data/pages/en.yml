@@ -49,16 +49,15 @@ community:
         institutions publiques, afin d’améliorer la société.
 tools:
   title: La boite à outils
-  intro: >-
-    Lorem ipsum
-  content: Youhou
+  intro: Lorem ipsum
+  content: Lorem ipsum dolor sit...
   files:
     - title: Lorem
       file: nib
+      link: google.fr
 webtv:
   title: La web&nbsp;TV
-  intro: >-
-    Lorem ipsum
+  intro: Lorem ipsum
   links:
     - title: Back to&nbsp;back
       link: nib
