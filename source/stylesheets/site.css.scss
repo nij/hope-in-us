@@ -958,6 +958,9 @@ section.contact {
       &.insta {
         background-image: url("../images/Insta.png");
       }
+      &.yt {
+        background-image: url("../images/yt.png");
+      }
     }
 
   }
@@ -1259,6 +1262,7 @@ footer {
       font-size: 18px;
       @include titleFont();
       font-weight: 200;
+      padding-right: 20px;
     }
     .erasmus {
       max-width: 300px;
@@ -1276,6 +1280,33 @@ footer {
         background-image: url("../images/erasmus.png");
         position: absolute;
         top: 0px;
+      }
+    }
+
+    @media only screen and (max-width:$mobileWidth) {
+      .copyright {
+        color: $purple-darker;
+        font-size: 12px;
+      }
+      .erasmus {
+        max-width: 200px;
+        color: $purple-darker;
+        font-size: 11px;
+        @include titleFont();
+        font-weight: 200;
+        position: relative;
+        padding-top: 60px;
+  
+        &::before {
+          content: "";
+          width: 200px;
+          height: 60px;
+          background-image: url("../images/erasmus.png");
+          background-size: contain;
+          background-repeat: no-repeat;
+          position: absolute;
+          top: 0px;
+        }
       }
     }
   }

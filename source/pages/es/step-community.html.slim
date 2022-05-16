@@ -1,20 +1,20 @@
 ---
-title: Hope in Us - WebTV
+title: Hope in Us - La communauté
 ---
-section.page#webtv
+section.page#community
     .inside
         .page-nav 
-            a href="/"
+            a href="/es/"
                 = "Retour"
         .intro 
-            h2=data.pages.fr.webtv.title
-            div=data.pages.fr.webtv.intro
-        .videos 
-            - data.pages.fr.webtv.links.each do |item|
+            h2=data.pages.fr.community.title
+        .items 
+            - data.pages.fr.community.items.each do |item|
                 .item 
-                    h4= item.title
-                    a.link target="blank" href=item.file
-                        =item.label
+                    .title=item.title
+                    .content=item.content
+                    a.link href=item.link
+                        = "Aller sur le site"
 section.contact#contact
     .inside
         h2.subtitle data-aos="fade-up"

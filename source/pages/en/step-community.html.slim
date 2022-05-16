@@ -1,0 +1,25 @@
+---
+title: Hope in Us - La communauté
+---
+section.page#community
+    .inside
+        .page-nav 
+            a href="/en/"
+                = "Back"
+        .intro 
+            h2=data.pages.fr.community.title
+        .items 
+            - data.pages.fr.community.items.each do |item|
+                .item 
+                    .title=item.title
+                    .content=item.content
+                    a.link href=item.link
+                        = "Aller sur le site"
+section.contact#contact
+    .inside
+        h2.subtitle data-aos="fade-up"
+            = data.home.contact.title
+        .social 
+            a.fb href="facebook.com" target="blank"
+            a.insta href="instagram.com" target="blank"
+            a.yt href="instagram.com" target="blank"

@@ -183,4 +183,101 @@ collections:
                 fields:
                   - {label: Title, name: title, widget: string}
                   - {label: Link, name: link, widget: file}
+          - label: "Web TV"
+            name: webtv
+            widget: object
+            fields: 
+              - {label: Title, name: title, widget: string}
+              - {label: Intro, name: intro, widget: markdown}
+              - label: Liens
+                name: lonks
+                widget: list
+                fields:
+                  - {label: Title, name: title, widget: string}
+                  - {label: URL Youtube, name: link, widget: string}
+                  - {label: Label, name: label, widget: string, default: "Lire la vidéo"}
+      - file: "data/pages/en.yml"
+        label: "Pages En"
+        name: en
+        fields:
+          - label: "Communauté"
+            name: community
+            widget: object
+            fields: 
+              - {label: Title, name: title, widget: string}
+              - label: Items
+                name: items
+                widget: list
+                fields:
+                  - {label: Title, name: title, widget: string}
+                  - {label: Content, name: content, widget: markdown}
+                  - {label: Link, name: link, widget: string}
+          - label: "Boite à outils"
+            name: tools
+            widget: object
+            fields: 
+              - {label: Title, name: title, widget: string}
+              - {label: Intro, name: intro, widget: markdown}
+              - {label: Contenu, name: content, widget: markdown}
+              - label: Documents
+                name: files
+                widget: list
+                fields:
+                  - {label: Title, name: title, widget: string}
+                  - {label: Link, name: link, widget: file}
+          - label: "Web TV"
+            name: webtv
+            widget: object
+            fields: 
+              - {label: Title, name: title, widget: string}
+              - {label: Intro, name: intro, widget: markdown}
+              - label: Liens
+                name: lonks
+                widget: list
+                fields:
+                  - {label: Title, name: title, widget: string}
+                  - {label: URL Youtube, name: link, widget: string}
+                  - {label: Label, name: label, widget: string, default: "Lire la vidéo"}
+      - file: "data/pages/es.yml"
+        label: "Pages ES"
+        name: es
+        fields:
+          - label: "Communauté"
+            name: community
+            widget: object
+            fields: 
+              - {label: Title, name: title, widget: string}
+              - label: Items
+                name: items
+                widget: list
+                fields:
+                  - {label: Title, name: title, widget: string}
+                  - {label: Content, name: content, widget: markdown}
+                  - {label: Link, name: link, widget: string}
+          - label: "Boite à outils"
+            name: tools
+            widget: object
+            fields: 
+              - {label: Title, name: title, widget: string}
+              - {label: Intro, name: intro, widget: markdown}
+              - {label: Contenu, name: content, widget: markdown}
+              - label: Documents
+                name: files
+                widget: list
+                fields:
+                  - {label: Title, name: title, widget: string}
+                  - {label: Link, name: link, widget: file}
+          - label: "Web TV"
+            name: webtv
+            widget: object
+            fields: 
+              - {label: Title, name: title, widget: string}
+              - {label: Intro, name: intro, widget: markdown}
+              - label: Liens
+                name: lonks
+                widget: list
+                fields:
+                  - {label: Title, name: title, widget: string}
+                  - {label: URL Youtube, name: link, widget: string}
+                  - {label: Label, name: label, widget: string, default: "Lire la vidéo"}
 

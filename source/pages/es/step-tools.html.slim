@@ -1,20 +1,20 @@
 ---
-title: Hope in Us - WebTV
+title: Hope in Us - Outils
 ---
-section.page#webtv
+section.page#tools
     .inside
         .page-nav 
-            a href="/"
+            a href="/es/"
                 = "Retour"
         .intro 
-            h2=data.pages.fr.webtv.title
-            div=data.pages.fr.webtv.intro
-        .videos 
-            - data.pages.fr.webtv.links.each do |item|
+            h2=data.pages.fr.tools.title
+            div=data.pages.fr.tools.intro
+        .content=data.pages.fr.tools.content
+        .files 
+            - data.pages.fr.tools.files.each do |item|
                 .item 
-                    h4= item.title
-                    a.link target="blank" href=item.file
-                        =item.label
+                    a.link href=item.file
+                        = item.title
 section.contact#contact
     .inside
         h2.subtitle data-aos="fade-up"
