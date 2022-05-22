@@ -2,12 +2,14 @@
 title: Hope in Us
 ---
 section.contexte#contexte
+    .bg#bgcontexte
     .inside
         h2.subtitle= data.home.context.title
         img.title-picture data-aos="fade-up" src="images/titre-contexte.png"
         div.content
             = markdown data.home.context.content
 section.objectifs#objectifs
+    .bg
     .inside
         h2.subtitle= data.home.objectif.title
         img.title-picture data-aos="fade-up" src="images/titre-objectifs.png"
@@ -25,6 +27,7 @@ section.objectifs#objectifs
             .g-item-3 data-aos="fade-in"
                 = data.home.objectif.group_item_3 
 section.etapes#etapes
+    .bg
     .inside
         h2.subtitle data-aos="fade-up" = data.home.steps.title
         .intro
@@ -43,6 +46,7 @@ section.etapes#etapes
                     = markdown data.home.steps.tools
                 a.button href="/pages/fr/step-tools.html" = "Découvrir"
 section.contact#contact
+    .bg
     .inside
         h2.subtitle data-aos="fade-up"
             = data.home.contact.title
