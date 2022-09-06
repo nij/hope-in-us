@@ -1,5 +1,5 @@
 community:
-  title: La communauté
+  title: The community
   items:
     - title: IRFSS NOUVELLE-AQUITAINE
       content: >-
@@ -48,16 +48,29 @@ community:
         les entreprises privées, les associations, les fondations et les
         institutions publiques, afin d’améliorer la société.
 tools:
-  title: La boite à outils
-  intro: Lorem ipsum
-  content: Lorem ipsum dolor sit...
+  title: The toolbox
+  intro: For each tool, you will find a sheet allowing you to discover its use and
+    its interest but also tutorials and videos allowing you step by step to
+    master it.
+  content: Tool
   files:
     - title: Lorem
       file: nib
       link: google.fr
 webtv:
-  title: La web&nbsp;TV
-  intro: Lorem ipsum
+  title: The Web TV
+  intro: >-
+    At a time when video has taken on major importance on the Internet, creating
+    a Web TV is an effective way to promote projects, innovations and
+    experiences.
+
+    to promote projects, innovations and experiences. It is a playful tool that allows us to
+
+    to communicate with all the actors of the Hope in Us community. 
+
+    We have created 5 programmes which are all hosted on Youtube and accessible in several languages.
+
+    You in turn can use these programmes as an educational tool, but also enrich them or create new ones. You will find all the instructions for the filming.
   links:
     - title: Back to&nbsp;back
       link: nib
