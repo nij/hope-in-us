@@ -49,16 +49,14 @@ community:
         institutions publiques, afin d’améliorer la société.
 tools:
   title: La boite à outils
-  intro: >-
-    Lorem ipsum
+  intro: Pour chaque outil, vous trouverez ici une fiche vous permettant de
+    découvrir son usage et son intérêt mais aussi des tutoriels et des vidéos
+    vous permettant, pas à pas, de le maîtriser et de l'utiliser.
   content: Youhou
-  files:
-    - title: Lorem
-      file: nib
+  files: []
 webtv:
   title: La web&nbsp;TV
-  intro: >-
-    Lorem ipsum
+  intro: Découvrez nos émissions et apprenez comment apporter votre contribution!
   links:
     - title: Back to&nbsp;back
       link: nib
