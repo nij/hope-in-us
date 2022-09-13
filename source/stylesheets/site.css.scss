@@ -2,11 +2,13 @@
 $yellow: #FFCB00;
 $green: #00B379;
 $red: #DB7F7C;
+$red-darker: #C25F5C;
 $blue: #008FB3;
 $blue-darker:#2649D4;
 $purple: #444679;
 $purple-dark: #3A3C6F;
 $purple-darker: #303266;
+$shadow: rgba(20,20,20,0.5);
 $white: white;
 
 /*** size ***/
@@ -33,7 +35,6 @@ section, div, p, h1, h2, h3, h4 {
 @mixin sizeForMobile() {
     width: 100% !important;
     min-width: 320px;
-    overflow: hidden;
 }
 
 @mixin mainCenter($width: 960px) {
@@ -45,13 +46,18 @@ section, div, p, h1, h2, h3, h4 {
     @media only screen and (max-width:$tabletWidth) {
       width: 100% !important;
       min-width: 320px;
-      overflow: hidden;
       padding: 0 15vw;
     }
   
     @media only screen and (max-width:$mobileWidth) {
       padding: 0 10vw;
     }
+}
+@mixin blocCenter($width: 960px) {
+  max-width:$width;
+  margin-right: auto;
+  margin-left: auto;
+  padding : 0px 0px 0px 0px;
 }
 @mixin mainCenterFlexRow() {
     width:960px;
@@ -200,7 +206,7 @@ header.head {
     height: 100vw;
     background-size: contain;
     //bottom: -80px;
-    top: 0px;
+    top: -90px;
     left: 0px;
 
     @media only screen and (max-width:$tabletWidth) {
@@ -404,6 +410,15 @@ section {
   h2.subtitle {
     text-transform: uppercase;
     margin-top: 0px;
+    color: $white;
+    font-size: 90px;
+    font-weight: 600;
+    text-shadow: 8px 0px 0px $blue-darker;
+    text-transform: uppercase;
+    max-width: 600px;
+    line-height: 110px;
+    @include titleFont();
+    margin-bottom: 60px;
   }
 
   img.title-picture {
@@ -430,6 +445,8 @@ section.contexte {
   background-image: url("../images/mosaic-blue-spray.png");
   background-repeat: repeat;
   background-position: top left;
+  perspective: 600px;
+  perspective-origin: 50% 50%;
 
   &::before {
     position: absolute;
@@ -446,7 +463,10 @@ section.contexte {
 
   h2 {
     color: $yellow;
-    display: none;
+    text-shadow: 0px 20px 0px $shadow;
+    transform: rotateY(30deg) skewY(-12deg); 
+    max-width: 900px;
+    margin-bottom: 90px;
   }
   img.title-picture {
     margin-left: -2vw;
@@ -464,6 +484,11 @@ section.contexte {
   }
 
   @media only screen and (max-width:$tabletWidth) {
+    h2 {
+      font-size: 60px;
+      line-height: 70px;
+      padding-top: 20px;
+    }
     img.title-picture {
       margin: 0;
     }
@@ -474,6 +499,13 @@ section.contexte {
   }
 
   @media only screen and (max-width:$mobileWidth) {
+    h2 {
+      font-size: 40px;
+      line-height: 50px;
+      margin-left: -20px;
+      margin-bottom: 60px;
+      transform: rotateY(20deg) skewY(-9deg); 
+    }
     .content {
       padding: 0;
     }
@@ -506,10 +538,12 @@ section.objectifs {
 
   h2 {
     color: $blue-darker;
-    display: none;
+    text-shadow: 0px 10px 0px $red-darker, 0px 14px 0px $blue-darker, 0px 24px 0px $red-darker, 0px 28px 0px $blue-darker, 0px 38px 0px $red-darker, 0px 42px 0px $blue-darker;
+    font-size: 120px;
+    line-height: 140px;
   }
   .intro {
-    margin-left: 50%;
+    margin-left: 55%;
     margin-top: -100px;
     font-size: 38px;
     max-width: 380px;
@@ -572,7 +606,7 @@ section.objectifs {
     margin-top: 70px;
 
     .group-intro {
-      @include mainCenter(980px);
+      @include blocCenter(980px);
       margin-top: 40px;
       font-size: 38px;
       position: relative;
@@ -634,7 +668,7 @@ section.objectifs {
 
       .group-intro {
         text-align: center;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
         font-size: 36px;
       }
       .group-items {
@@ -644,15 +678,22 @@ section.objectifs {
           top: 0px !important;
           left: auto !important;
           right: auto !important;
-          margin: 5px auto !important;
+          margin: 15px auto !important;
           width: 60%;
           text-align: center;
+          font-size: 20px;
         }
       }
     }
   }
 
   @media only screen and (max-width:$mobileWidth) {
+
+    h2 {
+      font-size: 55px;
+      line-height: 80px;
+      text-shadow: 0px 8px 0px $red-darker, 0px 12px 0px $blue-darker, 0px 20px 0px $red-darker, 0px 24px 0px $blue-darker, 0px 32px 0px $red-darker, 0px 36px 0px $blue-darker;
+    }
     .intro {
       font-size: 30px;
       margin-bottom: 0px;
@@ -689,7 +730,7 @@ section.objectifs {
 
       .group-intro {
         text-align: center;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
         font-size: 30px;
       }
     }
@@ -718,7 +759,7 @@ section.etapes {
 
   h2.subtitle{
     color: $white;
-    font-size: 120px;
+    font-size: 100px;
     font-weight: 600;
     text-shadow: 8px 0px 0px $blue-darker;
     text-transform: uppercase;
@@ -728,7 +769,8 @@ section.etapes {
     margin-bottom: 60px;
   }
   .intro {
-    font-size: 28px;
+    font-size: 26px;
+    line-height: 34px;
     color: $yellow;
     font-weight: bold;
     padding-right: 240px;
@@ -783,7 +825,8 @@ section.etapes {
      }
 
     div {
-      font-size: 19px;
+      font-size: 18px;
+      line-height: 24px;
       color: $white;
       position: relative;
 
@@ -896,8 +939,8 @@ section.etapes {
 
   @media only screen and (max-width:$mobileWidth) {
     h2.subtitle {
-      font-size: 50px;
-      line-height: 46px;
+      font-size: 30px;
+      line-height: 42px;
       margin-bottom: 30px;
     }
     .content {
@@ -982,8 +1025,8 @@ section.contact {
 
   @media only screen and (max-width:$mobileWidth) {
     h2.subtitle {
-      font-size: 40px;
-      line-height: 36px;
+      font-size: 30px;
+      line-height: 34px;
       margin-bottom: 40px;
     }
     .social {
