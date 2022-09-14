@@ -180,6 +180,53 @@ a.button {
     }
   }
 }
+a.link {
+  color: $yellow;
+  text-decoration: underline;
+  position: relative;
+
+
+  &.file {
+    padding-left: 60px;
+    padding-top: 10px;
+    &::before {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      content: "";
+      width: 42px;
+      height: 36px;
+      background-size: contain;
+      background-position: center;
+      background-image: url("../images/bidon.png");
+      background-repeat: no-repeat;
+    }
+  }
+  &.video {
+    padding-left: 60px;
+    padding-top: 10px;
+    &::before {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      content: "";
+      width: 42px;
+      height: 36px;
+      background-size: contain;
+      background-position: center;
+      background-image: url("../images/tv.png");
+      background-repeat: no-repeat;
+    }
+  }
+}
+div.content {
+  @include regularFont();
+  font-size: 16px;
+  line-height: 1.63;
+  p {
+    line-height: 1.63;
+  }
+}
 
 header.head {
   background-color: $yellow;
@@ -398,6 +445,15 @@ header.head {
 }
 
 /**PAGE**/
+header {
+  //overflow-x: hidden;
+}
+main {
+  overflow-x: hidden;
+}
+footer {
+  //overflow-x: hidden;
+}
 
 section {
   width: 100%;
@@ -477,10 +533,6 @@ section.contexte {
     padding-left: 240px;
     padding-right: 1vw;
     margin-top: -40px;
-
-    p {
-      line-height: 1.5em;
-    }
   }
 
   @media only screen and (max-width:$tabletWidth) {
@@ -641,6 +693,11 @@ section.objectifs {
   }
   
   @media only screen and (max-width:$tabletWidth) {
+    h2 {
+      font-size: 80px;
+      line-height: 90px;
+      text-shadow: 0px 8px 0px $red-darker, 0px 12px 0px $blue-darker, 0px 20px 0px $red-darker, 0px 24px 0px $blue-darker, 0px 32px 0px $red-darker, 0px 36px 0px $blue-darker;
+    }
     .intro {
       text-align: center;
       margin: 0 auto;
@@ -826,7 +883,7 @@ section.etapes {
 
     div {
       font-size: 18px;
-      line-height: 24px;
+      line-height: 28px;
       color: $white;
       position: relative;
 
@@ -921,9 +978,9 @@ section.etapes {
 
   @media only screen and (max-width:$tabletWidth) {
     h2.subtitle {
-      font-size: 70px;
-      line-height: 62px;
-      margin-bottom: 50px;
+      font-size: 50px;
+      line-height: 48px;
+      margin-bottom: 40px;
     }
     
     .intro {
@@ -1224,6 +1281,32 @@ section.page {
         background-image: url("../images/picto-step-3.png");
       }
     }
+    .toolslist {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 50px;
+
+      .item {
+        width: 300px;
+
+        h5 {
+          @include titleFont();
+          font-size: 28px;
+          text-transform: uppercase;
+          margin: 0 0 20px 0;
+        }
+        .content {
+
+        }
+        a.link {
+          display: block;
+          margin-bottom: 26px;
+          font-size: 14px;
+          font-weight: bold;
+        }
+
+      }
+    }
   }
   &#webtv {
     .intro h2 {
@@ -1238,7 +1321,7 @@ section.page {
     .intro {
       h2 {
         font-size: 40px;
-        padding: 120px 0px 30px 0px;
+        padding: 140px 0px 30px 0px;
         position: relative;
         max-width: 320px;
         margin: 0 auto;

@@ -176,7 +176,10 @@ collections:
                 widget: list
                 fields:
                   - {label: Title, name: title, widget: string}
-                  - {label: Link, name: link, widget: file}
+                  - {label: Contenu, name: content, widget: markdown}
+                  - {label: PDF, name: file, widget: file}
+                  - {label: Video Youtube, name: linkvideo, widget: string}
+                  - {label: Texte Vidéo, name: textvideo, widget: markdown}
           - label: "Web TV"
             name: webtv
             widget: object
@@ -218,7 +221,10 @@ collections:
                 widget: list
                 fields:
                   - {label: Title, name: title, widget: string}
-                  - {label: Link, name: link, widget: file}
+                  - {label: Contenu, name: content, widget: markdown}
+                  - {label: PDF, name: file, widget: file}
+                  - {label: Video Youtube, name: linkvideo, widget: string}
+                  - {label: Texte Vidéo, name: textvideo, widget: markdown}
           - label: "Web TV"
             name: webtv
             widget: object
@@ -260,7 +266,10 @@ collections:
                 widget: list
                 fields:
                   - {label: Title, name: title, widget: string}
-                  - {label: Link, name: link, widget: file}
+                  - {label: Contenu, name: content, widget: markdown}
+                  - {label: PDF, name: file, widget: file}
+                  - {label: Video Youtube, name: linkvideo, widget: string}
+                  - {label: Texte Vidéo, name: textvideo, widget: markdown}
           - label: "Web TV"
             name: webtv
             widget: object

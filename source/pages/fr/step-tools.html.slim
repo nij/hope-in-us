@@ -10,16 +10,14 @@ section.page#tools
             h2=data.pages.fr.tools.title
             div=data.pages.fr.tools.intro
         .content=data.pages.fr.tools.content
-        .files 
+        .toolslist 
             - data.pages.fr.tools.files.each do |item|
-                .item 
-                    a.link href=item.file
-                        = item.title
-section.contact#contact
-    .inside
-        h2.subtitle data-aos="fade-up"
-            = data.home.contact.title
-        .social 
-            a.fb href="facebook.com" target="blank"
-            a.insta href="instagram.com" target="blank"
-            a.yt href="instagram.com" target="blank"
+                .item
+                    h5=item.title 
+                    div.content
+                        = markdown item.content 
+                    a.link.file href=item.file
+                        = "Télécharger la fiche"
+                    a.link.video href=item.linkVideo
+                        = "Voir la vidéo"
+                        
