@@ -49,16 +49,18 @@ community:
         institutions publiques, afin d’améliorer la société.
 tools:
   title: La boite à outils
-  intro: >-
-    Lorem ipsum
-  content: Youhou
+  intro: I﻿ntro
+  content: Content
   files:
-    - title: Lorem
-      file: nib
+    - title: Duolingo
+      file: /images/uploads/fiche-duolingo-es.pdf
+      content: DUOLINGO es un sitio web y una aplicación móvil que permite aprender
+        idiomas de forma gratuita y divertida.
+      linkvideo: https://www.youtube.com/watch?v=7ETLLM9C3bc
+      textvideo: v﻿ideo
 webtv:
   title: La web&nbsp;TV
-  intro: >-
-    Lorem ipsum
+  intro: Lorem ipsum
   links:
     - title: Back to&nbsp;back
       link: nib
