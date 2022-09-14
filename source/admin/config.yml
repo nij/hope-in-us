@@ -170,7 +170,6 @@ collections:
             fields: 
               - {label: Title, name: title, widget: string}
               - {label: Intro, name: intro, widget: markdown}
-              - {label: Contenu, name: content, widget: markdown}
               - label: Documents
                 name: files
                 widget: list
@@ -215,7 +214,6 @@ collections:
             fields: 
               - {label: Title, name: title, widget: string}
               - {label: Intro, name: intro, widget: markdown}
-              - {label: Contenu, name: content, widget: markdown}
               - label: Documents
                 name: files
                 widget: list
@@ -260,7 +258,6 @@ collections:
             fields: 
               - {label: Title, name: title, widget: string}
               - {label: Intro, name: intro, widget: markdown}
-              - {label: Contenu, name: content, widget: markdown}
               - label: Documents
                 name: files
                 widget: list

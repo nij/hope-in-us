@@ -9,7 +9,6 @@ section.page#tools
         .intro 
             h2=data.pages.fr.tools.title
             div=data.pages.fr.tools.intro
-        .content=data.pages.fr.tools.content
         .toolslist 
             - data.pages.fr.tools.files.each do |item|
                 .item
@@ -18,5 +17,5 @@ section.page#tools
                         = markdown item.content 
                     a.link.file href=item.file
                         = "Download"
-                    a.link.video href=item.linkVideo
+                    a.link.video href=item.linkvideo
                         = "See the video"
