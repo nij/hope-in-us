@@ -52,13 +52,16 @@ tools:
   intro: Pour chaque outil, vous trouverez ici une fiche vous permettant de
     découvrir son usage et son intérêt mais aussi des tutoriels et des vidéos
     vous permettant, pas à pas, de le maîtriser et de l'utiliser.
-  content: 
+  content: " ﻿Liste des outils"
   files:
-    - title: Titre
-      content: Contenu
-      file: /
+    - title: Duolingo
+      content: DUOLINGO est un site web et une application mobile qui te permet
+        d’apprendre des langues gratuitement de façon ludique.
+      file: /images/uploads/fiche-duolingo-vf.pdf
       linkVideo: https://google.com/
       textVideo: Texte de la video
+      linkvideo: https://www.youtube.com/watch?v=7ETLLM9C3bc
+      textvideo: t﻿exte video
 webtv:
   title: La web&nbsp;TV
   intro: Découvrez nos émissions et apprenez comment apporter votre contribution!
