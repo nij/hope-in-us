@@ -60,7 +60,7 @@ tools:
       textvideo: v﻿ideo
 webtv:
   title: La webTV
-  intro: Lorem ipsum
+  intro: Descubra más sobre nuestros programas y cómo puede contribuir a ellos.
   links:
     - title: Back to&nbsp;back
       link: nib
