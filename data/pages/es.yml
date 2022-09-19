@@ -49,7 +49,9 @@ community:
         de mejorar la sociedad.
 tools:
   title: La caja de herramientas
-  intro: I ntro
+  intro: Para cada herramienta, encontrará aquí una ficha que le permitirá
+    descubrir su uso y su interés, pero también tutoriales y vídeos que le
+    permitirán, paso a paso, dominarla y utilizarla.
   content: Content
   files:
     - title: Duolingo
