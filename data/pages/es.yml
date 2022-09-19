@@ -59,7 +59,7 @@ tools:
       linkvideo: https://www.youtube.com/watch?v=7ETLLM9C3bc
       textvideo: v﻿ideo
 webtv:
-  title: La web&nbsp;TV
+  title: La webTV
   intro: Lorem ipsum
   links:
     - title: Back to&nbsp;back
