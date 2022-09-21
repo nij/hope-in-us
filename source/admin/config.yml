@@ -283,7 +283,7 @@ collections:
   - name: bao
     label: "Boite à outils"
     files:
-      - file: "data/bao-fr.yml"
+      - file: "data/bao/bao-fr.yml"
         label: "BAO en français"
         name: bao-fr
         fields:
@@ -298,7 +298,7 @@ collections:
               - {label: PDF, name: file, widget: file}
               - {label: Video Youtube, name: linkvideo, widget: string}
               - {label: Texte Vidéo, name: textvideo, widget: markdown}
-      - file: "data/bao-en.yml"
+      - file: "data/bao/bao-en.yml"
         label: "BAO en anglais"
         name: bao-en
         fields:
@@ -313,7 +313,7 @@ collections:
               - {label: PDF, name: file, widget: file}
               - {label: Video Youtube, name: linkvideo, widget: string}
               - {label: Texte Vidéo, name: textvideo, widget: markdown}
-      - file: "data/bao-es.yml"
+      - file: "data/bao/bao-es.yml"
         label: "BAO en espagnol"
         name: bao-es
         fields:
