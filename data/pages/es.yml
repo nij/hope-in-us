@@ -60,6 +60,12 @@ tools:
         idiomas de forma gratuita y divertida.
       linkvideo: https://www.youtube.com/watch?v=7ETLLM9C3bc
       textvideo: video
+    - title: YouTube Studio
+      content: Youtube Studio es una plataforma para creadores de vídeos que permite
+        editar y compartir vídeos públicamente en Youtube.
+      file: /images/uploads/fiche-youtube-studio-es.pdf
+      linkvideo: https://www.youtube.com/watch?v=j4ya-E0GCdE
+      textvideo: t﻿exte
 webtv:
   title: La webTV
   intro: Descubra más sobre nuestros programas y cómo puede contribuir a ellos.
