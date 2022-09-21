@@ -60,6 +60,12 @@ tools:
         languages for free in a fun way.
       linkvideo: https://www.youtube.com/watch?v=7ETLLM9C3bc
       textvideo: video
+    - title: YouTube Studio
+      content: Youtube Studio is a platform for video makers which allows you to edit
+        and share videos publicly on Youtube.
+      file: /images/uploads/fiche-youtube-studio-en.pdf
+      linkvideo: https://www.youtube.com/watch?v=j4ya-E0GCdE
+      textvideo: t﻿exte
 webtv:
   title: The Web TV
   intro: >-
