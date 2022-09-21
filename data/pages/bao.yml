@@ -1,0 +1,42 @@
+fr:
+  title: La boite à outils
+  intro: Pour chaque outil, vous trouverez ici une fiche vous permettant de
+    découvrir son usage et son intérêt mais aussi des tutoriels et des vidéos
+    vous permettant, pas à pas, de le maîtriser et de l'utiliser.
+  content: " Liste des outils"
+  files:
+    - title: Duolingo
+      content: DUOLINGO est un site web et une application mobile qui te permet
+        d’apprendre des langues gratuitement de façon ludique.
+      file: /images/uploads/fiche-duolingo-vf.pdf
+      linkVideo: https://google.com/
+      textVideo: Texte de la video
+      linkvideo: https://www.youtube.com/watch?v=7ETLLM9C3bc
+      textvideo: texte video
+en:
+  title: The toolbox
+  intro: For each tool, you will find a sheet allowing you to discover its use and
+    its interest but also tutorials and videos allowing you step by step to
+    master it.
+  content: Tool
+  files:
+    - title: Duolingo
+      file: /images/uploads/fiche-duolingo-en.pdf
+      link: google.fr
+      content: DUOLINGO is a website and mobile application that allows you to learn
+        languages for free in a fun way.
+      linkvideo: https://www.youtube.com/watch?v=7ETLLM9C3bc
+      textvideo: video
+es:
+  title: La caja de herramientas
+  intro: Para cada herramienta, encontrará aquí una ficha que le permitirá
+    descubrir su uso y su interés, pero también tutoriales y vídeos que le
+    permitirán, paso a paso, dominarla y utilizarla.
+  content: Content
+  files:
+    - title: Duolingo
+      file: /images/uploads/fiche-duolingo-es.pdf
+      content: DUOLINGO es un sitio web y una aplicación móvil que permite aprender
+        idiomas de forma gratuita y divertida.
+      linkvideo: https://www.youtube.com/watch?v=7ETLLM9C3bc
+      textvideo: video
