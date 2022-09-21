@@ -62,6 +62,12 @@ tools:
       textVideo: Texte de la video
       linkvideo: https://www.youtube.com/watch?v=7ETLLM9C3bc
       textvideo: texte video
+    - title: YouTube Studio
+      content: Youtube Studio est une plateforme pour les créateurs vidéo qui permet
+        d'éditer des vidéos et les poster publiquement sur Youtube.
+      file: /images/uploads/fiche-youtube-studio-fr.pdf
+      linkvideo: https://www.youtube.com/watch?v=j4ya-E0GCdE
+      textvideo: t﻿exte video
 webtv:
   title: La web&nbsp;TV
   intro: Découvrez nos émissions et apprenez comment apporter votre contribution!
