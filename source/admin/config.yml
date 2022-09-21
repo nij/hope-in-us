@@ -280,4 +280,53 @@ collections:
                   - {label: Title, name: title, widget: string}
                   - {label: URL Youtube, name: link, widget: string}
                   - {label: Label, name: label, widget: string, default: "Lire la vidéo"}
+  - name: bao
+    label: "Boite à outils"
+    files:
+      - file: "data/bao-fr.yml"
+        label: "BAO en français"
+        name: bao-fr
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Intro, name: intro, widget: markdown}
+          - label: Documents
+            name: files
+            widget: list
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Contenu, name: content, widget: markdown}
+              - {label: PDF, name: file, widget: file}
+              - {label: Video Youtube, name: linkvideo, widget: string}
+              - {label: Texte Vidéo, name: textvideo, widget: markdown}
+      - file: "data/bao-en.yml"
+        label: "BAO en anglais"
+        name: bao-en
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Intro, name: intro, widget: markdown}
+          - label: Documents
+            name: files
+            widget: list
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Contenu, name: content, widget: markdown}
+              - {label: PDF, name: file, widget: file}
+              - {label: Video Youtube, name: linkvideo, widget: string}
+              - {label: Texte Vidéo, name: textvideo, widget: markdown}
+      - file: "data/bao-es.yml"
+        label: "BAO en espagnol"
+        name: bao-es
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Intro, name: intro, widget: markdown}
+          - label: Documents
+            name: files
+            widget: list
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Contenu, name: content, widget: markdown}
+              - {label: PDF, name: file, widget: file}
+              - {label: Video Youtube, name: linkvideo, widget: string}
+              - {label: Texte Vidéo, name: textvideo, widget: markdown}
+
 

@@ -1,0 +1,12 @@
+title: La caja de herramientas
+intro: Para cada herramienta, encontrará aquí una ficha que le permitirá
+  descubrir su uso y su interés, pero también tutoriales y vídeos que le
+  permitirán, paso a paso, dominarla y utilizarla.
+content: Content
+files:
+  - title: Duolingo
+    file: /images/uploads/fiche-duolingo-es.pdf
+    content: DUOLINGO es un sitio web y una aplicación móvil que permite aprender
+      idiomas de forma gratuita y divertida.
+    linkvideo: https://www.youtube.com/watch?v=7ETLLM9C3bc
+    textvideo: video
