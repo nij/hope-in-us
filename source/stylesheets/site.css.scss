@@ -387,13 +387,13 @@ header.head {
   }
 
   h2 {
-    font-size: 110px;
+    font-size: 92px;
     margin: 0px;
     color: $white;
     line-height: 0.9em;
     font-weight: 600;
     @include titleFont();
-    margin-left: 8vw;
+    margin-left: 1vw;
   }
 
   &.mini {

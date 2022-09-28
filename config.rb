@@ -19,6 +19,8 @@ page '/*.txt', layout: false
 
 # With alternative layout
 page '/pages/*', layout: 'page_layout'
+page '/en/*', layout: 'layout_en'
+page '/es/*', layout: 'layout_es'
 
 # Proxy pages
 # https://middlemanapp.com/advanced/dynamic-pages/
