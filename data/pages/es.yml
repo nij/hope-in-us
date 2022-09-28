@@ -66,6 +66,12 @@ tools:
       file: /images/uploads/fiche-youtube-studio-es.pdf
       linkvideo: https://www.youtube.com/watch?v=j4ya-E0GCdE
       textvideo: t﻿exte
+    - title: Google Drive
+      content: Google Drive es una herramienta que te permitirá organizar, compartir y
+        almacenar archivos del pack office de forma gratuita.
+      file: /images/uploads/ficha-de-hrs-google-drive-es-.pdf
+      linkvideo: https://www.youtube.com/watch?v=lKRoeYtz7Q8
+      textvideo: Testimonio
 webtv:
   title: La webTV
   intro: Descubra más sobre nuestros programas y cómo puede contribuir a ellos.
