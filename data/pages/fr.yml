@@ -75,3 +75,19 @@ webtv:
     - title: Back to&nbsp;back
       link: nib
       label: Lire la vidéo
+  lonks:
+    - label: Lire la vidéo
+      title: Back to back
+      link: https://www.youtube.com/watch?v=Ss5rZhjPZu0&list=PLJ9Q8AvjM2wUYy0gbwK-3Xm0VFnUSFf-R
+    - label: Lire la vidéo
+      title: Interview Canap'
+      link: https://www.youtube.com/watch?v=SeiuRI-jRW8&list=PLJ9Q8AvjM2wVXoaKbaF1f3nMbvfwdsnP2
+    - label: Lire la vidéo
+      title: Cap un jour, cap toujours... et toi ?
+      link: https://www.youtube.com/watch?v=XrTWVGUNjXQ&list=PLJ9Q8AvjM2wVaeynGIgSvk54QHSam9KlK
+    - label: Lire la vidéo
+      title: Once Upon a Time
+      link: https://www.youtube.com/watch?v=uPnqi1PWNB4&list=PLJ9Q8AvjM2wVtwX7YO7idYtWp2gHldhWp
+    - label: Lire la vidéo
+      title: "Ma première fois avec "
+      link: https://www.youtube.com/watch?v=kKIBqOE6LAE&list=PLJ9Q8AvjM2wWSIKB5JCse_7yD0ERxTwpd
