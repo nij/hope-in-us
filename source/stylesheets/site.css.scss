@@ -1195,16 +1195,18 @@ section.page {
   .videos {
     display: flex;
     padding-bottom: 40px;
+    flex-wrap: wrap;
 
     .item {
       width: 310px;
+      margin-right: 10px;
       h4 {
         @include regularFont();
-        font-size: 32px;
+        font-size: 30px;
         line-height: 1em;
         width: 310px;
         height: 175px;
-        padding: 44px 0px 0 140px;
+        padding: 44px 0px 0 135px;
         background-image: url("../images/webtv-bg-01.png");
         background-size: contain;
         background-repeat: no-repeat;
