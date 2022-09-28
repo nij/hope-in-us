@@ -72,10 +72,6 @@ webtv:
   title: La web&nbsp;TV
   intro: Découvrez nos émissions et apprenez comment apporter votre contribution!
   links:
-    - title: Back to&nbsp;back
-      link: nib
-      label: Lire la vidéo
-  lonks:
     - label: Lire la vidéo
       title: Back to back
       link: https://www.youtube.com/watch?v=Ss5rZhjPZu0&list=PLJ9Q8AvjM2wUYy0gbwK-3Xm0VFnUSFf-R
