@@ -66,6 +66,12 @@ tools:
       file: /images/uploads/fiche-youtube-studio-en.pdf
       linkvideo: https://www.youtube.com/watch?v=j4ya-E0GCdE
       textvideo: t﻿exte
+    - title: Google Drive
+      content: Google Drive is a tool that allows you to organize, share and store
+        files and documents for free.
+      file: /images/uploads/tool-sheet-google-drive-en.pdf
+      linkvideo: https://www.youtube.com/watch?v=lKRoeYtz7Q8
+      textvideo: T﻿estimonial
 webtv:
   title: The Web TV
   intro: >-
