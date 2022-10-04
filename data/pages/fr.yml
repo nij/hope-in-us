@@ -67,13 +67,13 @@ tools:
         d'éditer des vidéos et les poster publiquement sur Youtube.
       file: /images/uploads/fiche-youtube-studio-fr.pdf
       linkvideo: https://www.youtube.com/watch?v=j4ya-E0GCdE
-      textvideo: t﻿exte video
+      textvideo: texte video
     - linkvideo: https://www.youtube.com/watch?v=lKRoeYtz7Q8
       file: /images/uploads/fiche-outil-google-drive-fr.pdf
       title: Google Drive
       content: Google Drive est un outil qui va te permettre d’organiser, de partager
         et de stocker des fichiers du pack office gratuitement.
-      textvideo: T﻿émoignage
+      textvideo: Témoignage
 webtv:
   title: La web&nbsp;TV
   intro: Découvrez nos émissions et apprenez comment apporter votre contribution!
