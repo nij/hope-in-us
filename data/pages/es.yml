@@ -72,6 +72,11 @@ tools:
       file: /images/uploads/ficha-de-hrs-google-drive-es-.pdf
       linkvideo: https://www.youtube.com/watch?v=lKRoeYtz7Q8
       textvideo: Testimonio
+    - title: Weward
+      content: Esta aplicación es un buen incentivo para desplazarse a pie.
+      file: /images/uploads/fiche-weward-es.pdf
+      linkvideo: https://youtu.be/aSUS4EKSCM4
+      textvideo: T﻿estimonio
 webtv:
   title: La webTV
   intro: Descubra más sobre nuestros programas y cómo puede contribuir a ellos.
