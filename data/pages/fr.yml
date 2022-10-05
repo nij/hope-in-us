@@ -74,6 +74,11 @@ tools:
       content: Google Drive est un outil qui va te permettre d’organiser, de partager
         et de stocker des fichiers du pack office gratuitement.
       textvideo: Témoignage
+    - title: Weward
+      content: Cette application est une bonne motivation pour se déplacer à pied !
+      file: /images/uploads/fiche-weward-fr.pdf
+      linkvideo: https://youtu.be/aSUS4EKSCM4
+      textvideo: T﻿émoignage
 webtv:
   title: La web&nbsp;TV
   intro: Découvrez nos émissions et apprenez comment apporter votre contribution!
