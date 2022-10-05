@@ -72,6 +72,11 @@ tools:
       file: /images/uploads/tool-sheet-google-drive-en.pdf
       linkvideo: https://www.youtube.com/watch?v=lKRoeYtz7Q8
       textvideo: T﻿estimonial
+    - title: Weward
+      content: This application is a good incentive to get around on foot!
+      file: /images/uploads/fiche-weward-en.pdf
+      linkvideo: https://www.youtube.com/watch?v=aSUS4EKSCM4
+      textvideo: T﻿estimony
 webtv:
   title: The Web TV
   intro: >-
