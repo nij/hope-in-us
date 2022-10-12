@@ -77,6 +77,12 @@ tools:
       file: /images/uploads/fiche-weward-es.pdf
       linkvideo: https://youtu.be/aSUS4EKSCM4
       textvideo: T﻿estimonio
+    - content: La subtitulación de vídeos es una herramienta que te permitirá hacer
+        tus vídeos más accesibles, ya que serán traducidas a otros idiomas.
+      title: SUBTITULADO DE VÍDEOS
+      file: /images/uploads/fiche-sous-titrage-es.pdf
+      textvideo: T﻿estimonio
+      linkvideo: https://youtu.be/BDt8Btz531E?list=PLJ9Q8AvjM2wW8KjsW68IBKdXbHOb04eEe
 webtv:
   title: La webTV
   intro: Descubra más sobre nuestros programas y cómo puede contribuir a ellos.
