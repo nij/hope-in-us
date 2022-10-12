@@ -77,6 +77,12 @@ tools:
       file: /images/uploads/fiche-weward-en.pdf
       linkvideo: https://www.youtube.com/watch?v=aSUS4EKSCM4
       textvideo: T﻿estimony
+    - title: Subtitling on YouTube
+      content: Video subtitling is a tool that will allow you to make your videos more
+        accessible, because they will be translated into other languages.
+      linkvideo: https://youtu.be/BDt8Btz531E
+      textvideo: T﻿estimony
+      file: /images/uploads/fiche-sous-titrage-en.pdf
 webtv:
   title: The Web TV
   intro: >-
