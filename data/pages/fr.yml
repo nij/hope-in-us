@@ -79,6 +79,13 @@ tools:
       file: /images/uploads/fiche-weward-fr.pdf
       linkvideo: https://youtu.be/aSUS4EKSCM4
       textvideo: T﻿émoignage
+    - title: Sous-titrage YouTube
+      content: Le sous-titrage des vidéos est un outil qui va te permettre de rendre
+        tes vidéos plus accessibles, parce qu’elles seront traduites dans
+        d’autres langues.
+      linkvideo: https://youtu.be/BDt8Btz531E
+      file: /images/uploads/fiche-sous-titrage-fr.pdf
+      textvideo: T﻿émoignage
 webtv:
   title: La web&nbsp;TV
   intro: Découvrez nos émissions et apprenez comment apporter votre contribution!
