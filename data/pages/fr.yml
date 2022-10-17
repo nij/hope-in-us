@@ -86,6 +86,12 @@ tools:
       linkvideo: https://youtu.be/BDt8Btz531E
       file: /images/uploads/fiche-sous-titrage-fr.pdf
       textvideo: T﻿émoignage
+    - title: CapCut
+      content: CAPCUT est une application simple et gratuite de montage et d’édition
+        de vidéos sur smartphone ou tablette.
+      linkvideo: https://youtu.be/TWNKzuIehsU
+      textvideo: Témoignage
+      file: /images/uploads/fiche-capcut-fr.pdf
 webtv:
   title: La web&nbsp;TV
   intro: Découvrez nos émissions et apprenez comment apporter votre contribution!
