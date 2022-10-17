@@ -83,6 +83,12 @@ tools:
       linkvideo: https://youtu.be/BDt8Btz531E
       textvideo: T﻿estimony
       file: /images/uploads/fiche-sous-titrage-en.pdf
+    - title: CapCut
+      content: CAPCUT is a simple and free application for editing and publishing
+        videos on a smartphone or tablet.
+      textvideo: T﻿estimony
+      linkvideo: https://youtu.be/TWNKzuIehsU
+      file: /images/uploads/fiche-capcut-en.pdf
 webtv:
   title: The Web TV
   intro: >-
