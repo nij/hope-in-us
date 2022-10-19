@@ -175,6 +175,7 @@ collections:
                 widget: list
                 fields:
                   - {label: Title, name: title, widget: string}
+                  - {label: Tags, name: tags, required: true, widget: select, multiple: true, options: ["education","jobsearch","empowerment","behappy"]}
                   - {label: Contenu, name: content, widget: markdown}
                   - {label: PDF, name: file, widget: file}
                   - {label: Video Youtube, name: linkvideo, widget: string}

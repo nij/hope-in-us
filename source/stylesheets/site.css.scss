@@ -1290,14 +1290,15 @@ section.page {
       flex-wrap: wrap;
 
       .item {
-        width: 300px;
-        margin: 10px 10px 15px 10px;
+        width: 280px;
+        margin: 10px 10px 20px 10px;
 
         h5 {
           @include titleFont();
           font-size: 28px;
           text-transform: uppercase;
-          margin: 0 0 20px 0;
+          margin: 0 0 18px 0;
+          line-height: 0.95em;
         }
         .content {
 
