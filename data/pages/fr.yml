@@ -86,7 +86,7 @@ tools:
       content: Cette application est une bonne motivation pour se déplacer à pied !
       file: /images/uploads/fiche-weward-fr.pdf
       linkvideo: https://youtu.be/aSUS4EKSCM4
-      textvideo: T﻿émoignage
+      textvideo: Témoignage
       tags:
         - empowerment
     - title: Sous-titrage YouTube
@@ -95,7 +95,7 @@ tools:
         d’autres langues.
       linkvideo: https://youtu.be/BDt8Btz531E
       file: /images/uploads/fiche-sous-titrage-fr.pdf
-      textvideo: T﻿émoignage
+      textvideo: Témoignage
       tags:
         - education
     - title: CapCut

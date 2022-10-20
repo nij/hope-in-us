@@ -1283,6 +1283,31 @@ section.page {
         background-image: url("../images/picto-step-3.png");
       }
     }
+    .toolscontrol {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 10px 0px;
+      justify-content: left;
+
+      li {
+        display: block;
+        list-style: none;
+        cursor:pointer;
+        display: block;
+        padding: 5px 8px;
+        border: 1px solid $white;
+        font-weight: bold;
+        margin: 10px 20px;
+        border-radius: 20px;
+
+        &:first-child {
+        }
+        &.reveal {
+          background-color: $yellow;
+          border-color: $yellow;
+        }
+      }
+    }
     .toolslist {
       display: flex;
       justify-content: space-between;
@@ -1291,7 +1316,17 @@ section.page {
 
       .item {
         width: 280px;
-        margin: 10px 10px 20px 10px;
+        margin: 5px 5px 20px 5px;
+        padding: 10px;
+        border: 1px solid rgba(255,255,255,0.0);
+
+        &.reveal {
+          border: 1px solid rgba(255,255,255,0.1);
+          box-shadow: 0 0 2px rgba(20,20,20,0.5);
+          h5 {
+            opacity: 1;
+          }
+        }
 
         h5 {
           @include titleFont();
@@ -1299,6 +1334,7 @@ section.page {
           text-transform: uppercase;
           margin: 0 0 18px 0;
           line-height: 0.95em;
+          opacity: 0.5;
         }
         .content {
 

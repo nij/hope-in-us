@@ -9,9 +9,14 @@ section.page#tools
         .intro 
             h2=data.pages.fr.tools.title
             div=data.pages.fr.tools.intro
-        .toolslist 
+        ul.toolscontrol id="toolscontrol" 
+            li.behappy="#behappy"
+            li.empowerment="#empowerment"
+            li.jobsearch="#jobsearch"
+            li.education="#education"
+        .toolslist id="toolslist"
             - data.pages.fr.tools.files.each do |item|
-                .item
+                .item class=item.tags
                     h5=item.title 
                     div.content
                         = markdown item.content 
