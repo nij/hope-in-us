@@ -107,6 +107,14 @@ tools:
       tags:
         - behappy
         - empowerment
+    - tags:
+        - behappy
+      title: Too Good To Go
+      content: Too Good To Go est une application qui permet à des particuliers
+        d'acheter des produits alimentaires invendus à des petits prix.
+      linkvideo: https://youtu.be/29xsOcrgsW8
+      file: /images/uploads/too-good-to-go-fr.pdf
+      textvideo: Témoignage
 webtv:
   title: La web&nbsp;TV
   intro: Découvrez nos émissions et apprenez comment apporter votre contribution!
