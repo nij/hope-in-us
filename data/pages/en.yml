@@ -89,6 +89,12 @@ tools:
       textvideo: T﻿estimony
       linkvideo: https://youtu.be/TWNKzuIehsU
       file: /images/uploads/fiche-capcut-en.pdf
+    - title: Too Good To Go
+      content: Too Good To Go is an app that connects individuals to buy unsold food
+        from businesses near them for small prices.
+      file: /images/uploads/too-good-to-go-en.pdf
+      linkvideo: https://youtu.be/29xsOcrgsW8
+      textvideo: T﻿estimony
 webtv:
   title: The Web TV
   intro: >-
