@@ -89,6 +89,12 @@ tools:
       linkvideo: https://youtu.be/TWNKzuIehsU
       textvideo: T﻿estimonio
       file: /images/uploads/fiche-capcut-es.pdf
+    - title: Too Good To Go
+      content: Too Good To Go es una aplicación que permite a los particulares comprar
+        productos de alimentación no vendidos a bajo precio.
+      file: /images/uploads/too-good-to-go-es.pdf
+      linkvideo: https://youtu.be/29xsOcrgsW8
+      textvideo: T﻿estimonio
 webtv:
   title: La webTV
   intro: Descubra más sobre nuestros programas y cómo puede contribuir a ellos.
