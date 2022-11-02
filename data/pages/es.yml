@@ -95,6 +95,12 @@ tools:
       file: /images/uploads/too-good-to-go-es.pdf
       linkvideo: https://youtu.be/29xsOcrgsW8
       textvideo: T﻿estimonio
+    - title: Tinkercad
+      content: Tinkercad es una herramienta online gratuita que te introducirá en el
+        mundo del modelado y el diseño en 3D.
+      linkvideo: https://www.youtube.com/watch?v=04vcZd7JQ2Q
+      file: /images/uploads/tinkercad-es.pdf
+      textvideo: T﻿estimonio
 webtv:
   title: La webTV
   intro: Descubra más sobre nuestros programas y cómo puede contribuir a ellos.
