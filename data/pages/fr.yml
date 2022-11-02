@@ -115,6 +115,15 @@ tools:
       linkvideo: https://youtu.be/29xsOcrgsW8
       file: /images/uploads/too-good-to-go-fr.pdf
       textvideo: Témoignage
+    - tags:
+        - education
+        - jobsearch
+      title: Tinkercad
+      content: Tinkercad est un outil en ligne gratuit qui va te permettre de
+        découvrir le monde de la modélisation et de la conception 3D.
+      file: /images/uploads/tinkercad-fr.pdf
+      linkvideo: https://www.youtube.com/watch?v=04vcZd7JQ2Q
+      textvideo: T﻿émoignage
 webtv:
   title: La web&nbsp;TV
   intro: Découvrez nos émissions et apprenez comment apporter votre contribution!
