@@ -116,8 +116,7 @@ tools:
       file: /images/uploads/too-good-to-go-fr.pdf
       textvideo: Témoignage
     - tags:
-        - education
-        - jobsearch
+        - empowerment
       title: Tinkercad
       content: Tinkercad est un outil en ligne gratuit qui va te permettre de
         découvrir le monde de la modélisation et de la conception 3D.
