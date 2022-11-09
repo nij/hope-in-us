@@ -101,6 +101,12 @@ tools:
       linkvideo: https://www.youtube.com/watch?v=04vcZd7JQ2Q
       file: /images/uploads/tinkercad-es.pdf
       textvideo: T﻿estimonio
+    - linkvideo: https://youtu.be/VT8Z904PKp4
+      file: /images/uploads/fiche-sporteasy-es.pdf
+      title: Sporteasy
+      content: Sporteasy es una aplicación que facilita la organización de deportes de
+        equipo.
+      textvideo: T﻿estimonio
 webtv:
   title: La webTV
   intro: Descubra más sobre nuestros programas y cómo puede contribuir a ellos.
