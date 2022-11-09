@@ -123,6 +123,14 @@ tools:
       file: /images/uploads/tinkercad-fr.pdf
       linkvideo: https://www.youtube.com/watch?v=04vcZd7JQ2Q
       textvideo: T﻿émoignage
+    - tags:
+        - behappy
+      title: Sporteasy
+      content: Sporteasy est une application facilitant l'organisation des sports
+        d'équipe.
+      file: /images/uploads/fiche-sporteasy-fr.pdf
+      linkvideo: https://youtu.be/VT8Z904PKp4
+      textvideo: T﻿émoignage
 webtv:
   title: La web&nbsp;TV
   intro: Découvrez nos émissions et apprenez comment apporter votre contribution!
