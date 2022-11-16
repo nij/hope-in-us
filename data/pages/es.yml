@@ -60,52 +60,85 @@ tools:
         idiomas de forma gratuita y divertida.
       linkvideo: https://www.youtube.com/watch?v=7ETLLM9C3bc
       textvideo: video
+      tags:
+        - education
+        - empowerment
     - title: YouTube Studio
       content: Youtube Studio es una plataforma para creadores de vídeos que permite
         editar y compartir vídeos públicamente en Youtube.
       file: /images/uploads/fiche-youtube-studio-es.pdf
       linkvideo: https://www.youtube.com/watch?v=j4ya-E0GCdE
       textvideo: t﻿exte
+      tags:
+        - empowerment
+        - behappy
     - title: Google Drive
       content: Google Drive es una herramienta que te permitirá organizar, compartir y
         almacenar archivos del pack office de forma gratuita.
       file: /images/uploads/ficha-de-hrs-google-drive-es-.pdf
       linkvideo: https://www.youtube.com/watch?v=lKRoeYtz7Q8
       textvideo: Testimonio
+      tags:
+        - education
+        - empowerment
     - title: Weward
       content: Esta aplicación es un buen incentivo para desplazarse a pie.
       file: /images/uploads/fiche-weward-es.pdf
       linkvideo: https://youtu.be/aSUS4EKSCM4
       textvideo: T﻿estimonio
+      tags:
+        - behappy
+        - empowerment
     - content: La subtitulación de vídeos es una herramienta que te permitirá hacer
         tus vídeos más accesibles, ya que serán traducidas a otros idiomas.
       title: SUBTITULADO DE VÍDEOS
       file: /images/uploads/fiche-sous-titrage-es.pdf
       textvideo: T﻿estimonio
       linkvideo: https://youtu.be/BDt8Btz531E?list=PLJ9Q8AvjM2wW8KjsW68IBKdXbHOb04eEe
+      tags:
+        - education
     - title: CapCut
       content: CAPCUT es una aplicación sencilla y gratuita para editar y publicar
         vídeos en un smartphone o una tableta.
       linkvideo: https://youtu.be/TWNKzuIehsU
       textvideo: T﻿estimonio
       file: /images/uploads/fiche-capcut-es.pdf
+      tags:
+        - behappy
+        - empowerment
     - title: Too Good To Go
       content: Too Good To Go es una aplicación que permite a los particulares comprar
         productos de alimentación no vendidos a bajo precio.
       file: /images/uploads/too-good-to-go-es.pdf
       linkvideo: https://youtu.be/29xsOcrgsW8
       textvideo: T﻿estimonio
+      tags:
+        - behappy
     - title: Tinkercad
       content: Tinkercad es una herramienta online gratuita que te introducirá en el
         mundo del modelado y el diseño en 3D.
       linkvideo: https://www.youtube.com/watch?v=04vcZd7JQ2Q
       file: /images/uploads/tinkercad-es.pdf
       textvideo: T﻿estimonio
+      tags:
+        - empowerment
+        - education
     - linkvideo: https://youtu.be/VT8Z904PKp4
       file: /images/uploads/fiche-sporteasy-es.pdf
       title: Sporteasy
       content: Sporteasy es una aplicación que facilita la organización de deportes de
         equipo.
+      textvideo: T﻿estimonio
+      tags:
+        - behappy
+    - tags:
+        - jobsearch
+      title: CV en vídeo
+      linkvideo: https://youtu.be/y_6gKJnXnM4
+      file: /images/uploads/hiu-fiche-outil-cv-video-es.pdf
+      content: El CV vídeo es una herramienta que te permitirá hacer tu perfil más
+        accesible y atractivo, presentando tu perfil en un formato de vídeo
+        corto.
       textvideo: T﻿estimonio
 webtv:
   title: La webTV
