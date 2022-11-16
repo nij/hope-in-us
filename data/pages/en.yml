@@ -60,53 +60,85 @@ tools:
         languages for free in a fun way.
       linkvideo: https://www.youtube.com/watch?v=7ETLLM9C3bc
       textvideo: video
+      tags:
+        - education
+        - empowerment
     - title: YouTube Studio
       content: Youtube Studio is a platform for video makers which allows you to edit
         and share videos publicly on Youtube.
       file: /images/uploads/fiche-youtube-studio-en.pdf
       linkvideo: https://www.youtube.com/watch?v=j4ya-E0GCdE
       textvideo: t﻿exte
+      tags:
+        - empowerment
+        - behappy
     - title: Google Drive
       content: Google Drive is a tool that allows you to organize, share and store
         files and documents for free.
       file: /images/uploads/tool-sheet-google-drive-en.pdf
       linkvideo: https://www.youtube.com/watch?v=lKRoeYtz7Q8
       textvideo: T﻿estimonial
+      tags:
+        - education
+        - empowerment
     - title: Weward
       content: This application is a good incentive to get around on foot!
       file: /images/uploads/fiche-weward-en.pdf
       linkvideo: https://www.youtube.com/watch?v=aSUS4EKSCM4
       textvideo: T﻿estimony
+      tags:
+        - empowerment
+        - behappy
     - title: Subtitling on YouTube
       content: Video subtitling is a tool that will allow you to make your videos more
         accessible, because they will be translated into other languages.
       linkvideo: https://youtu.be/BDt8Btz531E
       textvideo: T﻿estimony
       file: /images/uploads/fiche-sous-titrage-en.pdf
+      tags:
+        - education
     - title: CapCut
       content: CAPCUT is a simple and free application for editing and publishing
         videos on a smartphone or tablet.
       textvideo: T﻿estimony
       linkvideo: https://youtu.be/TWNKzuIehsU
       file: /images/uploads/fiche-capcut-en.pdf
+      tags:
+        - behappy
+        - empowerment
     - title: Too Good To Go
       content: Too Good To Go is an app that connects individuals to buy unsold food
         from businesses near them for small prices.
       file: /images/uploads/too-good-to-go-en.pdf
       linkvideo: https://youtu.be/29xsOcrgsW8
       textvideo: T﻿estimony
+      tags:
+        - behappy
     - title: Tinkercad
       file: /images/uploads/tinkercad-en.pdf
       content: Tinkercad is a free online tool that will introduce you to theworld of
         3D modeling and design
       linkvideo: https://www.youtube.com/watch?v=04vcZd7JQ2Q
       textvideo: T﻿estimony
+      tags:
+        - empowerment
     - title: Sporteasy
       linkvideo: https://youtu.be/VT8Z904PKp4
       content: Sporteasy is an application that facilitates the organisation of team
         sports.
       textvideo: T﻿estimony
       file: /images/uploads/fiche-sporteasy-en.pdf
+      tags:
+        - behappy
+    - tags:
+        - jobsearch
+      title: Video Resume
+      content: The video CV is a tool that will allow you to make your profile more
+        accessible and attractive, by presenting your profile in a short video
+        format.
+      linkvideo: https://youtu.be/y_6gKJnXnM4
+      file: /images/uploads/hiu-fiche-outil-cv-video-en.pdf
+      textvideo: T﻿estimony
 webtv:
   title: The Web TV
   intro: >-
