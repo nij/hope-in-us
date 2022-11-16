@@ -132,6 +132,15 @@ tools:
       file: /images/uploads/fiche-sporteasy-fr.pdf
       linkvideo: https://youtu.be/VT8Z904PKp4
       textvideo: T﻿émoignage
+    - tags:
+        - jobsearch
+      title: CV vidéo
+      content: Le CV vidéo est un outil qui va te permettre de rendre ton profil plus
+        accessible et attrayant, en présentant ton profil sous format vidéo
+        court.
+      file: /images/uploads/hiu-fiche-outil-cv-video-fr.pdf
+      linkvideo: https://www.youtube.com/watch?v=y_6gKJnXnM4
+      textvideo: T﻿émoignage
 webtv:
   title: La web&nbsp;TV
   intro: Découvrez nos émissions et apprenez comment apporter votre contribution!
