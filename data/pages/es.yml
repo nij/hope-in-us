@@ -140,6 +140,14 @@ tools:
         accesible y atractivo, presentando tu perfil en un formato de vídeo
         corto.
       textvideo: T﻿estimonio
+    - tags:
+        - jobsearch
+      title: Linkedin
+      content: LINKEDIN es una red social profesional y un medio de comunicación
+        digital que facilita la búsqueda de empleo, empleados o clientes.
+      linkvideo: https://youtu.be/IvaXP4rYOHM
+      file: /images/uploads/fiche-linkedin-es.pdf
+      textvideo: T﻿estimonio
 webtv:
   title: La webTV
   intro: Descubra más sobre nuestros programas y cómo puede contribuir a ellos.
