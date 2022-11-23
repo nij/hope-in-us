@@ -140,6 +140,14 @@ tools:
       linkvideo: https://youtu.be/y_6gKJnXnM4
       file: /images/uploads/hiu-fiche-outil-cv-video-en.pdf
       textvideo: T﻿estimony
+    - tags:
+        - jobsearch
+      title: Linkedin
+      linkvideo: https://youtu.be/IvaXP4rYOHM
+      content: LINKEDIN is a professional social network and digital media that makes
+        it easy for you to find a job, employees or customers.
+      file: /images/uploads/fiche-linkedin-en.pdf
+      textvideo: T﻿estimony
 webtv:
   title: The Web TV
   intro: >-
