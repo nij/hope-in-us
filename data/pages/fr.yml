@@ -143,6 +143,14 @@ tools:
       file: /images/uploads/hiu-fiche-outil-cv-video-fr.pdf
       linkvideo: https://www.youtube.com/watch?v=y_6gKJnXnM4
       textvideo: T﻿émoignage
+    - tags:
+        - jobsearch
+      title: LinkedIn
+      content: LINKEDIN est un réseau social professionnel et un média digital qui
+        facilite ta recherche d'emploi, de collaborateurs ou de clients.
+      file: /images/uploads/fiche-linkedin-fr.pdf
+      linkvideo: https://youtu.be/IvaXP4rYOHM
+      textvideo: T﻿émoignage
 webtv:
   title: La web&nbsp;TV
   intro: Découvrez nos émissions et apprenez comment apporter votre contribution!
