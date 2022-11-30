@@ -151,6 +151,14 @@ tools:
       file: /images/uploads/fiche-linkedin-fr.pdf
       linkvideo: https://youtu.be/IvaXP4rYOHM
       textvideo: T﻿émoignage
+    - tags:
+        - education
+      title: Doodle
+      content: Doodle est un outil de planification numérique qui te permet de trouver
+        une date et heure pour des réunions de groupe.
+      file: /images/uploads/doodle-fr.pdf
+      linkvideo: https://youtu.be/1pyE8ksU7Uk
+      textvideo: T﻿émoignage
 webtv:
   title: La web&nbsp;TV
   intro: Découvrez nos émissions et apprenez comment apporter votre contribution!
