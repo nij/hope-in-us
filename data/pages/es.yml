@@ -148,6 +148,14 @@ tools:
       linkvideo: https://youtu.be/IvaXP4rYOHM
       file: /images/uploads/fiche-linkedin-es.pdf
       textvideo: T﻿estimonio
+    - tags:
+        - education
+      title: Doodle
+      content: Doodle es una herramienta de programación digital que permite encontrar
+        una fecha y hora para las reuniones de grupo.
+      file: /images/uploads/doodle-es.pdf
+      linkvideo: https://youtu.be/1pyE8ksU7Uk
+      textvideo: T﻿estimonio
 webtv:
   title: La webTV
   intro: Descubra más sobre nuestros programas y cómo puede contribuir a ellos.
