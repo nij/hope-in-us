@@ -148,6 +148,14 @@ tools:
         it easy for you to find a job, employees or customers.
       file: /images/uploads/fiche-linkedin-en.pdf
       textvideo: T﻿estimony
+    - tags:
+        - education
+      title: Doodle
+      linkvideo: https://youtu.be/1pyE8ksU7Uk
+      content: Doodle is a digital scheduling tool that allows you to find a date and
+        time for group meetings.
+      file: /images/uploads/doodle-en.pdf
+      textvideo: T﻿estimony
 webtv:
   title: The Web TV
   intro: >-
