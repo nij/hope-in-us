@@ -156,6 +156,14 @@ tools:
       file: /images/uploads/doodle-es.pdf
       linkvideo: https://youtu.be/1pyE8ksU7Uk
       textvideo: T﻿estimonio
+    - tags:
+        - behappy
+      title: Shazam
+      content: Esta herramienta permite encontrar o descubrir el título de una canción
+        y el nombre de su intérprete en pocos segundos.
+      file: /images/uploads/fiche-shazam-es.pdf
+      linkvideo: https://youtu.be/RRk9aA364zo
+      textvideo: T﻿estimonio
 webtv:
   title: La webTV
   intro: Descubra más sobre nuestros programas y cómo puede contribuir a ellos.
