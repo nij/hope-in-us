@@ -156,6 +156,14 @@ tools:
         time for group meetings.
       file: /images/uploads/doodle-en.pdf
       textvideo: T﻿estimony
+    - tags:
+        - behappy
+      title: Shazam
+      linkvideo: https://youtu.be/RRk9aA364zo
+      content: This tool allows you to find or discover the title of a song and the
+        name of its performer in a few seconds.
+      textvideo: T﻿estimony
+      file: /images/uploads/fiche-shazam-en.pdf
 webtv:
   title: The Web TV
   intro: >-
