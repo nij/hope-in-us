@@ -164,6 +164,14 @@ tools:
         name of its performer in a few seconds.
       textvideo: T﻿estimony
       file: /images/uploads/fiche-shazam-en.pdf
+    - tags:
+        - behappy
+      title: Snapseed
+      linkvideo: https://youtu.be/tanpPrWLXtM
+      file: /images/uploads/hiu-bao-fiche-snapseed-en.pdf
+      content: Snapseed is a tool that allows you to edit and enhance your photos
+        directly on your smartphone.
+      textvideo: T﻿estimony
 webtv:
   title: The Web TV
   intro: >-
