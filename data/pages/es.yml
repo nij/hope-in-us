@@ -164,6 +164,14 @@ tools:
       file: /images/uploads/fiche-shazam-es.pdf
       linkvideo: https://youtu.be/RRk9aA364zo
       textvideo: T﻿estimonio
+    - tags:
+        - behappy
+      linkvideo: https://youtu.be/tanpPrWLXtM
+      content: Snapseed es una herramienta que te permite editar y mejorar tus fotos
+        directamente en tu smartphone.
+      title: Snapseed
+      textvideo: T﻿estimonio
+      file: /images/uploads/hiu-bao-fiche-snapseed-es.pdf
 webtv:
   title: La webTV
   intro: Descubra más sobre nuestros programas y cómo puede contribuir a ellos.
