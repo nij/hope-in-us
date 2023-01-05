@@ -167,6 +167,14 @@ tools:
       file: /images/uploads/fiche-shazam-fr.pdf
       linkvideo: https://youtu.be/RRk9aA364zo
       textvideo: T﻿émoignage
+    - tags:
+        - behappy
+      title: Snapseed
+      content: Snapseed est un outil qui va te permettre de retoucher et améliorer tes
+        photos directement sur ton smartphone.
+      file: /images/uploads/hiu-bao-fiche-snapseed-fr.pdf
+      linkvideo: https://youtu.be/tanpPrWLXtM
+      textvideo: Témoignage
 webtv:
   title: La web&nbsp;TV
   intro: Découvrez nos émissions et apprenez comment apporter votre contribution!
