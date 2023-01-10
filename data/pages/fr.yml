@@ -175,6 +175,15 @@ tools:
       file: /images/uploads/hiu-bao-fiche-snapseed-fr.pdf
       linkvideo: https://youtu.be/tanpPrWLXtM
       textvideo: Témoignage
+    - tags:
+        - jobsearch
+        - empowerment
+      title: Wix
+      content: WIX te permet de créer un site web de manière simple, sans avoir avoir
+        de connaissances en développement web.
+      file: /images/uploads/wix-fr.pdf
+      linkvideo: https://www.youtube.com/watch?v=1oYzBCAMj60
+      textvideo: T﻿émoignage
 webtv:
   title: La web&nbsp;TV
   intro: Découvrez nos émissions et apprenez comment apporter votre contribution!
