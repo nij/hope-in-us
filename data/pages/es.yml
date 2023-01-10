@@ -172,6 +172,15 @@ tools:
       title: Snapseed
       textvideo: T﻿estimonio
       file: /images/uploads/hiu-bao-fiche-snapseed-es.pdf
+    - tags:
+        - jobsearch
+        - empowerment
+      title: Wix
+      linkvideo: https://www.youtube.com/watch?v=1oYzBCAMj60
+      content: WIX te permite crear un sitio web de forma sencilla, sin necesidad de
+        tener conocimientos de programación web.
+      file: /images/uploads/wix-es.pdf
+      textvideo: T﻿estimonio
 webtv:
   title: La webTV
   intro: Descubra más sobre nuestros programas y cómo puede contribuir a ellos.
