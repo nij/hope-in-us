@@ -172,6 +172,15 @@ tools:
       content: Snapseed is a tool that allows you to edit and enhance your photos
         directly on your smartphone.
       textvideo: T﻿estimony
+    - tags:
+        - jobsearch
+        - empowerment
+      linkvideo: https://www.youtube.com/watch?v=1oYzBCAMj60
+      title: Wix
+      content: WIX allows you to create a website in a simple way, without having any
+        knowledge of web development.
+      textvideo: T﻿estimony
+      file: /images/uploads/wix-en.pdf
 webtv:
   title: The Web TV
   intro: >-
