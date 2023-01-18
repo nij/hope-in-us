@@ -181,6 +181,15 @@ tools:
         tener conocimientos de programación web.
       file: /images/uploads/wix-es.pdf
       textvideo: T﻿estimonio
+    - tags:
+        - behappy
+        - education
+      linkvideo: https://youtu.be/D-rAh-56n-8
+      title: Google Arts & Culture
+      textvideo: T﻿estimonio
+      content: Google Arts & Culture es una plataforma en línea de archivos culturales
+        en forma de imágenes, vídeos, juegos y experiencias culturales.
+      file: /images/uploads/gg-arts-culture-es.pdf
 webtv:
   title: La webTV
   intro: Descubra más sobre nuestros programas y cómo puede contribuir a ellos.
