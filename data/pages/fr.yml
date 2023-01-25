@@ -193,6 +193,17 @@ tools:
       file: /images/uploads/gg-arts-culture-fr.pdf
       linkvideo: https://youtu.be/D-rAh-56n-8
       textvideo: T﻿émoignage
+    - tags:
+        - behappy
+        - education
+        - empowerment
+      linkvideo: https://www.youtube.com/watch?v=aSqZvCwTLwk
+      title: Instagram
+      content: Instagram est à la fois un réseau social et une application mobile, qui
+        va te permettre de télécharger des images et des vidéos afin de les
+        partager avec tes proches ou la communauté d’instagrammeurs.
+      file: /images/uploads/instagram-fr.pdf
+      textvideo: T﻿émoignage
 webtv:
   title: La web&nbsp;TV
   intro: Découvrez nos émissions et apprenez comment apporter votre contribution!
