@@ -190,6 +190,17 @@ tools:
       content: Google Arts & Culture es una plataforma en línea de archivos culturales
         en forma de imágenes, vídeos, juegos y experiencias culturales.
       file: /images/uploads/gg-arts-culture-es.pdf
+    - tags:
+        - behappy
+        - education
+        - empowerment
+      title: Instagram
+      linkvideo: https://www.youtube.com/watch?v=aSqZvCwTLwk
+      textvideo: T﻿estimonio
+      file: /images/uploads/instagram-es.pdf
+      content: Instagram es tanto una red social como una aplicación móvil, que te
+        permite subir imágenes y vídeos para compartirlos con tus amigos y
+        familiares o con la comunidad de Instagram.
 webtv:
   title: La webTV
   intro: Descubra más sobre nuestros programas y cómo puede contribuir a ellos.
