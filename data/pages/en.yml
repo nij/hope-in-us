@@ -190,6 +190,17 @@ tools:
       content: Google Arts & Culture is an online platform of cultural archives which
         take the form of images, videos, games and cultural experiences.
       textvideo: T﻿estimony
+    - tags:
+        - education
+        - empowerment
+        - behappy
+      linkvideo: https://www.youtube.com/watch?v=aSqZvCwTLwk
+      content: Instagram is both a social network and a mobile application, which will
+        allow you to upload images and videos in order to share them with your
+        friends or the community of instagrammers.
+      title: Instagram
+      file: /images/uploads/instagram-en.pdf
+      textvideo: T﻿estimony
 webtv:
   title: The Web TV
   intro: >-
