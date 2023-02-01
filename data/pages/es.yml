@@ -201,6 +201,13 @@ tools:
       content: Instagram es tanto una red social como una aplicación móvil, que te
         permite subir imágenes y vídeos para compartirlos con tus amigos y
         familiares o con la comunidad de Instagram.
+    - tags:
+        - behappy
+      title: Tricount
+      linkvideo: https://youtu.be/Tm7hDn9aku0
+      file: /images/uploads/fiche-tricount-es.pdf
+      content: Una app para la contabilidad después de los gastos colectivos.
+      textvideo: T﻿estimonio
 webtv:
   title: La webTV
   intro: Descubra más sobre nuestros programas y cómo puede contribuir a ellos.
