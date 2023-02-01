@@ -201,6 +201,14 @@ tools:
       title: Instagram
       file: /images/uploads/instagram-en.pdf
       textvideo: T﻿estimony
+    - tags:
+        - behappy
+      title: Tricount
+      linkvideo: https://youtu.be/Tm7hDn9aku0
+      textvideo: T﻿estimony
+      file: /images/uploads/fiche-tricount-en.pdf
+      content: An app that helps a group to calculate the balance of collective
+        expenditure
 webtv:
   title: The Web TV
   intro: >-
