@@ -204,6 +204,13 @@ tools:
         partager avec tes proches ou la communauté d’instagrammeurs.
       file: /images/uploads/instagram-fr.pdf
       textvideo: T﻿émoignage
+    - tags:
+        - behappy
+      title: Tricount
+      content: Une application pour faire les comptes après des dépenses collectives.
+      file: /images/uploads/fiche-tricount-fr.pdf
+      linkvideo: https://youtu.be/Tm7hDn9aku0
+      textvideo: T﻿émoignage
 webtv:
   title: La web&nbsp;TV
   intro: Découvrez nos émissions et apprenez comment apporter votre contribution!
