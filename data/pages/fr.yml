@@ -211,6 +211,15 @@ tools:
       file: /images/uploads/fiche-tricount-fr.pdf
       linkvideo: https://youtu.be/Tm7hDn9aku0
       textvideo: T﻿émoignage
+    - tags:
+        - behappy
+      title: Fais ton cinéma
+      content: Le projecteur boite à chaussures est un outil qui va te permettre de
+        visionner tes vidéos et photos au format cinéma, sans devoir dépenser
+        des sommes importantes pour acheter un vidéoprojecteur.
+      file: /images/uploads/hiu-bao-fiche-fais-ton-cinema-fr.pdf
+      linkvideo: https://youtu.be/PFvUraiA6cY
+      textvideo: T﻿émoignage
 webtv:
   title: La web&nbsp;TV
   intro: Découvrez nos émissions et apprenez comment apporter votre contribution!
