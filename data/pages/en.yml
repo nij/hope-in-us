@@ -209,6 +209,16 @@ tools:
       file: /images/uploads/fiche-tricount-en.pdf
       content: An app that helps a group to calculate the balance of collective
         expenditure
+    - tags:
+        - behappy
+        - education
+      title: Make your cinema
+      content: The shoebox projector is a tool that will allow you to view your videos
+        and photos in cinema format, without having to spend large sums to buy a
+        video projector.
+      file: /images/uploads/hiu-bao-fiche-fais-ton-cinema-en.pdf
+      linkvideo: https://youtu.be/PFvUraiA6cY
+      textvideo: T﻿estimony
 webtv:
   title: The Web TV
   intro: >-
