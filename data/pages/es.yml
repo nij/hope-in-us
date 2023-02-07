@@ -208,6 +208,16 @@ tools:
       file: /images/uploads/fiche-tricount-es.pdf
       content: Una app para la contabilidad después de los gastos colectivos.
       textvideo: T﻿estimonio
+    - tags:
+        - behappy
+        - education
+      title: Haz tu propio cine
+      linkvideo: https://youtu.be/PFvUraiA6cY
+      textvideo: T﻿estimonio
+      content: El proyector caja de zapatos es una herramienta que te permitirá ver
+        tus vídeos y fotos en formato de cine, sin tener que gastarte mucho
+        dinero en un proyector de vídeo.
+      file: /images/uploads/hiu-bao-fiche-fais-ton-cinema-es.pdf
 webtv:
   title: La webTV
   intro: Descubra más sobre nuestros programas y cómo puede contribuir a ellos.
