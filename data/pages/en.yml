@@ -219,6 +219,16 @@ tools:
       file: /images/uploads/hiu-bao-fiche-fais-ton-cinema-en.pdf
       linkvideo: https://youtu.be/PFvUraiA6cY
       textvideo: T﻿estimony
+    - tags:
+        - education
+        - behappy
+      linkvideo: https://youtu.be/hu0bKKX_0RU
+      title: Kahoot!
+      content: Kahoot! is an online platform for learning in a playful way. The
+        "Kahoots" are multiple choice quizzes that allow several users to play
+        simultaneously.
+      file: /images/uploads/kahoot-en.pdf
+      textvideo: T﻿estimony
 webtv:
   title: The Web TV
   intro: >-
