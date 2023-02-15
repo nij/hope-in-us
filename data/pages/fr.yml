@@ -221,6 +221,16 @@ tools:
       file: /images/uploads/hiu-bao-fiche-fais-ton-cinema-fr.pdf
       linkvideo: https://youtu.be/PFvUraiA6cY
       textvideo: T﻿émoignage
+    - tags:
+        - education
+        - behappy
+      title: Kahoot!
+      content: Kahoot! est une plate-forme en ligne qui permet d’apprendre de manière
+        ludique. Les "Kahoots", sont des questionnaires à choix multiples qui
+        permettent à plusieurs utilisateurs de jouer simultanément.
+      file: /images/uploads/kahoot-fr.pdf
+      linkvideo: https://youtu.be/hu0bKKX_0RU
+      textvideo: Témoignage
 webtv:
   title: La web&nbsp;TV
   intro: Découvrez nos émissions et apprenez comment apporter votre contribution!
