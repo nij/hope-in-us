@@ -218,6 +218,16 @@ tools:
         tus vídeos y fotos en formato de cine, sin tener que gastarte mucho
         dinero en un proyector de vídeo.
       file: /images/uploads/hiu-bao-fiche-fais-ton-cinema-es.pdf
+    - tags:
+        - education
+        - behappy
+      title: Kahoot!
+      linkvideo: https://youtu.be/hu0bKKX_0RU
+      textvideo: T﻿estimonio
+      content: Kahoot! es una plataforma en línea para aprender de forma divertida.
+        Los "Kahoots" son cuestionarios de opción múltiple que permiten jugar a
+        varios usuarios simultáneamente.
+      file: /images/uploads/kahoot-es.pdf
 webtv:
   title: La webTV
   intro: Descubra más sobre nuestros programas y cómo puede contribuir a ellos.
