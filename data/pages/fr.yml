@@ -231,6 +231,18 @@ tools:
       file: /images/uploads/kahoot-fr.pdf
       linkvideo: https://youtu.be/hu0bKKX_0RU
       textvideo: Témoignage
+    - tags:
+        - behappy
+        - empowerment
+        - education
+        - jobsearch
+      title: Filmer avec son smartphone
+      content: Filmer avec ton Smartphone te permet de capturer des moments précieux
+        avec ta famille ou tes amis. Tu peux aussi l’utiliser pour faire par
+        exemple des interviews, un vlog (vidéo blog) ou même un tuto !
+      file: /images/uploads/filmer-avec-son-smartphone-fr.pdf
+      linkvideo: https://youtu.be/Wsykm7RYAWE
+      textvideo: T﻿émoignage
 webtv:
   title: La web&nbsp;TV
   intro: Découvrez nos émissions et apprenez comment apporter votre contribution!
