@@ -228,6 +228,18 @@ tools:
         Los "Kahoots" son cuestionarios de opción múltiple que permiten jugar a
         varios usuarios simultáneamente.
       file: /images/uploads/kahoot-es.pdf
+    - tags:
+        - behappy
+        - empowerment
+        - education
+        - jobsearch
+      linkvideo: https://youtu.be/Wsykm7RYAWE
+      file: /images/uploads/filmer-avec-son-smartphone-es.pdf
+      textvideo: T﻿estimonio
+      title: FILMAR CON TU SMARTPHONE
+      content: Filmar con tu Smartphone te permite capturar momentos con tu familia,
+        amigos o desconocidos. Puedes utilizarlo para hacer entrevistas, vlogs
+        (videoblogs) o un tutorial. ¡Sé creativo!
 webtv:
   title: La webTV
   intro: Descubra más sobre nuestros programas y cómo puede contribuir a ellos.
