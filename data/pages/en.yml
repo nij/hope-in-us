@@ -229,6 +229,18 @@ tools:
         simultaneously.
       file: /images/uploads/kahoot-en.pdf
       textvideo: T﻿estimony
+    - tags:
+        - behappy
+        - empowerment
+        - education
+        - jobsearch
+      linkvideo: https://youtu.be/Wsykm7RYAWE
+      file: /images/uploads/filmer-avec-son-smartphone-en.pdf
+      content: Filming with your Smartphone allows you to capture moments with your
+        family, friends or strangers. You can use it to make interviews, vlogs
+        (video blogs) or a tutorial. Be creative !
+      title: FILMING WITH YOUR SMARTPHONE
+      textvideo: T﻿estimony
 webtv:
   title: The Web TV
   intro: >-
