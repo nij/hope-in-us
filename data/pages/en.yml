@@ -250,6 +250,14 @@ tools:
         while listening to local radio and street sounds in real time.
       file: /images/uploads/tool-sheet-transit-en-2-.pdf
       textvideo: T﻿estimony
+    - tags:
+        - behappy
+        - empowerment
+      linkvideo: https://www.youtube.com/watch?v=ELX-llHqMZA
+      textvideo: T﻿estimony
+      file: /images/uploads/fiche-outil-clipchamp-en.pdf
+      title: Clipchamp
+      content: Clipchamp is a free and simple video editing software.
 webtv:
   title: The Web TV
   intro: >-
