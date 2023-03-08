@@ -252,6 +252,14 @@ tools:
       linkvideo: https://www.youtube.com/watch?v=dZeAitjvkas
       textvideo: T﻿émoignage
       file: /images/uploads/fiches-outils-transit-fr-3-.pdf
+    - tags:
+        - behappy
+        - empowerment
+      title: Clipchamp
+      content: Clipchamp est un logiciel de montage vidéo simple et gratuit.
+      file: /images/uploads/fiche-outil-clipchamp-fr.pdf
+      linkvideo: https://www.youtube.com/watch?v=ELX-llHqMZA
+      textvideo: T﻿émoignage
 webtv:
   title: La web&nbsp;TV
   intro: Découvrez nos émissions et apprenez comment apporter votre contribution!
