@@ -250,6 +250,14 @@ tools:
         mientras escuchas la radio local y los sonidos de la vida en la calle en
         tiempo real.
       file: /images/uploads/ficha-de-hrs-transit-es-3-.pdf
+    - tags:
+        - empowerment
+        - behappy
+      linkvideo: https://www.youtube.com/watch?v=ELX-llHqMZA
+      title: Clipchamp
+      content: Clipchamp es un software de edición de vídeo sencillo y gratis.
+      file: /images/uploads/fiche-outil-clipchamp-es.pdf
+      textvideo: T﻿estimonio
 webtv:
   title: La webTV
   intro: Descubra más sobre nuestros programas y cómo puede contribuir a ellos.
