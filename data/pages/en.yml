@@ -68,7 +68,7 @@ tools:
         and share videos publicly on Youtube.
       file: /images/uploads/fiche-youtube-studio-en.pdf
       linkvideo: https://www.youtube.com/watch?v=j4ya-E0GCdE
-      textvideo: t﻿exte
+      textvideo: texte
       tags:
         - empowerment
         - behappy
@@ -77,7 +77,7 @@ tools:
         files and documents for free.
       file: /images/uploads/tool-sheet-google-drive-en.pdf
       linkvideo: https://www.youtube.com/watch?v=lKRoeYtz7Q8
-      textvideo: T﻿estimonial
+      textvideo: Testimonial
       tags:
         - education
         - empowerment
@@ -85,7 +85,7 @@ tools:
       content: This application is a good incentive to get around on foot!
       file: /images/uploads/fiche-weward-en.pdf
       linkvideo: https://www.youtube.com/watch?v=aSUS4EKSCM4
-      textvideo: T﻿estimony
+      textvideo: Testimony
       tags:
         - empowerment
         - behappy
@@ -93,14 +93,14 @@ tools:
       content: Video subtitling is a tool that will allow you to make your videos more
         accessible, because they will be translated into other languages.
       linkvideo: https://youtu.be/BDt8Btz531E
-      textvideo: T﻿estimony
+      textvideo: Testimony
       file: /images/uploads/fiche-sous-titrage-en.pdf
       tags:
         - education
     - title: CapCut
       content: CAPCUT is a simple and free application for editing and publishing
         videos on a smartphone or tablet.
-      textvideo: T﻿estimony
+      textvideo: Testimony
       linkvideo: https://youtu.be/TWNKzuIehsU
       file: /images/uploads/fiche-capcut-en.pdf
       tags:
@@ -111,7 +111,7 @@ tools:
         from businesses near them for small prices.
       file: /images/uploads/too-good-to-go-en.pdf
       linkvideo: https://youtu.be/29xsOcrgsW8
-      textvideo: T﻿estimony
+      textvideo: Testimony
       tags:
         - behappy
     - title: Tinkercad
@@ -119,7 +119,7 @@ tools:
       content: Tinkercad is a free online tool that will introduce you to theworld of
         3D modeling and design
       linkvideo: https://www.youtube.com/watch?v=04vcZd7JQ2Q
-      textvideo: T﻿estimony
+      textvideo: Testimony
       tags:
         - empowerment
         - education
@@ -127,7 +127,7 @@ tools:
       linkvideo: https://youtu.be/VT8Z904PKp4
       content: Sporteasy is an application that facilitates the organisation of team
         sports.
-      textvideo: T﻿estimony
+      textvideo: Testimony
       file: /images/uploads/fiche-sporteasy-en.pdf
       tags:
         - behappy
@@ -139,7 +139,7 @@ tools:
         format.
       linkvideo: https://youtu.be/y_6gKJnXnM4
       file: /images/uploads/hiu-fiche-outil-cv-video-en.pdf
-      textvideo: T﻿estimony
+      textvideo: Testimony
     - tags:
         - jobsearch
       title: Linkedin
@@ -147,7 +147,7 @@ tools:
       content: LINKEDIN is a professional social network and digital media that makes
         it easy for you to find a job, employees or customers.
       file: /images/uploads/fiche-linkedin-en.pdf
-      textvideo: T﻿estimony
+      textvideo: Testimony
     - tags:
         - education
       title: Doodle
@@ -155,14 +155,14 @@ tools:
       content: Doodle is a digital scheduling tool that allows you to find a date and
         time for group meetings.
       file: /images/uploads/doodle-en.pdf
-      textvideo: T﻿estimony
+      textvideo: Testimony
     - tags:
         - behappy
       title: Shazam
       linkvideo: https://youtu.be/RRk9aA364zo
       content: This tool allows you to find or discover the title of a song and the
         name of its performer in a few seconds.
-      textvideo: T﻿estimony
+      textvideo: Testimony
       file: /images/uploads/fiche-shazam-en.pdf
     - tags:
         - behappy
@@ -171,7 +171,7 @@ tools:
       file: /images/uploads/hiu-bao-fiche-snapseed-en.pdf
       content: Snapseed is a tool that allows you to edit and enhance your photos
         directly on your smartphone.
-      textvideo: T﻿estimony
+      textvideo: Testimony
     - tags:
         - jobsearch
         - empowerment
@@ -179,7 +179,7 @@ tools:
       title: Wix
       content: WIX allows you to create a website in a simple way, without having any
         knowledge of web development.
-      textvideo: T﻿estimony
+      textvideo: Testimony
       file: /images/uploads/wix-en.pdf
     - tags:
         - behappy
@@ -189,7 +189,7 @@ tools:
       file: /images/uploads/gg-arts-culture-en.pdf
       content: Google Arts & Culture is an online platform of cultural archives which
         take the form of images, videos, games and cultural experiences.
-      textvideo: T﻿estimony
+      textvideo: Testimony
     - tags:
         - education
         - empowerment
@@ -200,12 +200,12 @@ tools:
         friends or the community of instagrammers.
       title: Instagram
       file: /images/uploads/instagram-en.pdf
-      textvideo: T﻿estimony
+      textvideo: Testimony
     - tags:
         - behappy
       title: Tricount
       linkvideo: https://youtu.be/Tm7hDn9aku0
-      textvideo: T﻿estimony
+      textvideo: Testimony
       file: /images/uploads/fiche-tricount-en.pdf
       content: An app that helps a group to calculate the balance of collective
         expenditure
@@ -218,7 +218,7 @@ tools:
         video projector.
       file: /images/uploads/hiu-bao-fiche-fais-ton-cinema-en.pdf
       linkvideo: https://youtu.be/PFvUraiA6cY
-      textvideo: T﻿estimony
+      textvideo: Testimony
     - tags:
         - education
         - behappy
@@ -228,7 +228,7 @@ tools:
         "Kahoots" are multiple choice quizzes that allow several users to play
         simultaneously.
       file: /images/uploads/kahoot-en.pdf
-      textvideo: T﻿estimony
+      textvideo: Testimony
     - tags:
         - behappy
         - empowerment
@@ -240,7 +240,7 @@ tools:
         family, friends or strangers. You can use it to make interviews, vlogs
         (video blogs) or a tutorial. Be creative !
       title: FILMING WITH YOUR SMARTPHONE
-      textvideo: T﻿estimony
+      textvideo: Testimony
     - tags:
         - behappy
       linkvideo: https://www.youtube.com/watch?v=dZeAitjvkas
@@ -249,12 +249,12 @@ tools:
         you to virtually drive through more than 50 cities around the world
         while listening to local radio and street sounds in real time.
       file: /images/uploads/tool-sheet-transit-en-2-.pdf
-      textvideo: T﻿estimony
+      textvideo: Testimony
     - tags:
         - behappy
         - empowerment
       linkvideo: https://www.youtube.com/watch?v=ELX-llHqMZA
-      textvideo: T﻿estimony
+      textvideo: Testimony
       file: /images/uploads/fiche-outil-clipchamp-en.pdf
       title: Clipchamp
       content: Clipchamp is a free and simple video editing software.

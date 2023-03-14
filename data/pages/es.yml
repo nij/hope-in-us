@@ -68,7 +68,7 @@ tools:
         editar y compartir vídeos públicamente en Youtube.
       file: /images/uploads/fiche-youtube-studio-es.pdf
       linkvideo: https://www.youtube.com/watch?v=j4ya-E0GCdE
-      textvideo: t﻿exte
+      textvideo: texte
       tags:
         - empowerment
         - behappy
@@ -85,7 +85,7 @@ tools:
       content: Esta aplicación es un buen incentivo para desplazarse a pie.
       file: /images/uploads/fiche-weward-es.pdf
       linkvideo: https://youtu.be/aSUS4EKSCM4
-      textvideo: T﻿estimonio
+      textvideo: Testimonio
       tags:
         - behappy
         - empowerment
@@ -93,7 +93,7 @@ tools:
         tus vídeos más accesibles, ya que serán traducidas a otros idiomas.
       title: SUBTITULADO DE VÍDEOS
       file: /images/uploads/fiche-sous-titrage-es.pdf
-      textvideo: T﻿estimonio
+      textvideo: Testimonio
       linkvideo: https://youtu.be/BDt8Btz531E?list=PLJ9Q8AvjM2wW8KjsW68IBKdXbHOb04eEe
       tags:
         - education
@@ -101,7 +101,7 @@ tools:
       content: CAPCUT es una aplicación sencilla y gratuita para editar y publicar
         vídeos en un smartphone o una tableta.
       linkvideo: https://youtu.be/TWNKzuIehsU
-      textvideo: T﻿estimonio
+      textvideo: Testimonio
       file: /images/uploads/fiche-capcut-es.pdf
       tags:
         - behappy
@@ -111,7 +111,7 @@ tools:
         productos de alimentación no vendidos a bajo precio.
       file: /images/uploads/too-good-to-go-es.pdf
       linkvideo: https://youtu.be/29xsOcrgsW8
-      textvideo: T﻿estimonio
+      textvideo: Testimonio
       tags:
         - behappy
     - title: Tinkercad
@@ -119,7 +119,7 @@ tools:
         mundo del modelado y el diseño en 3D.
       linkvideo: https://www.youtube.com/watch?v=04vcZd7JQ2Q
       file: /images/uploads/tinkercad-es.pdf
-      textvideo: T﻿estimonio
+      textvideo: Testimonio
       tags:
         - empowerment
         - education
@@ -128,7 +128,7 @@ tools:
       title: Sporteasy
       content: Sporteasy es una aplicación que facilita la organización de deportes de
         equipo.
-      textvideo: T﻿estimonio
+      textvideo: Testimonio
       tags:
         - behappy
     - tags:
@@ -139,7 +139,7 @@ tools:
       content: El CV vídeo es una herramienta que te permitirá hacer tu perfil más
         accesible y atractivo, presentando tu perfil en un formato de vídeo
         corto.
-      textvideo: T﻿estimonio
+      textvideo: Testimonio
     - tags:
         - jobsearch
       title: Linkedin
@@ -147,7 +147,7 @@ tools:
         digital que facilita la búsqueda de empleo, empleados o clientes.
       linkvideo: https://youtu.be/IvaXP4rYOHM
       file: /images/uploads/fiche-linkedin-es.pdf
-      textvideo: T﻿estimonio
+      textvideo: Testimonio
     - tags:
         - education
       title: Doodle
@@ -155,7 +155,7 @@ tools:
         una fecha y hora para las reuniones de grupo.
       file: /images/uploads/doodle-es.pdf
       linkvideo: https://youtu.be/1pyE8ksU7Uk
-      textvideo: T﻿estimonio
+      textvideo: Testimonio
     - tags:
         - behappy
       title: Shazam
@@ -163,14 +163,14 @@ tools:
         y el nombre de su intérprete en pocos segundos.
       file: /images/uploads/fiche-shazam-es.pdf
       linkvideo: https://youtu.be/RRk9aA364zo
-      textvideo: T﻿estimonio
+      textvideo: Testimonio
     - tags:
         - behappy
       linkvideo: https://youtu.be/tanpPrWLXtM
       content: Snapseed es una herramienta que te permite editar y mejorar tus fotos
         directamente en tu smartphone.
       title: Snapseed
-      textvideo: T﻿estimonio
+      textvideo: Testimonio
       file: /images/uploads/hiu-bao-fiche-snapseed-es.pdf
     - tags:
         - jobsearch
@@ -180,13 +180,13 @@ tools:
       content: WIX te permite crear un sitio web de forma sencilla, sin necesidad de
         tener conocimientos de programación web.
       file: /images/uploads/wix-es.pdf
-      textvideo: T﻿estimonio
+      textvideo: Testimonio
     - tags:
         - behappy
         - education
       linkvideo: https://youtu.be/D-rAh-56n-8
       title: Google Arts & Culture
-      textvideo: T﻿estimonio
+      textvideo: Testimonio
       content: Google Arts & Culture es una plataforma en línea de archivos culturales
         en forma de imágenes, vídeos, juegos y experiencias culturales.
       file: /images/uploads/gg-arts-culture-es.pdf
@@ -196,7 +196,7 @@ tools:
         - empowerment
       title: Instagram
       linkvideo: https://www.youtube.com/watch?v=aSqZvCwTLwk
-      textvideo: T﻿estimonio
+      textvideo: Testimonio
       file: /images/uploads/instagram-es.pdf
       content: Instagram es tanto una red social como una aplicación móvil, que te
         permite subir imágenes y vídeos para compartirlos con tus amigos y
@@ -207,13 +207,13 @@ tools:
       linkvideo: https://youtu.be/Tm7hDn9aku0
       file: /images/uploads/fiche-tricount-es.pdf
       content: Una app para la contabilidad después de los gastos colectivos.
-      textvideo: T﻿estimonio
+      textvideo: Testimonio
     - tags:
         - behappy
         - education
       title: Haz tu propio cine
       linkvideo: https://youtu.be/PFvUraiA6cY
-      textvideo: T﻿estimonio
+      textvideo: Testimonio
       content: El proyector caja de zapatos es una herramienta que te permitirá ver
         tus vídeos y fotos en formato de cine, sin tener que gastarte mucho
         dinero en un proyector de vídeo.
@@ -223,7 +223,7 @@ tools:
         - behappy
       title: Kahoot!
       linkvideo: https://youtu.be/hu0bKKX_0RU
-      textvideo: T﻿estimonio
+      textvideo: Testimonio
       content: Kahoot! es una plataforma en línea para aprender de forma divertida.
         Los "Kahoots" son cuestionarios de opción múltiple que permiten jugar a
         varios usuarios simultáneamente.
@@ -235,7 +235,7 @@ tools:
         - jobsearch
       linkvideo: https://youtu.be/Wsykm7RYAWE
       file: /images/uploads/filmer-avec-son-smartphone-es.pdf
-      textvideo: T﻿estimonio
+      textvideo: Testimonio
       title: FILMAR CON TU SMARTPHONE
       content: Filmar con tu Smartphone te permite capturar momentos con tu familia,
         amigos o desconocidos. Puedes utilizarlo para hacer entrevistas, vlogs
@@ -243,7 +243,7 @@ tools:
     - tags:
         - behappy
       linkvideo: https://www.youtube.com/watch?v=dZeAitjvkas
-      textvideo: T﻿estimonio
+      textvideo: Testimonio
       title: Drive & Listen
       content: Drive and Listen es un sitio web y una aplicación móvil que te
         permitirá conducir virtualmente por más de 50 ciudades de todo el mundo
@@ -257,7 +257,7 @@ tools:
       title: Clipchamp
       content: Clipchamp es un software de edición de vídeo sencillo y gratis.
       file: /images/uploads/fiche-outil-clipchamp-es.pdf
-      textvideo: T﻿estimonio
+      textvideo: Testimonio
 webtv:
   title: La webTV
   intro: Descubra más sobre nuestros programas y cómo puede contribuir a ellos.
