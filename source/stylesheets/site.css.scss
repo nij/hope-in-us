@@ -1149,6 +1149,10 @@ section.page {
         background-position: center center;
       }
     }
+    h3 {
+      text-align: center;
+      color: $yellow;
+    }
     div {
       padding-left: 230px;
       margin-top: -20px;
@@ -1172,7 +1176,7 @@ section.page {
     flex-wrap: wrap;
     justify-content: space-between;
     background-image: url("../images/bg-step-1.png");
-    background-size: contain;
+    background-size:cover;
     background-repeat: repeat;
     background-position: center;
 
@@ -1276,6 +1280,10 @@ section.page {
         background-image: url("../images/picto-step-1.png");
       }
     }
+    .intro h3 {
+      text-align: center;
+      color: $yellow;
+    }
   }
   &#tools {
     .intro h2 {
@@ -1316,28 +1324,37 @@ section.page {
 
       .item {
         width: 280px;
-        margin: 5px 5px 20px 5px;
-        padding: 10px;
+        margin: 8px 5px 20px 5px;
+        padding: 14px;
         border: 1px solid rgba(255,255,255,0.0);
+        display: none;
 
         &.reveal {
           border: 1px solid rgba(255,255,255,0.1);
           box-shadow: 0 0 2px rgba(20,20,20,0.5);
+          border-radius: 8px;
           h5 {
             opacity: 1;
+          }
+          display: block;
+
+          &.ext {
+            background-color: rgba(219,127,124,.7);
           }
         }
 
         h5 {
           @include titleFont();
-          font-size: 28px;
+          font-size: 24px;
           text-transform: uppercase;
           margin: 0 0 18px 0;
           line-height: 0.95em;
           opacity: 0.5;
         }
         .content {
-
+          p {
+            line-height: 1.4em;
+          }
         }
         a.link {
           display: block;

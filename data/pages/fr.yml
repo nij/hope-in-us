@@ -47,6 +47,7 @@ community:
         international afin de définir de nouvelles stratégies culturelles, pour
         les entreprises privées, les associations, les fondations et les
         institutions publiques, afin d’améliorer la société.
+  subtitle: Ils nous ont rejoins
 tools:
   title: La boite à outils
   intro: Pour chaque outil, vous trouverez ici une fiche vous permettant de
@@ -125,7 +126,7 @@ tools:
         découvrir le monde de la modélisation et de la conception 3D.
       file: /images/uploads/tinkercad-fr.pdf
       linkvideo: https://www.youtube.com/watch?v=04vcZd7JQ2Q
-      textvideo: T﻿émoignage
+      textvideo: Témoignage
     - tags:
         - behappy
       title: Sporteasy
@@ -133,7 +134,7 @@ tools:
         d'équipe.
       file: /images/uploads/fiche-sporteasy-fr.pdf
       linkvideo: https://youtu.be/VT8Z904PKp4
-      textvideo: T﻿émoignage
+      textvideo: Témoignage
     - tags:
         - jobsearch
       title: CV vidéo
@@ -142,7 +143,7 @@ tools:
         court.
       file: /images/uploads/hiu-fiche-outil-cv-video-fr.pdf
       linkvideo: https://www.youtube.com/watch?v=y_6gKJnXnM4
-      textvideo: T﻿émoignage
+      textvideo: Témoignage
     - tags:
         - jobsearch
       title: Linkedin
@@ -150,7 +151,7 @@ tools:
         facilite ta recherche d'emploi, de collaborateurs ou de clients.
       file: /images/uploads/fiche-linkedin-fr.pdf
       linkvideo: https://youtu.be/IvaXP4rYOHM
-      textvideo: T﻿émoignage
+      textvideo: Témoignage
     - tags:
         - education
       title: Doodle
@@ -158,7 +159,7 @@ tools:
         une date et heure pour des réunions de groupe.
       file: /images/uploads/doodle-fr.pdf
       linkvideo: https://youtu.be/1pyE8ksU7Uk
-      textvideo: T﻿émoignage
+      textvideo: Témoignage
     - tags:
         - behappy
       title: Shazam
@@ -166,7 +167,7 @@ tools:
         et le nom de son interprète en quelques secondes.
       file: /images/uploads/fiche-shazam-fr.pdf
       linkvideo: https://youtu.be/RRk9aA364zo
-      textvideo: T﻿émoignage
+      textvideo: Témoignage
     - tags:
         - behappy
       title: Snapseed
@@ -183,7 +184,7 @@ tools:
         de connaissances en développement web.
       file: /images/uploads/wix-fr.pdf
       linkvideo: https://www.youtube.com/watch?v=1oYzBCAMj60
-      textvideo: T﻿émoignage
+      textvideo: Témoignage
     - tags:
         - behappy
         - education
@@ -192,7 +193,7 @@ tools:
         culturelles sous forme d'images, vidéos, jeux et expériences cuturelles.
       file: /images/uploads/gg-arts-culture-fr.pdf
       linkvideo: https://youtu.be/D-rAh-56n-8
-      textvideo: T﻿émoignage
+      textvideo: Témoignage
     - tags:
         - behappy
         - education
@@ -203,14 +204,14 @@ tools:
         va te permettre de télécharger des images et des vidéos afin de les
         partager avec tes proches ou la communauté d’instagrammeurs.
       file: /images/uploads/instagram-fr.pdf
-      textvideo: T﻿émoignage
+      textvideo: Témoignage
     - tags:
         - behappy
       title: Tricount
       content: Une application pour faire les comptes après des dépenses collectives.
       file: /images/uploads/fiche-tricount-fr.pdf
       linkvideo: https://youtu.be/Tm7hDn9aku0
-      textvideo: T﻿émoignage
+      textvideo: Témoignage
     - tags:
         - behappy
         - education
@@ -220,7 +221,7 @@ tools:
         des sommes importantes pour acheter un vidéoprojecteur.
       file: /images/uploads/hiu-bao-fiche-fais-ton-cinema-fr.pdf
       linkvideo: https://youtu.be/PFvUraiA6cY
-      textvideo: T﻿émoignage
+      textvideo: Témoignage
     - tags:
         - education
         - behappy
@@ -242,7 +243,7 @@ tools:
         exemple des interviews, un vlog (vidéo blog) ou même un tuto !
       file: /images/uploads/filmer-avec-son-smartphone-fr.pdf
       linkvideo: https://youtu.be/Wsykm7RYAWE
-      textvideo: T﻿émoignage
+      textvideo: Témoignage
     - tags:
         - behappy
       title: Drive & Listen
@@ -250,7 +251,7 @@ tools:
         permet de conduire virtuellement à travers plus de 50 villes du monde
         tout en écoutant la radio locale et les sons de la rue en temps réel.
       linkvideo: https://www.youtube.com/watch?v=dZeAitjvkas
-      textvideo: T﻿émoignage
+      textvideo: Témoignage
       file: /images/uploads/fiches-outils-transit-fr-3-.pdf
     - tags:
         - behappy
@@ -259,7 +260,14 @@ tools:
       content: Clipchamp est un logiciel de montage vidéo simple et gratuit.
       file: /images/uploads/fiche-outil-clipchamp-fr.pdf
       linkvideo: https://www.youtube.com/watch?v=ELX-llHqMZA
-      textvideo: T﻿émoignage
+      textvideo: Témoignage
+  externe:
+    - title: Outils externes
+      content: à venir...
+      file: /images/uploads/fiche-duolingo-vf.pdf
+      tags:
+        - education
+        - empowerment
 webtv:
   title: La web&nbsp;TV
   intro: Découvrez nos émissions et apprenez comment apporter votre contribution!

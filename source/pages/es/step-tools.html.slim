@@ -9,9 +9,14 @@ section.page#tools
         .intro 
             h2=data.pages.es.tools.title
             div=data.pages.es.tools.intro
-        .toolslist 
+        ul.toolscontrol id="toolscontrol" 
+            li.behappy="#behappy"
+            li.empowerment="#empowerment"
+            li.jobsearch="#jobsearch"
+            li.education="#education"
+        .toolslist id="toolslist"
             - data.pages.es.tools.files.each do |item|
-                .item
+                .item.reveal class=item.tags
                     h5=item.title 
                     div.content
                         = markdown item.content 
@@ -19,3 +24,12 @@ section.page#tools
                         = "Descargar el archivo"
                     a.link.video href=item.linkvideo target="blank"
                         = "Mira el video"
+            - if data.pages.es.tools.externe?
+                data.pages.es.tools.externe.each do |item|
+                    .item.ext.reveal class=item.tags
+                        h5
+                            =item.title 
+                        div.content
+                            = markdown item.content 
+                        a.link.file href=item.file target="blank"
+                            = "Descargar el archivo"

@@ -14,4 +14,24 @@ section.page#community
                     .title=item.title
                     .content=item.content
                     a.link href=item.link
-                        = "Aller sur le site"
+                        = "website"
+        - if data.pages.en.community.members?
+            .intro 
+                h3=data.pages.en.community.subtitle
+            .items 
+                - data.pages.en.community.members.each do |item|
+                    .item 
+                        .title=item.title
+                        .content=item.content
+                        - if item.link?
+                            a.link href=item.link
+                                = "website"
+section.contact#contact
+    .bg
+    .inside
+        h2.subtitle data-aos="fade-up"
+            = "JOIN US"
+        .social 
+            a.fb href="https://www.facebook.com/Hope-In-Us-106256068888515/" target="blank"
+            a.insta href="https://www.instagram.com/hopeinus_eu/" target="blank"
+            a.yt href="https://www.youtube.com/channel/UCRs1IuWB3NBhpnrCSoqicpA" target="blank"

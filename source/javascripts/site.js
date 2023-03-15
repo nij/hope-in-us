@@ -7,6 +7,16 @@ posAndresize = function (elt) {
 };
 resetTools = function () {
     tclist = document.getElementById('toolscontrol');
+    for (let i = 0; i < tclist.children.length; i++) {
+        if(tclist.children[i].classList.contains('reveal')) tclist.children[i].classList.remove("reveal");
+    }
+    relist = document.getElementsByClassName("item");
+    for (let i = 0; i < relist.length; i++) {
+        relist[i].classList.add('reveal');
+    }
+}
+clearTools = function () {
+    tclist = document.getElementById('toolscontrol');
     itlist = document.getElementById('toolslist');
     for (let i = 0; i < tclist.children.length; i++) {
         if(tclist.children[i].classList.contains('reveal')) tclist.children[i].classList.remove("reveal");
@@ -16,7 +26,7 @@ resetTools = function () {
     }
 }
 revealTools = function (tag) {
-    resetTools ();
+    clearTools ();
     relist = document.getElementsByClassName(tag);
     for (let i = 0; i < relist.length; i++) {
         relist[i].classList.add('reveal');

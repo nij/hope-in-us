@@ -15,6 +15,17 @@ section.page#community
                     .content=item.content
                     a.link href=item.link
                         = "Aller sur le site"
+        - if data.pages.fr.community.members?
+            .intro 
+                h3=data.pages.fr.community.subtitle
+            .items 
+                - data.pages.fr.community.members.each do |item|
+                    .item 
+                        .title=item.title
+                        .content=item.content
+                        - if item.link?
+                            a.link href=item.link
+                                = "Aller sur le site"
 section.contact#contact
     .bg
     .inside
