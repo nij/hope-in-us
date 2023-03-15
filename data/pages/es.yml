@@ -47,6 +47,7 @@ community:
         internacional para definir nuevas estrategias culturales para empresas
         privadas, asociaciones, fundaciones e instituciones públicas con el fin
         de mejorar la sociedad.
+  subtitle: Se nos unieron
 tools:
   title: La caja de herramientas
   intro: Para cada herramienta, encontrará aquí una ficha que le permitirá
@@ -258,6 +259,15 @@ tools:
       content: Clipchamp es un software de edición de vídeo sencillo y gratis.
       file: /images/uploads/fiche-outil-clipchamp-es.pdf
       textvideo: Testimonio
+    - tags:
+        - behappy
+      title: Álbum de fotos
+      content: Almacenar fotos en álbumes es una herramienta que te permitirá
+        organizar las numerosas fotos de tu smartphone y poner orden en tu
+        galería.
+      linkvideo: https://youtu.be/VUvDuKpBiXk
+      textvideo: Testimonio
+      file: /images/uploads/hiu-bao-album-photos-es.pdf
 webtv:
   title: La webTV
   intro: Descubra más sobre nuestros programas y cómo puede contribuir a ellos.
