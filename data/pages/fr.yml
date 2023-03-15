@@ -47,7 +47,7 @@ community:
         international afin de définir de nouvelles stratégies culturelles, pour
         les entreprises privées, les associations, les fondations et les
         institutions publiques, afin d’améliorer la société.
-  subtitle: Ils nous ont rejoins
+  subtitle: Ils nous ont rejoints
 tools:
   title: La boite à outils
   intro: Pour chaque outil, vous trouverez ici une fiche vous permettant de
@@ -261,6 +261,15 @@ tools:
       file: /images/uploads/fiche-outil-clipchamp-fr.pdf
       linkvideo: https://www.youtube.com/watch?v=ELX-llHqMZA
       textvideo: Témoignage
+    - tags:
+        - behappy
+      title: Album Photos
+      content: Le stockage des photos en albums est un outil qui va te permettre
+        d’organiser tes nombreuses photos sur ton smartphone et de mettre de
+        l’ordre dans ta galerie.
+      file: /images/uploads/hiu-bao-album-photos-fr.pdf
+      linkvideo: https://youtu.be/VUvDuKpBiXk
+      textvideo: T﻿émoignage
   externe:
     - title: Outils externes
       content: à venir...
