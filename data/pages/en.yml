@@ -46,6 +46,7 @@ community:
         at local, national and international level to define new cultural
         strategies for private companies, associations, foundations and public
         institutions to improve society
+  subtitle: They joined us
 tools:
   title: The toolbox
   intro: For each tool, you will find a sheet allowing you to discover its use and
@@ -258,6 +259,14 @@ tools:
       file: /images/uploads/fiche-outil-clipchamp-en.pdf
       title: Clipchamp
       content: Clipchamp is a free and simple video editing software.
+    - tags:
+        - behappy
+      linkvideo: https://youtu.be/VUvDuKpBiXk
+      title: Photo Album
+      content: Storing photos in albums is a tool that will allow you to organise your
+        many photos on your smartphone, and bring order to your gallery.
+      file: /images/uploads/hiu-bao-album-photos-en.pdf
+      textvideo: T﻿estimony
 webtv:
   title: The Web TV
   intro: >-
