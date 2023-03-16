@@ -268,6 +268,17 @@ tools:
       linkvideo: https://youtu.be/VUvDuKpBiXk
       textvideo: Testimonio
       file: /images/uploads/hiu-bao-album-photos-es.pdf
+  externe:
+    - tags:
+        - jobsearch
+        - empowerment
+        - education
+      title: MOOC RESOLUCIÓN
+      content: El MOOC RESOLUCIÓN es un recurso digital de acceso libre para la
+        formación de asesores sociales y profesionales en prácticas innovadoras
+        de acercamiento, movilización positiva y asesoramiento a personas
+        alejadas del empleo.
+      file: /images/uploads/mooc-es.pdf
 webtv:
   title: La webTV
   intro: Descubra más sobre nuestros programas y cómo puede contribuir a ellos.
