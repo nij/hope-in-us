@@ -277,6 +277,16 @@ tools:
       tags:
         - education
         - empowerment
+    - tags:
+        - jobsearch
+        - education
+        - empowerment
+      title: MOOC ReSolution
+      content: La formation en ligne MOOC RESOLUTION est une ressource numérique libre
+        qui permet de former les accompagnants socio-professionnels à des
+        pratiques innovantes de prise de contact, de mobilisation positive et
+        d'appui-conseil aux publics éloignés de l'emploi.
+      file: /images/uploads/mooc-fr.pdf
 webtv:
   title: La web&nbsp;TV
   intro: Découvrez nos émissions et apprenez comment apporter votre contribution!
