@@ -267,6 +267,17 @@ tools:
         many photos on your smartphone, and bring order to your gallery.
       file: /images/uploads/hiu-bao-album-photos-en.pdf
       textvideo: T﻿estimony
+  externe:
+    - tags:
+        - empowerment
+        - jobsearch
+        - education
+      title: MOOC ReSolution
+      content: The online training MOOC RESOLUTION is an open source digital tool that
+        trains social and professional advisors in innovative practices of
+        outreach, positive mobilization, and counseling for people far from
+        employment.
+      file: /images/uploads/mooc-en.pdf
 webtv:
   title: The Web TV
   intro: >-
