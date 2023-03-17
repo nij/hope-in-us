@@ -48,6 +48,26 @@ community:
         privadas, asociaciones, fundaciones e instituciones públicas con el fin
         de mejorar la sociedad.
   subtitle: Se unieron
+  members:
+    - title: Institut de l'entreprise et de l'innovation Sociale IDEiS
+      content: F﻿RANCIA
+      link: https://www.ideis-asso.fr/
+    - title: Réseau International des Cités des métiers RI CDM
+      content: F﻿RANCIA
+      link: https://www.reseaucitesdesmetiers.com/
+    - title: Groupement d’intérêt Public Formation Tout au Long de la Vie GIP FTLV de
+        l’Académie de Besançon
+      content: F﻿RANCIA
+      link: https://gipftlv-fcomte.fr/
+    - title: CEPS Projectes Socials
+      content: ESPAÑA
+      link: https://asceps.org/en/
+    - title: Galileo Progetti
+      link: http://galileoprogetti.hu/language/hu/home/
+      content: HUNGRÍA
+    - title: Cooperativa ORSO
+      content: I﻿TALIA
+      link: https://www.cooperativaorso.it/
 tools:
   title: La caja de herramientas
   intro: >-
