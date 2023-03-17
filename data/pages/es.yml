@@ -50,9 +50,13 @@ community:
   subtitle: Se nos unieron
 tools:
   title: La caja de herramientas
-  intro: Para cada herramienta, encontrará aquí una ficha que le permitirá
-    descubrir su uso y su interés, pero también tutoriales y vídeos que le
-    permitirán, paso a paso, dominarla y utilizarla.
+  intro: >-
+    Para cada herramienta, encontrará aquí una ficha de herramienta que te
+    permitirá descubrir su uso y su interés, pero también tutoriales y vídeos
+    que te permitirán, paso a paso, dominarla y utilizarla. 
+
+
+    En rosa, se trata de herramientas creadas en el marco de otros proyectos europeos.
   content: Content
   files:
     - title: Duolingo
