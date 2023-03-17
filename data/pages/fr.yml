@@ -271,12 +271,6 @@ tools:
       linkvideo: https://youtu.be/VUvDuKpBiXk
       textvideo: T﻿émoignage
   externe:
-    - title: Outils externes
-      content: à venir...
-      file: /images/uploads/fiche-duolingo-vf.pdf
-      tags:
-        - education
-        - empowerment
     - tags:
         - jobsearch
         - education

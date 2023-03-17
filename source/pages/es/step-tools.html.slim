@@ -25,7 +25,7 @@ section.page#tools
                     a.link.video href=item.linkvideo target="blank"
                         = "Mira el video"
             - if data.pages.es.tools.externe?
-                data.pages.es.tools.externe.each do |item|
+                - data.pages.es.tools.externe.each do |item|
                     .item.ext.reveal class=item.tags
                         h5
                             =item.title 
