@@ -48,6 +48,10 @@ community:
         les entreprises privées, les associations, les fondations et les
         institutions publiques, afin d’améliorer la société.
   subtitle: Ils nous ont rejoints
+  members:
+    - title: "Institut de l'entreprise et de l'innovation Sociale IDEiS "
+      content: (France)
+      link: https://www.ideis-asso.fr
 tools:
   title: La boite à outils
   intro: Pour chaque outil, vous trouverez ici une fiche vous permettant de
