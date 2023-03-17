@@ -70,12 +70,12 @@ community:
 tools:
   title: The toolbox
   intro: >-
-    For each tool, you will find a sheet allowing you to discover its use and
-    its interest but also tutorials and videos allowing you step by step to
-    master it.
+    For each tool, you will find a toolsheet allowing you to discover its use
+    and its interest but also tutorials and videos allowing to master it you
+    step by step.
 
 
-    In pink these are tools created in the framework of other European projects.
+    In pink you will find tools created in the framework of other European projects.
   content: Tool
   files:
     - title: Duolingo
