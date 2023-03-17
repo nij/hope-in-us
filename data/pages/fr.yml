@@ -70,9 +70,13 @@ community:
       content: I﻿TALIE
 tools:
   title: La boite à outils
-  intro: Pour chaque outil, vous trouverez ici une fiche vous permettant de
-    découvrir son usage et son intérêt mais aussi des tutoriels et des vidéos
-    vous permettant, pas à pas, de le maîtriser et de l'utiliser.
+  intro: >-
+    Pour chaque outil, vous trouverez ici une fiche vous permettant de découvrir
+    son usage et son intérêt mais aussi des tutoriels et des vidéos vous
+    permettant, pas à pas, de le maîtriser et de l'utiliser.
+
+
+    En rose il s'agit d'outils créés dans la cadre d'autres projets européens.
   content: " Liste des outils"
   files:
     - title: Duolingo
