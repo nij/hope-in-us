@@ -292,6 +292,14 @@ tools:
       linkvideo: https://youtu.be/VUvDuKpBiXk
       textvideo: Testimonio
       file: /images/uploads/hiu-bao-album-photos-es.pdf
+    - tags:
+        - behappy
+      title: WeTransfer
+      linkvideo: https://www.youtube.com/watch?v=YpaeQAZlFrA
+      textvideo: T﻿estimonio
+      content: WeTransfer es un sitio web que permite transferir archivos demasiado
+        grandes para enviarlos por correo electrónico.
+      file: /images/uploads/fiche-wetransfer-es.pdf
   externe:
     - tags:
         - jobsearch
