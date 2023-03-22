@@ -291,6 +291,14 @@ tools:
         many photos on your smartphone, and bring order to your gallery.
       file: /images/uploads/hiu-bao-album-photos-en.pdf
       textvideo: T﻿estimony
+    - tags:
+        - behappy
+      linkvideo: https://www.youtube.com/watch?v=YpaeQAZlFrA
+      title: WeTransfer
+      content: WeTransfer is a website that allows you to transfer files that are too
+        big to be sent by email.
+      file: /images/uploads/fiche-wetransfer-en.pdf
+      textvideo: T﻿estimony
   externe:
     - tags:
         - empowerment
