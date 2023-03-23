@@ -311,6 +311,17 @@ tools:
         de acercamiento, movilización positiva y asesoramiento a personas
         alejadas del empleo.
       file: /images/uploads/mooc-es.pdf
+    - tags:
+        - empowerment
+        - education
+        - jobsearch
+        - behappy
+      title: Clichés
+      content: Clichés es una herramienta creada en el marco del proyecto "Change of
+        view" cuyo objetivo es renovar los métodos de apoyo a los grupos
+        vulnerables, en particular durante la fase de removilización, el primer
+        paso en cualquier curso de formación.
+      file: /images/uploads/cliches-es.pdf
 webtv:
   title: La webTV
   intro: Descubra más sobre nuestros programas y cómo puede contribuir a ellos.
