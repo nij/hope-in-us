@@ -315,6 +315,17 @@ tools:
         pratiques innovantes de prise de contact, de mobilisation positive et
         d'appui-conseil aux publics éloignés de l'emploi.
       file: /images/uploads/mooc-fr.pdf
+    - tags:
+        - empowerment
+        - education
+        - jobsearch
+        - behappy
+      title: Clichés
+      content: Clichés est un outil créé dans le cadre du projet "Change of View" qui
+        a pour ambition de renouveler les modes d’accompagnement des publics
+        vulnérables en particulier sur la phase de remobilisation, première
+        étape de tout parcours de formation.
+      file: /images/uploads/cliches-fr.pdf
 webtv:
   title: La web&nbsp;TV
   intro: Découvrez nos émissions et apprenez comment apporter votre contribution!
