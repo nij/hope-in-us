@@ -310,6 +310,17 @@ tools:
         outreach, positive mobilization, and counseling for people far from
         employment.
       file: /images/uploads/mooc-en.pdf
+    - tags:
+        - empowerment
+        - education
+        - jobsearch
+        - behappy
+      title: Clichés
+      content: Clichés is a tool created in the framework of the "Change of View"
+        project which aim is to renew support methods for vulnerable groups,
+        particularly during the remobilization phase, the first step in any
+        training program.
+      file: /images/uploads/cliches-en.pdf
 webtv:
   title: The Web TV
   intro: >-
