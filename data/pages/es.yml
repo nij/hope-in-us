@@ -306,6 +306,14 @@ tools:
       content: WeTransfer es un sitio web que permite transferir archivos demasiado
         grandes para enviarlos por correo electrónico.
       file: /images/uploads/fiche-wetransfer-es.pdf
+    - tags:
+        - behappy
+      linkvideo: https://youtu.be/lvsraO7iGks
+      file: /images/uploads/etsy-es.pdf
+      title: Etsy
+      content: Etsy es una plataforma de venta en línea especializada en creaciones
+        artesanales y vintage.
+      textvideo: T﻿estimonio
   externe:
     - tags:
         - jobsearch
