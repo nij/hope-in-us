@@ -311,6 +311,14 @@ tools:
       file: /images/uploads/fiche-wetransfer-fr.pdf
       linkvideo: https://www.youtube.com/watch?v=YpaeQAZlFrA
       textvideo: T﻿émoignage
+    - tags:
+        - behappy
+      title: Etsy
+      content: Etsy est une plateforme de vente en ligne, spécialisée dans les
+        créations artisanales, le fait-main, et le vintage.
+      file: /images/uploads/etsy-fr.pdf
+      linkvideo: https://youtu.be/lvsraO7iGks
+      textvideo: T﻿émoignage
   externe:
     - tags:
         - jobsearch
