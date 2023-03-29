@@ -305,6 +305,14 @@ tools:
         big to be sent by email.
       file: /images/uploads/fiche-wetransfer-en.pdf
       textvideo: T﻿estimony
+    - tags:
+        - behappy
+      title: Etsy
+      file: /images/uploads/etsy-en.pdf
+      linkvideo: https://youtu.be/lvsraO7iGks
+      textvideo: T﻿estimony
+      content: Etsy is an online sales platform focused on handmade or vintage items
+        and craft supplies.
   externe:
     - tags:
         - empowerment
