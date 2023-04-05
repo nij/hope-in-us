@@ -319,6 +319,15 @@ tools:
       file: /images/uploads/etsy-fr.pdf
       linkvideo: https://youtu.be/lvsraO7iGks
       textvideo: T﻿émoignage
+    - tags:
+        - education
+        - jobsearch
+      title: Google Calendar
+      content: Google Calendar est un outil qui va te permettre d’organiser et
+        planifier tes journées sur le plan personnel autant que professionnel.
+      file: /images/uploads/google-calendar-fr.pdf
+      linkvideo: https://www.youtube.com/watch?v=oRlF4dCBfjg
+      textvideo: T﻿émoignage
   externe:
     - tags:
         - jobsearch
