@@ -313,6 +313,16 @@ tools:
       textvideo: T﻿estimony
       content: Etsy is an online sales platform focused on handmade or vintage items
         and craft supplies.
+    - tags:
+        - education
+        - jobsearch
+        - behappy
+      title: Google Calendar
+      content: Google Calendar is a tool that will allow you to organize and plan your
+        days on a personal and professional level.
+      file: /images/uploads/google-calendar-en.pdf
+      linkvideo: https://youtu.be/oRlF4dCBfjg
+      textvideo: T﻿estimony
   externe:
     - tags:
         - empowerment
