@@ -314,6 +314,16 @@ tools:
       content: Etsy es una plataforma de venta en línea especializada en creaciones
         artesanales y vintage.
       textvideo: T﻿estimonio
+    - tags:
+        - education
+        - jobsearch
+        - behappy
+      title: Google Calendar
+      linkvideo: https://youtu.be/oRlF4dCBfjg
+      file: /images/uploads/google-calendar-es.pdf
+      content: Google Calendar es una herramienta que te permitirá organizar y
+        planificar tus días tanto a nivel personal como profesional.
+      textvideo: T﻿estimonio
   externe:
     - tags:
         - jobsearch
