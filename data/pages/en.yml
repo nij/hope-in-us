@@ -345,6 +345,14 @@ tools:
         particularly during the remobilization phase, the first step in any
         training program.
       file: /images/uploads/cliches-en.pdf
+    - tags:
+        - education
+      title: MOOC DIMPA
+      content: The DIMPA MOOC (Digital Innovative Media Publishing for all) is a
+        digital resource with free access and aims to train learners and other
+        educational actors (tutors, trainers, etc.) on practices and tools for
+        new possibilities of publishing enhanced content.
+      file: /images/uploads/dimpa-en.pdf
 webtv:
   title: The Web TV
   intro: >-
