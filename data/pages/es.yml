@@ -346,6 +346,16 @@ tools:
         vulnerables, en particular durante la fase de removilización, el primer
         paso en cualquier curso de formación.
       file: /images/uploads/cliches-es.pdf
+    - tags:
+        - education
+      title: MOOC DIMPA
+      file: /images/uploads/dimpa-es.pdf
+      content: >-
+        El MOOC de DIMPA (Digital Innovative Media Publishing for all) es un
+        recurso digital de acceso gratuito y su objetivo es capacitar a los
+        alumnos y otros actores educativos (tutores,
+
+        formadores, etc.) sobre prácticas y herramientas sobre las nuevas posibilidades de publicación de contenidos mejorados.
 webtv:
   title: La webTV
   intro: Descubra más sobre nuestros programas y cómo puede contribuir a ellos.
