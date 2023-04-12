@@ -342,6 +342,16 @@ tools:
       file: /images/uploads/google-calendar-fr.pdf
       linkvideo: https://www.youtube.com/watch?v=oRlF4dCBfjg
       textvideo: T﻿émoignage
+    - tags:
+        - education
+        - empowerment
+        - behappy
+      title: Twine
+      content: Twine est un logiciel qui permet de créer des histoires interactives
+        dont vous êtes le héros.
+      file: /images/uploads/twine-fr.pdf
+      linkvideo: https://youtu.be/POR-kmRq4Ac
+      textvideo: T﻿émoignage
   externe:
     - tags:
         - jobsearch
