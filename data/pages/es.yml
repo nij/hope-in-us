@@ -339,6 +339,16 @@ tools:
       content: Google Calendar es una herramienta que te permitirá organizar y
         planificar tus días tanto a nivel personal como profesional.
       textvideo: T﻿estimonio
+    - tags:
+        - education
+        - empowerment
+        - behappy
+      title: Twine
+      linkvideo: https://youtu.be/POR-kmRq4Ac
+      file: /images/uploads/twine-es.pdf
+      content: Twine es un software que te permite crear historias interactivas en las
+        que tú eres el héroe.
+      textvideo: T﻿estimonio
   externe:
     - tags:
         - jobsearch
