@@ -381,6 +381,15 @@ tools:
         alumnos y otros actores educativos (tutores,
 
         formadores, etc.) sobre prácticas y herramientas sobre las nuevas posibilidades de publicación de contenidos mejorados.
+    - tags:
+        - empowerment
+        - behappy
+        - education
+        - jobsearch
+      title: Talent Explorer
+      content: Un divertido recurso educativo dirigido principalmente a profesionales
+        de la formación o la orientación profesional
+      file: /images/uploads/talent-explorer-es.pdf
 webtv:
   title: La webTV
   intro: Descubra más sobre nuestros programas y cómo puede contribuir a ellos.
