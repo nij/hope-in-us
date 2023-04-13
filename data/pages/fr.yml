@@ -383,6 +383,16 @@ tools:
         outils permettant de nouvelles possibilités de publication de contenus
         enrichis.
       file: /images/uploads/dimpa-fr.pdf
+    - tags:
+        - empowerment
+        - behappy
+        - education
+        - jobsearch
+      title: Talent Explorer
+      file: /images/uploads/talent-explorer-fr.pdf
+      content: Une ressource pédagogique à caractère ludique qui s’adresse
+        principalement aux professionnels travaillant dans la formation ou
+        l’orientation professionnelle
 webtv:
   title: La web&nbsp;TV
   intro: Découvrez nos émissions et apprenez comment apporter votre contribution!
