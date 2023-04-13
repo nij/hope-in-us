@@ -378,6 +378,15 @@ tools:
         educational actors (tutors, trainers, etc.) on practices and tools for
         new possibilities of publishing enhanced content.
       file: /images/uploads/dimpa-en.pdf
+    - tags:
+        - empowerment
+        - behappy
+        - jobsearch
+        - education
+      title: Talent Explorer
+      content: A fun educational resource aimed primarily at professionals working in
+        training or career guidance
+      file: /images/uploads/talent-explorer-en.pdf
 webtv:
   title: The Web TV
   intro: >-
