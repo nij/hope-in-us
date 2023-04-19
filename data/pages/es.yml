@@ -349,6 +349,16 @@ tools:
       content: Twine es un software que te permite crear historias interactivas en las
         que tú eres el héroe.
       textvideo: T﻿estimonio
+    - tags:
+        - education
+        - jobsearch
+      title: Calendly
+      file: /images/uploads/hiu-bao-calendly-es.pdf
+      linkvideo: https://youtu.be/dei6DX0Vdss
+      textvideo: T﻿estimonio
+      content: Calendly es una herramienta informatizada que permite organizar
+        numerosas reuniones en una única plataforma que sincroniza todos los
+        datos de diferentes calendarios.
   externe:
     - tags:
         - jobsearch
