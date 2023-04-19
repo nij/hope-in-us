@@ -348,6 +348,17 @@ tools:
       content: Twine is a software that allows you to create interactive stories in
         which you are the hero.
       textvideo: T﻿estimony
+    - tags:
+        - education
+        - jobsearch
+        - behappy
+      title: Calendly
+      linkvideo: https://youtu.be/dei6DX0Vdss
+      textvideo: T﻿estimony
+      content: Calendly is a tool that will allow you to organize numerous meetings on
+        a single platform that synchronizes all the data from different
+        calendars.
+      file: /images/uploads/hiu-bao-calendly-en.pdf
   externe:
     - tags:
         - empowerment
