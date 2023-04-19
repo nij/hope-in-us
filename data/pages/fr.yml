@@ -352,6 +352,17 @@ tools:
       file: /images/uploads/twine-fr.pdf
       linkvideo: https://youtu.be/POR-kmRq4Ac
       textvideo: T﻿émoignage
+    - tags:
+        - education
+        - jobsearch
+        - behappy
+      title: Calendly
+      linkvideo: https://youtu.be/dei6DX0Vdss
+      file: /images/uploads/hiu-bao-calendly-fr.pdf
+      content: Calendly est un outil informatique qui va te permettre d’organiser de
+        nombreuses réunions sur une seule et unique plateforme qui synchronise
+        toutes données de différents calendriers.
+      textvideo: T﻿émoignage
   externe:
     - tags:
         - jobsearch
