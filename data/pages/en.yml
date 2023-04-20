@@ -397,6 +397,17 @@ tools:
       content: A fun educational resource aimed primarily at professionals working in
         training or career guidance
       file: /images/uploads/talent-explorer-en.pdf
+    - tags:
+        - education
+        - jobsearch
+        - empowerment
+      title: CIRCULABILITY Training
+      content: Circulability Training is a free digital resource for managers of work
+        organisations that employ people with disabilities. It is a tool for the
+        economic management of food waste recovery activities and provides the
+        necessary skills to initiate such an activity. This training illustrates
+        the economic management of circular food waste recovery activities.
+      file: /images/uploads/bao-externe-circulability-en.pdf
 webtv:
   title: The Web TV
   intro: >-
