@@ -403,6 +403,20 @@ tools:
       content: Une ressource pédagogique à caractère ludique qui s’adresse
         principalement aux professionnels travaillant dans la formation ou
         l’orientation professionnelle
+    - tags:
+        - education
+        - jobsearch
+        - empowerment
+      title: Formation Circulability
+      content: >-
+        Formation Circulability est une ressource numérique libre à destination
+        des dirigeants des organisations de travail qui emploient des personnes
+        en situation de handicap. C'est un outil à la gestion économique
+        d’activités de valorisation des invendus alimentaires permettant
+        d’acquérir les
+
+        compétences nécessaires à l’initiation d’une telle activité. Elle illustre la gestion économique d'activités de valorisation circulaire des invendus alimentaires.
+      file: /images/uploads/bao-externe-circulability-fr.pdf
 webtv:
   title: La web&nbsp;TV
   intro: Découvrez nos émissions et apprenez comment apporter votre contribution!
