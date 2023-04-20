@@ -400,6 +400,19 @@ tools:
       content: Un divertido recurso educativo dirigido principalmente a profesionales
         de la formación o la orientación profesional
       file: /images/uploads/talent-explorer-es.pdf
+    - tags:
+        - education
+        - jobsearch
+        - empowerment
+      title: CIRCULABILITY FORMACIÓN
+      content: Circulability Formación es un recurso digital gratuito para gestores de
+        organizaciones laborales que emplean a personas con discapacidad. Es una
+        herramienta para la gestión económica de las actividades de recuperación
+        de residuos alimentarios y proporciona las competencias necesarias para
+        iniciar una actividad de este tipo. Esta formación ilustra la gestión
+        económica de actividades circulares de recuperación de residuos
+        alimentarios.
+      file: /images/uploads/bao-externe-circulability-es.pdf
 webtv:
   title: La webTV
   intro: Descubra más sobre nuestros programas y cómo puede contribuir a ellos.
