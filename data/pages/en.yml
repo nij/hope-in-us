@@ -376,6 +376,15 @@ tools:
         a single platform that synchronizes all the data from different
         calendars.
       file: /images/uploads/hiu-bao-calendly-en.pdf
+    - tags:
+        - behappy
+        - education
+      title: Tik Tok
+      linkvideo: https://youtu.be/A1dY0exekMw
+      textvideo: T﻿estimony
+      content: Tik tok is a mobile application for sharing and creating short videos
+        and a social network widely used around the world.
+      file: /images/uploads/tiktok-en.pdf
   externe:
     - tags:
         - empowerment
