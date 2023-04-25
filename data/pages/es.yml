@@ -440,6 +440,14 @@ tools:
         económica de actividades circulares de recuperación de residuos
         alimentarios.
       file: /images/uploads/bao-externe-circulability-es.pdf
+    - tags:
+        - education
+        - jobsearch
+      content: El MOOC Athome es una herramienta creada en el marco del proyecto
+        "Athome", cuyo objetivo es permitir a los asistentes domésticos validar
+        un marco de referencia europeo de competencias técnicas y transversales.
+      title: MOOC Athome
+      file: /images/uploads/athome-es.pdf
 webtv:
   title: La webTV
   intro: Descubra más sobre nuestros programas y cómo puede contribuir a ellos.
