@@ -444,6 +444,14 @@ tools:
 
         compétences nécessaires à l’initiation d’une telle activité. Elle illustre la gestion économique d'activités de valorisation circulaire des invendus alimentaires.
       file: /images/uploads/bao-externe-circulability-fr.pdf
+    - tags:
+        - education
+        - jobsearch
+      title: MOOC Athome
+      content: Le MOOC Athome est un outil créé dans le cadre du projet "Athome" qui a
+        pour ambition de permettre aux aides à domicile de valider un
+        référentiel européen de compétences tant techniques que transversales.
+      file: /images/uploads/athome-fr.pdf
 webtv:
   title: La web&nbsp;TV
   intro: Découvrez nos émissions et apprenez comment apporter votre contribution!
