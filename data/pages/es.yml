@@ -377,6 +377,15 @@ tools:
       content: Calendly es una herramienta informatizada que permite organizar
         numerosas reuniones en una única plataforma que sincroniza todos los
         datos de diferentes calendarios.
+    - tags:
+        - behappy
+        - education
+      linkvideo: https://youtu.be/A1dY0exekMw
+      title: Tik Tok
+      file: /images/uploads/tiktok-es.pdf
+      content: Tik tok es una aplicación móvil para compartir y crear vídeos cortos y
+        una red social muy utilizada en todo el mundo.
+      textvideo: T﻿estimonio
   externe:
     - tags:
         - jobsearch
