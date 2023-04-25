@@ -435,6 +435,14 @@ tools:
         necessary skills to initiate such an activity. This training illustrates
         the economic management of circular food waste recovery activities.
       file: /images/uploads/bao-externe-circulability-en.pdf
+    - tags:
+        - education
+        - jobsearch
+      title: Athome MOOC
+      content: The Athome MOOC is a tool created within the framework of the "Athome"
+        project, which aims to enable home helpers to validate a European
+        reference system of both technical and transversal skills.
+      file: /images/uploads/athome-en.pdf
 webtv:
   title: The Web TV
   intro: >-
