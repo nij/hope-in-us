@@ -380,6 +380,15 @@ tools:
         nombreuses réunions sur une seule et unique plateforme qui synchronise
         toutes données de différents calendriers.
       textvideo: T﻿émoignage
+    - tags:
+        - behappy
+        - education
+      title: Tik Tok
+      content: Tik tok est une application mobile de partage et de création de courtes
+        vidéos et un réseau social très utilisé partout dans le monde.
+      file: /images/uploads/tiktok-fr.pdf
+      linkvideo: https://youtu.be/A1dY0exekMw
+      textvideo: T﻿émoignage
   externe:
     - tags:
         - jobsearch
