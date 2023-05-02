@@ -385,6 +385,13 @@ tools:
       content: Tik tok is a mobile application for sharing and creating short videos
         and a social network widely used around the world.
       file: /images/uploads/tiktok-en.pdf
+    - tags:
+        - education
+      title: DeepL
+      content: DeepL is an online translation service.
+      linkvideo: https://youtu.be/XZh5pE0sEjI
+      textvideo: T﻿estimony
+      file: /images/uploads/deepl-en.pdf
   externe:
     - tags:
         - empowerment
