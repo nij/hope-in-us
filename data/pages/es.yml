@@ -386,6 +386,13 @@ tools:
       content: Tik tok es una aplicación móvil para compartir y crear vídeos cortos y
         una red social muy utilizada en todo el mundo.
       textvideo: T﻿estimonio
+    - tags:
+        - education
+      title: DeepL
+      content: DeepL es un servicio de traducción automática en línea.
+      linkvideo: https://youtu.be/XZh5pE0sEjI
+      textvideo: T﻿estimonio
+      file: /images/uploads/deepl-es.pdf
   externe:
     - tags:
         - jobsearch
