@@ -389,6 +389,13 @@ tools:
       file: /images/uploads/tiktok-fr.pdf
       linkvideo: https://youtu.be/A1dY0exekMw
       textvideo: T﻿émoignage
+    - tags:
+        - education
+      title: DeepL
+      content: DeepL est un service de traduction automatique en ligne.
+      file: /images/uploads/deepl-fr.pdf
+      linkvideo: https://youtu.be/XZh5pE0sEjI
+      textvideo: T﻿émoignage
   externe:
     - tags:
         - jobsearch
