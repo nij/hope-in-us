@@ -1181,7 +1181,7 @@ section.page {
     background-position: center;
 
     .item {
-      width: 280px;
+      width: 280px; 
       margin-bottom: 40px;
 
       .title {
@@ -1200,47 +1200,62 @@ section.page {
     display: flex;
     padding-bottom: 40px;
     flex-wrap: wrap;
+    flex-direction: column;
 
     .item {
-      width: 310px;
-      margin-right: 10px;
+      width: 100%;
+      margin-bottom: 20px;
+      display: flex;
+      flex-wrap: wrap;
       h4 {
         @include regularFont();
-        font-size: 28px;
+        font-size: 26px;
         line-height: 1em;
         width: 310px;
         height: 175px;
         padding: 44px 0px 0 135px;
-        background-image: url("../images/webtv-bg-01.png");
+        background-image: url("../images/webtv-bg-04.png");
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center;
         margin-bottom: 8px;
+        box-shadow: 0 1px 3px 1px rgba(33,33,33,.3);
+        margin-top: 0px;
       }
-      a.link {
-        text-align: center;
-        text-decoration: underline;
-        display: block;
+      .item-content {
+        text-align: left;
+        color: white;
+        padding-left: 20px;
+        min-width: 240px;
+        max-width: 600px;
+
+        a.link {
+          text-align: left;
+          text-decoration: underline;
+          display: block;
+          color: white;
+        }
       }
+      
 
       &:nth-child(2n) { 
         h4 {
-          background-image: url("../images/webtv-bg-02.png");
+          background-image: url("../images/webtv-bg-01.png");
         }
       }
       &:nth-child(3n) { 
         h4 {
-          background-image: url("../images/webtv-bg-03.png");
+          background-image: url("../images/webtv-bg-02.png");
         } 
       }
       &:nth-child(4n) { 
         h4 {
-          background-image: url("../images/webtv-bg-04.png");
+          background-image: url("../images/webtv-bg-05.png");
         }
       }
       &:nth-child(5n) { 
         h4 {
-          background-image: url("../images/webtv-bg-05.png");
+          background-image: url("../images/webtv-bg-03.png");
         }
       }
     }

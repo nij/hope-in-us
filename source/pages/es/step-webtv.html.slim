@@ -7,11 +7,14 @@ section.page#webtv
             a href="/es/"
                 = "Retour"
         .intro 
-            h2=data.pages.fr.webtv.title
-            div=data.pages.fr.webtv.intro
+            h2=data.pages.es.webtv.title
+            div=data.pages.es.webtv.intro
         .videos 
-            - data.pages.fr.webtv.links.each do |item|
+            - data.pages.es.webtv.links.each do |item|
                 .item 
                     h4= item.title
-                    a.link target="blank" href=item.link
-                        =item.label
+                    .item-content
+                        - if item.content
+                            p = markdown item.content
+                        a.link target="blank" href=item.link
+                            =item.label

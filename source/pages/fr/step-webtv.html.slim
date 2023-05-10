@@ -13,8 +13,11 @@ section.page#webtv
             - data.pages.fr.webtv.links.each do |item|
                 .item 
                     h4= item.title
-                    a.link target="blank" href=item.link
-                        =item.label
+                    .item-content
+                        - if item.content
+                            p = markdown item.content
+                        a.link target="blank" href=item.link
+                            =item.label
 section.contact#contact
     .bg
     .inside

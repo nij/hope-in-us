@@ -465,6 +465,8 @@ webtv:
   links:
     - label: Voir les épisodes
       title: Cap un jour, cap toujours... et toi ?
+      content: >-
+        L'émission « Cap un jour, cap toujours … Et toi ? » est un nouvel outil pour aider des personnes à réaliser qu'ils peuvent être inspirants pour d'autres. Elle déniche les “héros du quotidien” en parlant du dépassement de soi sans forcément tomber dans l'extra-ordinaire.
       link: https://www.youtube.com/watch?v=XrTWVGUNjXQ&list=PLJ9Q8AvjM2wVaeynGIgSvk54QHSam9KlK
     - label: Voir les épisodes
       title: Back to back

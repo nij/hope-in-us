@@ -209,6 +209,9 @@ collections:
                   - {label: Title, name: title, widget: string}
                   - {label: URL Youtube, name: link, widget: string}
                   - {label: Label, name: label, widget: string, default: "Lire la vidéo"}
+                  - {label: Contenu, name: content, required: false, widget: markdown}
+                  - {label: Fiche description, name: fiche, required: false, widget: file}
+                  - {label: Annexes, name: annexe, required: false, widget: file}
       - file: "data/pages/en.yml"
         label: "Pages En"
         name: en
