@@ -396,6 +396,16 @@ tools:
       file: /images/uploads/deepl-fr.pdf
       linkvideo: https://youtu.be/XZh5pE0sEjI
       textvideo: T﻿émoignage
+    - tags:
+        - education
+      title: SayHI
+      content: SayHi est une application qui vous permet de traduire ce que vous
+        écrivez, parlez ou entendez et même le texte des photos dans de
+        nombreuses langues. Elle utilise la reconnaissance automatique de la
+        parole, la conversion texte-parole et la reconnaissance d'images.
+      file: /images/uploads/sayhi-fr.pdf
+      linkvideo: https://youtu.be/fOemEmeNL-Y
+      textvideo: T﻿émoignage
   externe:
     - tags:
         - jobsearch
@@ -465,8 +475,10 @@ webtv:
   links:
     - label: Voir les épisodes
       title: Cap un jour, cap toujours... et toi ?
-      content: >-
-        L'émission « Cap un jour, cap toujours … Et toi ? » est un nouvel outil pour aider des personnes à réaliser qu'ils peuvent être inspirants pour d'autres. Elle déniche les “héros du quotidien” en parlant du dépassement de soi sans forcément tomber dans l'extra-ordinaire.
+      content: L'émission « Cap un jour, cap toujours … Et toi ? » est un nouvel outil
+        pour aider des personnes à réaliser qu'ils peuvent être inspirants pour
+        d'autres. Elle déniche les “héros du quotidien” en parlant du
+        dépassement de soi sans forcément tomber dans l'extra-ordinaire.
       link: https://www.youtube.com/watch?v=XrTWVGUNjXQ&list=PLJ9Q8AvjM2wVaeynGIgSvk54QHSam9KlK
     - label: Voir les épisodes
       title: Back to back
