@@ -393,6 +393,16 @@ tools:
       linkvideo: https://youtu.be/XZh5pE0sEjI
       textvideo: T﻿estimonio
       file: /images/uploads/deepl-es.pdf
+    - tags:
+        - education
+      title: SayHI
+      content: SayHi es una aplicación que te permite traducir lo que escribes o
+        hablas o escuchas e incluso texto en fotos en muchos idiomas. Utiliza el
+        reconocimiento automático de voz, conversión de texto a voz y
+        reconocimiento de imágenes.
+      linkvideo: https://youtu.be/fOemEmeNL-Y
+      file: /images/uploads/sayhi-es.pdf
+      textvideo: T﻿estimonio
   externe:
     - tags:
         - jobsearch
