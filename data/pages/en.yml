@@ -401,6 +401,13 @@ tools:
       content: SayHi is an app which allows you to translate what you write or talk or
         hear and even text in photos in many languages. It uses automatic speech
         recognition, text-to-speech and image recognition.
+    - tags:
+        - behappy
+      linkvideo: https://youtu.be/k1i9FH6VbAI
+      file: /images/uploads/geocaching-en.pdf
+      textvideo: T﻿estimony
+      title: Geocaching
+      content: Geocaching, an application that allows you to play a globaltreasure hunt!
   externe:
     - tags:
         - empowerment
