@@ -406,6 +406,14 @@ tools:
       file: /images/uploads/sayhi-fr.pdf
       linkvideo: https://youtu.be/fOemEmeNL-Y
       textvideo: T﻿émoignage
+    - tags:
+        - behappy
+      title: Geocaching
+      content: Geocaching, une application qui permet de jouer à une chasse aux
+        trésors mondiale !
+      file: /images/uploads/geocaching-fr.pdf
+      linkvideo: https://youtu.be/k1i9FH6VbAI
+      textvideo: T﻿émoignage
   externe:
     - tags:
         - jobsearch
