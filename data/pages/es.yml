@@ -411,6 +411,16 @@ tools:
       content: Geocaching, una aplicación que te permite jugar a unacaza de tesoros a
         nivel mundial !
       textvideo: T﻿estimonio
+    - tags:
+        - education
+        - jobsearch
+      linkvideo: https://youtu.be/zELBypXuj1I
+      file: /images/uploads/fiche-padlet-es-boite-à-outils-hope-in-us.pdf
+      textvideo: T﻿estimonio
+      title: Padlet
+      content: Padlet es un sitio web (y también una aplicación parasmartphone o
+        tablet) que permite recopilar publicacionesen un "muro" virtual
+        colaborativo.
   externe:
     - tags:
         - jobsearch
