@@ -408,6 +408,15 @@ tools:
       textvideo: T﻿estimony
       title: Geocaching
       content: Geocaching, an application that allows you to play a globaltreasure hunt!
+    - tags:
+        - education
+        - jobsearch
+      title: Padlet
+      linkvideo: https://youtu.be/zELBypXuj1I
+      textvideo: T﻿estimony
+      file: /images/uploads/fiche-padlet-en-boite-à-outils-hope-in-us.pdf
+      content: Padlet is a website (and also an app for phone or tablet)that allows
+        you to collect publications on a collaborativevirtual "wall".
   externe:
     - tags:
         - empowerment
