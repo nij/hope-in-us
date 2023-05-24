@@ -414,6 +414,16 @@ tools:
       file: /images/uploads/geocaching-fr.pdf
       linkvideo: https://youtu.be/k1i9FH6VbAI
       textvideo: T﻿émoignage
+    - tags:
+        - education
+        - jobsearch
+      title: Padlet
+      linkvideo: https://youtu.be/zELBypXuj1I
+      textvideo: T﻿émoignage
+      file: /images/uploads/fiche-padlet-fr-boite-à-outils-hope-in-us.pdf
+      content: Padlet est un site web (et aussi une application pourtéléphone ou
+        tablette) qui permet de réunir despublications sur un "mur" virtuel
+        collaboratif.
   externe:
     - tags:
         - jobsearch
