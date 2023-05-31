@@ -502,3 +502,6 @@ webtv:
     - title: Back to&nbsp;back
       link: nib
       label: Lire la vidéo
+    - label: See Video
+      title: Cap un jour, Cap toujours... Et toi ?
+      link: https://www.youtube.com/watch?v=XrTWVGUNjXQ&list=PLJ9Q8AvjM2wVaeynGIgSvk54QHSam9KlK
