@@ -424,6 +424,15 @@ tools:
       content: Padlet es un sitio web (y también una aplicación parasmartphone o
         tablet) que permite recopilar publicacionesen un "muro" virtual
         colaborativo.
+    - tags:
+        - education
+        - jobsearch
+      title: Trello
+      linkvideo: https://youtu.be/EsofVvLwMFQ
+      textvideo: T﻿estimonio
+      content: Trello es una herramienta online gratuita de gestióncolaborativa de
+        tareas.
+      file: /images/uploads/fiche-trello-es.pdf
   externe:
     - tags:
         - jobsearch
