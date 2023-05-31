@@ -16,8 +16,17 @@ section.page#webtv
                     .item-content
                         - if item.content
                             p = markdown item.content
-                        a.link target="blank" href=item.link
-                            =item.label
+                        p 
+                            a.link target="blank" href=item.link
+                                =item.label
+                        p
+                            - if item.fiche
+                                a.link target="blank" href=item.fiche
+                                    ="Télécharger la fiche"
+                            - if item.annexe 
+                                a.link target="blank" href=item.fiche
+                                    ="les annexes"
+                        
 section.contact#contact
     .bg
     .inside
