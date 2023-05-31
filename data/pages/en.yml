@@ -420,6 +420,14 @@ tools:
       file: /images/uploads/fiche-padlet-en-boite-à-outils-hope-in-us.pdf
       content: Padlet is a website (and also an app for phone or tablet)that allows
         you to collect publications on a collaborativevirtual "wall".
+    - tags:
+        - education
+        - jobsearch
+      title: Trello
+      linkvideo: https://youtu.be/EsofVvLwMFQ
+      content: Trello is a free online collaborative task management tool.
+      file: /images/uploads/fiche-trello-en.pdf
+      textvideo: T﻿estimony
   externe:
     - tags:
         - empowerment
