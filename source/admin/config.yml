@@ -272,7 +272,10 @@ collections:
                 fields:
                   - {label: Title, name: title, widget: string}
                   - {label: URL Youtube, name: link, widget: string}
-                  - {label: Label, name: label, widget: string, default: "Lire la vidéo"}
+                  - {label: Label, name: label, widget: string, default: "See Video"}
+                  - {label: Contenu, name: content, required: false, widget: markdown}
+                  - {label: Fiche description, name: fiche, required: false, widget: file}
+                  - {label: Annexes, name: annexe, required: false, widget: file}
       - file: "data/pages/es.yml"
         label: "Pages ES"
         name: es
@@ -333,7 +336,10 @@ collections:
                 fields:
                   - {label: Title, name: title, widget: string}
                   - {label: URL Youtube, name: link, widget: string}
-                  - {label: Label, name: label, widget: string, default: "Lire la vidéo"}
+                  - {label: Label, name: label, widget: string, default: "mira el video"}
+                  - {label: Contenu, name: content, required: false, widget: markdown}
+                  - {label: Fiche description, name: fiche, required: false, widget: file}
+                  - {label: Annexes, name: annexe, required: false, widget: file}
   - name: content
     label: "Contenu"
     files:
