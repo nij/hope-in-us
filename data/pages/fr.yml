@@ -528,6 +528,8 @@ webtv:
         La personne interviewée lève une pancarte sur laquelle sont inscrits les
         deux métiers dos à dos et la tourne pour faire apparaître le métier qui
         correspond à la question posée.
+      fiche: /images/uploads/btob-fr.pdf
+      annexe: /images/uploads/pancarte.docx
     - label: Voir les épisodes
       title: L'Interview Canap'
       link: https://www.youtube.com/watch?v=kDICsPw7SRU&list=PLJ9Q8AvjM2wVXoaKbaF1f3nMbvfwdsnP2
