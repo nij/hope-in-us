@@ -497,7 +497,15 @@ tools:
       file: /images/uploads/athome-es.pdf
 webtv:
   title: La webTV
-  intro: Descubra más sobre nuestros programas y cómo puede contribuir a ellos.
+  intro: En un momento en que el vídeo ha cobrado gran importancia en Internet, la
+    creación de una Web TV es un medio eficaz de promocionar proyectos,
+    innovaciones y experiencias. Es una herramienta divertida que nos permite
+    comunicarnos con todos los que forman parte de la comunidad Hope in Us.
+    Hemos creado 5 programas, todos ellos alojados en Youtube y subtitulados en
+    varios idiomas. Tú, por tu parte, puedes utilizar estos programas como
+    herramientas pedagógicas, pero también enriquecerlos o crear otros nuevos.
+    Encontrarás todas las instrucciones para crear un episodio en los archivos
+    del programa.
   links:
     - title: Back to&nbsp;back
       link: nib
