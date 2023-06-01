@@ -499,18 +499,18 @@ webtv:
 
     You in turn can use these programmes as an educational tool, but also enrich them or create new ones. You will find all the instructions for the filming.
   links:
-    - title: Back to&nbsp;back
-      link: nib
-      label: Lire la vidéo
-    - label: See Video
+    - label: See Videos
       title: Cap un jour, Cap toujours... Et toi ?
       link: https://www.youtube.com/watch?v=XrTWVGUNjXQ&list=PLJ9Q8AvjM2wVaeynGIgSvk54QHSam9KlK
-    - label: See Video
-      title: Once Upon A Time
-      link: https://www.youtube.com/watch?v=uPnqi1PWNB4&list=PLJ9Q8AvjM2wVtwX7YO7idYtWp2gHldhWp
-    - label: See Video
-      title: Ma première fois avec...
-      link: https://www.youtube.com/watch?v=kKIBqOE6LAE&list=PLJ9Q8AvjM2wWSIKB5JCse_7yD0ERxTwpd
-    - label: See Video
-      title: Interview Canap
+    - label: See Videos
+      title: Back to Back
+      link: https://www.youtube.com/watch?v=Ss5rZhjPZu0&list=PLJ9Q8AvjM2wUYy0gbwK-3Xm0VFnUSFf-R
+    - label: See Videos
+      title: L'Interview Canap'
       link: https://www.youtube.com/watch?v=kDICsPw7SRU&list=PLJ9Q8AvjM2wVXoaKbaF1f3nMbvfwdsnP2&index=8
+    - label: See Videos
+      title: Ma Premiere Fois Avec...
+      link: https://www.youtube.com/watch?v=kKIBqOE6LAE&list=PLJ9Q8AvjM2wWSIKB5JCse_7yD0ERxTwpd
+    - label: See Videos
+      title: Once Upon a Time
+      link: https://www.youtube.com/watch?v=uPnqi1PWNB4&list=PLJ9Q8AvjM2wVtwX7YO7idYtWp2gHldhWp
