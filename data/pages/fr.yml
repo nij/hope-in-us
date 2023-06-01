@@ -501,7 +501,15 @@ tools:
       file: /images/uploads/athome-fr.pdf
 webtv:
   title: La web&nbsp;TV
-  intro: Découvrez nos émissions et apprenez comment apporter votre contribution!
+  intro: A l'heure où la vidéo a pris une importance majeure sur Internet, la
+    création d'une Web TV est un moyen efficace de promouvoir des projets, des
+    innovations et des expériences. C'est un outil ludique qui nous permet de
+    communiquer avec tous les acteurs de la communauté Hope in Us. Nous avons
+    créé 5 émissions qui sont toutes hébergées sur Youtube et sous-titrées en
+    plusieurs langues. Vous pouvez à votre tour utiliser ces programmes comme
+    outils pédagogiques, mais aussi les enrichir ou en créer de nouveaux. Vous
+    trouverez toutes les instructions pour créer un épisode dans les
+    fiches-émission.
   links:
     - label: Voir les épisodes
       title: Cap un jour, cap toujours... et toi ?
