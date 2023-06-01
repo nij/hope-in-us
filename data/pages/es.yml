@@ -507,6 +507,10 @@ webtv:
     Encontrarás todas las instrucciones para crear un episodio en los archivos
     del programa.
   links:
-    - title: Back to&nbsp;back
-      link: nib
-      label: Lire la vidéo
+    - title: Cap un jour, Cap toujours... Et toi ?
+      link: https://www.youtube.com/watch?v=XrTWVGUNjXQ&list=PLJ9Q8AvjM2wVaeynGIgSvk54QHSam9KlK
+      label: Ver los episodios
+      content: El programa "Cap un jour, cap toujours ... Et toi?" es una nueva
+        herramienta para ayudar a las personas a darse cuenta de que pueden ser
+        una inspiración para los demás. Revela "héroes cotidianos", hablando de
+        superarse a uno mismo sin llegar necesariamente a lo extraordinario.
