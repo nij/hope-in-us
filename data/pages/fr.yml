@@ -512,7 +512,7 @@ webtv:
     fiches-émission.
   links:
     - label: Voir les épisodes
-      title: Cap un jour, Cap toujours... et toi ?
+      title: Cap un jour, Cap toujours... Et toi ?
       content: L'émission « Cap un jour, cap toujours … Et toi ? » est un nouvel outil
         pour aider des personnes à réaliser qu'ils peuvent être inspirants pour
         d'autres. Elle déniche les “héros du quotidien” en parlant du
@@ -520,7 +520,7 @@ webtv:
       link: https://www.youtube.com/watch?v=XrTWVGUNjXQ&list=PLJ9Q8AvjM2wVaeynGIgSvk54QHSam9KlK
       fiche: /images/uploads/fiche-cap-un-jour-cap-toujours.pdf
     - label: Voir les épisodes
-      title: Back to back
+      title: Back to Back
       link: https://www.youtube.com/watch?v=Ss5rZhjPZu0&list=PLJ9Q8AvjM2wUYy0gbwK-3Xm0VFnUSFf-R
       content: L’émission Back to Back permet de découvrir un secteur professionnel
         grâce à un professionnel qui présente deux métiers différents de ce
@@ -529,7 +529,7 @@ webtv:
         deux métiers dos à dos et la tourne pour faire apparaître le métier qui
         correspond à la question posée.
     - label: Voir les épisodes
-      title: Interview Canap'
+      title: L'Interview Canap'
       link: https://www.youtube.com/watch?v=kDICsPw7SRU&list=PLJ9Q8AvjM2wVXoaKbaF1f3nMbvfwdsnP2
       content: >-
         L'interview canap' est une interview courte et informelle qui permet de
@@ -538,7 +538,7 @@ webtv:
 
         L'intervenant devra compléter des phrases et répondre à des questions sur les thématiques de la culture et du numérique parfois sérieuses, d’autres fois absurdes.
     - label: Voir les épisodes
-      title: "Ma première fois avec "
+      title: Ma première fois avec...
       link: https://www.youtube.com/watch?v=bXuM0J8Sq5U&list=PLJ9Q8AvjM2wWSIKB5JCse_7yD0ERxTwpd
       content: “Ma première fois avec...” permet de découvrir un outil digital au
         travers d’un intervenant qui l’utilise à des fins professionnelles ou
