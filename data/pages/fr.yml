@@ -547,6 +547,7 @@ webtv:
         personnelles. Celui-ci le présente en racontant sa première expérience
         avec cet outil permettant de mettre en avant l'apprentissage réalisé
         autour de l’outil.
+      fiche: /images/uploads/mpfa-fr.pdf
     - label: Voir les épisodes
       title: Once Upon a Time
       link: https://www.youtube.com/watch?v=0lkBnu0Oyg0&list=PLJ9Q8AvjM2wVtwX7YO7idYtWp2gHldhWp
@@ -557,3 +558,4 @@ webtv:
 
 
         Cette émission est l’occasion de laisser parler la créativité des personnes s’impliquant dans l’épisode.
+      fiche: /images/uploads/once-upon-a-time-fr.pdf
