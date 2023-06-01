@@ -514,6 +514,7 @@ webtv:
         herramienta para ayudar a las personas a darse cuenta de que pueden ser
         una inspiración para los demás. Revela "héroes cotidianos", hablando de
         superarse a uno mismo sin llegar necesariamente a lo extraordinario.
+      fiche: /images/uploads/fiche-cap-un-jour-cap-toujours-es.pdf
     - label: Ver los episodios
       title: Back to Back
       link: https://www.youtube.com/watch?v=Ss5rZhjPZu0&list=PLJ9Q8AvjM2wUYy0gbwK-3Xm0VFnUSFf-R
@@ -523,6 +524,7 @@ webtv:
         dos profesiones. El entrevistado sostiene un cartel en el que se
         muestran las dos ocupaciones espalda con espalda y lo gira para revelar
         la ocupación que corresponde a la pregunta formulada.
+      fiche: /images/uploads/btob-es.pdf
     - label: Ver los episodios
       title: Interview Canap'
       link: https://www.youtube.com/watch?v=kDICsPw7SRU&list=PLJ9Q8AvjM2wVXoaKbaF1f3nMbvfwdsnP2
@@ -540,6 +542,7 @@ webtv:
         utiliza con fines profesionales o personales. Presentan su primera
         experiencia con la herramienta, destacando el aprendizaje que ha tenido
         lugar en torno a ella.'
+      fiche: /images/uploads/mpfa-es.pdf
     - label: Ver los episodios
       title: Once Upon a Time
       link: https://www.youtube.com/watch?v=0lkBnu0Oyg0&list=PLJ9Q8AvjM2wVtwX7YO7idYtWp2gHldhWp
@@ -550,3 +553,4 @@ webtv:
 
 
         Este programa es una oportunidad para dejar que la creatividad de las personas implicadas en el episodio hable por sí misma.
+      fiche: /images/uploads/once-upon-a-time-es.pdf
