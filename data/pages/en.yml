@@ -428,6 +428,14 @@ tools:
       content: Trello is a free online collaborative task management tool.
       file: /images/uploads/fiche-trello-en.pdf
       textvideo: T﻿estimony
+    - tags:
+        - education
+        - behappy
+      linkvideo: https://youtu.be/lZMNWb0JsuU
+      title: Coursera
+      content: C﻿oursera is an online learning platform.
+      file: /images/uploads/coursera-en.pdf
+      textvideo: T﻿estimony
   externe:
     - tags:
         - empowerment
