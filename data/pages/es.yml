@@ -433,6 +433,14 @@ tools:
       content: Trello es una herramienta online gratuita de gestióncolaborativa de
         tareas.
       file: /images/uploads/fiche-trello-es.pdf
+    - tags:
+        - education
+        - behappy
+      linkvideo: https://youtu.be/lZMNWb0JsuU
+      title: Coursera
+      file: /images/uploads/coursera-es.pdf
+      content: C﻿oursera es una plataforma de curso online.
+      textvideo: T﻿estimonio
   externe:
     - tags:
         - jobsearch
