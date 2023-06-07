@@ -436,6 +436,14 @@ tools:
       file: /images/uploads/fiche-trello-fr.pdf
       linkvideo: https://youtu.be/EsofVvLwMFQ
       textvideo: T﻿émoignage
+    - tags:
+        - education
+        - behappy
+      title: Coursera
+      content: C﻿oursera est une plateforme d'apprentissage en ligne.
+      file: /images/uploads/coursera-fr.pdf
+      linkvideo: https://youtu.be/lZMNWb0JsuU
+      textvideo: T﻿émoignage
   externe:
     - tags:
         - jobsearch
