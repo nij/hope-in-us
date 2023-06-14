@@ -441,6 +441,16 @@ tools:
       file: /images/uploads/coursera-es.pdf
       content: C﻿oursera es una plataforma de curso online.
       textvideo: T﻿estimonio
+    - tags:
+        - education
+        - jobsearch
+      title: Canva
+      linkvideo: https://youtu.be/qKeHEKWE-iQ
+      file: /images/uploads/canva-es.pdf
+      textvideo: T﻿estimonio
+      content: Canva es un sitio web gratuito que te da acceso a herramientas en línea
+        para que puedas crear tus propios diseños gráficos, ya sea por ocio o
+        con fines profesionales.
   externe:
     - tags:
         - jobsearch
