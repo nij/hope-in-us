@@ -436,6 +436,16 @@ tools:
       content: C﻿oursera is an online learning platform.
       file: /images/uploads/coursera-en.pdf
       textvideo: T﻿estimony
+    - tags:
+        - education
+        - jobsearch
+      title: Canva
+      linkvideo: https://youtu.be/qKeHEKWE-iQ
+      content: Canva is a free website that gives you access to online tools so that
+        you can create your own graphic designs, whether for leisure or for
+        professional purposes.
+      textvideo: T﻿estimony
+      file: /images/uploads/canva-en.pdf
   externe:
     - tags:
         - empowerment
