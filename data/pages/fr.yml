@@ -444,6 +444,16 @@ tools:
       file: /images/uploads/coursera-fr.pdf
       linkvideo: https://youtu.be/lZMNWb0JsuU
       textvideo: T﻿émoignage
+    - tags:
+        - education
+        - jobsearch
+      title: Canva
+      content: Canva est un site web gratuit qui te permet d’avoir accès à des outils
+        en ligne pour que tu puisses créer tes propres designs graphiques, que
+        ce soit pour ton loisir ou à des fins professionnelles.
+      file: /images/uploads/canva-fr.pdf
+      linkvideo: https://youtu.be/qKeHEKWE-iQ
+      textvideo: T﻿émoignage
   externe:
     - tags:
         - jobsearch
