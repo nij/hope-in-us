@@ -451,6 +451,15 @@ tools:
       content: Canva es un sitio web gratuito que te da acceso a herramientas en línea
         para que puedas crear tus propios diseños gráficos, ya sea por ocio o
         con fines profesionales.
+    - tags:
+        - empowerment
+        - behappy
+      linkvideo: https://youtu.be/BGEtlqFWZ6Y
+      file: /images/uploads/maps.me-es.pdf
+      textvideo: T﻿estimonio
+      title: Maps.me
+      content: Maps.me es una aplicación cartográfica gratuita que ofrece un servicio
+        para navegar y descubrir lugares de interés sin conexión.
   externe:
     - tags:
         - jobsearch
