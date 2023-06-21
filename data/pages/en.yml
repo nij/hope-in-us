@@ -446,6 +446,15 @@ tools:
         professional purposes.
       textvideo: T﻿estimony
       file: /images/uploads/canva-en.pdf
+    - tags:
+        - empowerment
+        - behappy
+      linkvideo: https://youtu.be/BGEtlqFWZ6Y
+      title: Maps.me
+      content: Maps.me is a free mapping application that offers offline navigation
+        and discovery of places of interest.
+      file: /images/uploads/maps.me-en.pdf
+      textvideo: T﻿estimony
   externe:
     - tags:
         - empowerment
