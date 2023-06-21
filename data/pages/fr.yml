@@ -454,6 +454,16 @@ tools:
       file: /images/uploads/canva-fr.pdf
       linkvideo: https://youtu.be/qKeHEKWE-iQ
       textvideo: T﻿émoignage
+    - tags:
+        - empowerment
+        - behappy
+      title: Maps.me
+      linkvideo: https://youtu.be/BGEtlqFWZ6Y
+      content: Maps.me est une application de cartographie gratuite qui propose un
+        service de navigation et de découvertes des lieux d'attractions hors
+        ligne.
+      file: /images/uploads/maps.me-fr.pdf
+      textvideo: T﻿émoignage
   externe:
     - tags:
         - jobsearch
