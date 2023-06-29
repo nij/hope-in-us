@@ -460,6 +460,14 @@ tools:
       title: Maps.me
       content: Maps.me es una aplicación cartográfica gratuita que ofrece un servicio
         para navegar y descubrir lugares de interés sin conexión.
+    - tags:
+        - behappy
+      title: Mapstr
+      linkvideo: https://youtu.be/vx9n1CpPIWM
+      content: Mapstr es una herramienta que te permite registrar todostus lugares
+        favoritos y encontrarlos en un mapa.
+      file: /images/uploads/hiu-bao-mapstr-es.pdf
+      textvideo: T﻿estimonio
   externe:
     - tags:
         - jobsearch
