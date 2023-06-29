@@ -464,6 +464,14 @@ tools:
         ligne.
       file: /images/uploads/maps.me-fr.pdf
       textvideo: T﻿émoignage
+    - tags:
+        - behappy
+      title: Mapstr
+      content: Mapstr est un outil qui va te permettre de réaliser un suivide tous tes
+        lieux favoris et de les retrouver sur une carte.
+      file: /images/uploads/hiu-bao-mapstr-fr.pdf
+      linkvideo: https://youtu.be/vx9n1CpPIWM
+      textvideo: T﻿émoignage
   externe:
     - tags:
         - jobsearch
