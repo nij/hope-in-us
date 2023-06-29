@@ -455,6 +455,14 @@ tools:
         and discovery of places of interest.
       file: /images/uploads/maps.me-en.pdf
       textvideo: T﻿estimony
+    - tags:
+        - behappy
+      title: Mapstr
+      linkvideo: https://youtu.be/vx9n1CpPIWM
+      textvideo: t﻿estimony
+      file: /images/uploads/hiu-bao-mapstr-en.pdf
+      content: Mapstr is a tool that allows you to keep track of all yourfavourite
+        places and find them on a map.
   externe:
     - tags:
         - empowerment
